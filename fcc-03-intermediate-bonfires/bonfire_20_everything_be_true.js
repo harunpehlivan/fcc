@@ -1,7 +1,7 @@
 function every(collection, pre) {
     var j = 0;
     for (var i = 0; i < collection.length; i++) {
-        if (collection[i].hasOwnProperty(pre)) {
+        if (collection[i].hasOwnProperty(pre) && !!collection[i][pre]) {
             j += 1;
         }
     }
