@@ -1,8 +1,7 @@
 function truncate(str, num) {
     if (str.length <= num) {
         return str;
-    }
-    if (num <= 3) {
+    } else if (num <= 3) {
         return str.charAt(0) + '...';
     } else {
         return str.slice(0, num - 3) + '...';
