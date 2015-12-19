@@ -17,18 +17,18 @@ Free Code Camp is an open-source community where you learn to code and help nonp
 * [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-07-basic-algorithm-scripting)
 * [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-08-basic-front-end-development-projects)
 * [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-09-intermediate-algorithm-scripting)
-* [Intermediate Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-11-intermediate-front-end-development-projects)
+* Intermediate Front End Development Projects
 
 #### Data Visualization Certification
 
-* React Projects *coming soon*
-* Data Visualization Projects *coming soon*
+* React Projects
+* Data Visualization Projects
 
 #### Back End Development Certification
 
 * [Upper Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-03-back-end-development/fcc-01-upper-intermediate-algorithm-scripting)
-* [Advanced Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-03-back-end-development/fcc-03-advanced-algorithm-scripting)
-* API Projects *coming soon*
+* Advanced Algorithm Scripting
+* API Projects
 * Dynamic Web Applications
 
 ***
@@ -41,7 +41,7 @@ Eloquent JavaScript is a book about JavaScript, programming, and the wonders of 
 
 * [Program Structure](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs-01-language/ejs-02-program-structure)
 * [Functions](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs-01-language/ejs-03-functions)
-* Data Structures: Objects and Arrays
+* [Data Structures: Objects and Arrays](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs-01-language/ejs-04-data-structures-objects-and-arrays)
 * Higher-order Functions
 * The Secret Life of Objects
 * Project: Electronic Life
