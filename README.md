@@ -16,20 +16,50 @@ Free Code Camp is an open-source community where you learn to code and help nonp
 
 * [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-07-basic-algorithm-scripting)
 * [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-08-basic-front-end-development-projects)
+    * Zipline: Build a Personal Portfolio Webpage
+    * Zipline: Build a Random Quote Machine
+    * Zipline: Build a JavaScript Calculator
+    * Zipline: Build a Pomodoro Clock
 * [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-09-intermediate-algorithm-scripting)
 * Intermediate Front End Development Projects
+    * Zipline: Show the Local Weather
+    * Zipline: Stylize Stories on Camper News
+    * Zipline: Build a Wikipedia Viewer
+    * Zipline: Use the Twitch.tv JSON API
+    * Zipline: Build a Tic Tac Toe Game
+    * Zipline: Build a Simon Game
 
 #### Data Visualization Certification
 
 * React Projects
+    * Zipline: Build a Markdown Previewer
+    * Zipline: Build a Camper Leaderboard
+    * Zipline: Build a Recipe Box
+    * Zipline: Build the Game of Life
+    * Zipline: Build a Roguelike Dungeon Crawler Game
 * Data Visualization Projects
+    * Zipline: Visualize Data with a Bar Chart
+    * Zipline: Visualize Data with a Scatterplot Graph
+    * Zipline: Visualize Data with a Heat Map
+    * Zipline: Show Relationships with a Force Directed Graph
+    * Zipline: Map Data Across the Globe
 
 #### Back End Development Certification
 
 * [Upper Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-03-back-end-development/fcc-01-upper-intermediate-algorithm-scripting)
 * Advanced Algorithm Scripting
 * API Projects
+    * Basejump: Timestamp Microservice
+    * Basejump: Request Header Parser Microservice
+    * Basejump: URL Shortener Microservice
+    * Basejump: Image Search Abstraction Layer
+    * Basejump: File Metadata Microservice
 * Dynamic Web Applications
+    * Basejump: Build a Voting App
+    * Basejump: Build a Nightlife Coordination App
+    * Basejump: Chart the Stock Market
+    * Basejump: Manage a Book Trading Club
+    * Basejump: Build a Pinterest Clone
 
 ***
 
