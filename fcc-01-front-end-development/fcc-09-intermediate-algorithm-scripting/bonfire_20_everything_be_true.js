@@ -1,11 +1,16 @@
+/*
+Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+Remember, you can access object properties through either dot notation or [] notation.
+*/
+
 function every(collection, pre) {
-    var j = 0;
+    var count = 0;
     for (var i = 0; i < collection.length; i++) {
         if (collection[i].hasOwnProperty(pre) && !!collection[i][pre]) {
-            j += 1;
+            count += 1;
         }
     }
-    if (j === collection.length) {
+    if (count === collection.length) {
         return true;
     } else {
         return false;
