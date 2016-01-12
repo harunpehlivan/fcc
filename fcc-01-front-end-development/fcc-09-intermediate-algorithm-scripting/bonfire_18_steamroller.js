@@ -1,3 +1,7 @@
+/*
+Flatten a nested array. You must account for varying levels of nesting.
+*/
+
 function steamroller(arr) {
     var flat = [];
     for (var i = 0; i < arr.length; i++) {
