@@ -14,52 +14,51 @@ Free Code Camp is an open-source community where you learn to code and help nonp
 
 #### Front End Development Certification
 
-* [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-07-basic-algorithm-scripting)
-* [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-08-basic-front-end-development-projects)
-    * Zipline: Build a Personal Portfolio Webpage
-    * Zipline: Build a Random Quote Machine
-    * Zipline: Build a JavaScript Calculator
-    * Zipline: Build a Pomodoro Clock
-* [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-01-front-end-development/fcc-09-intermediate-algorithm-scripting)
-* Intermediate Front End Development Projects
-    * Zipline: Show the Local Weather
-    * Zipline: Stylize Stories on Camper News
-    * Zipline: Build a Wikipedia Viewer
-    * Zipline: Use the Twitch.tv JSON API
-    * Zipline: Build a Tic Tac Toe Game
-    * Zipline: Build a Simon Game
+* [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_01_basic_algorithm_scripting)
+* [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_02_basic_front_end_development_projects)
+    * Build a Personal Portfolio Webpage
+    * Build a Random Quote Machine
+    * Build a JavaScript Calculator
+    * Build a Pomodoro Clock
+* [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_03-intermediate_algorithm_scripting)
+* [Intermediate Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_04_intermediate_front_end_development_projects)
+    * Show the Local Weather
+    * Stylize Stories on Camper News
+    * Build a Wikipedia Viewer
+    * Use the Twitch.tv JSON API
+    * Build a Tic Tac Toe Game
+    * Build a Simon Game
+* [Advanced Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_05_advanced_algorithm_scripting)
 
 #### Data Visualization Certification
 
 * React Projects
-    * Zipline: Build a Markdown Previewer
-    * Zipline: Build a Camper Leaderboard
-    * Zipline: Build a Recipe Box
-    * Zipline: Build the Game of Life
-    * Zipline: Build a Roguelike Dungeon Crawler Game
+    * Build a Markdown Previewer
+    * Build a Camper Leaderboard
+    * Build a Recipe Box
+    * Build the Game of Life
+    * Build a Roguelike Dungeon Crawler Game
 * Data Visualization Projects
-    * Zipline: Visualize Data with a Bar Chart
-    * Zipline: Visualize Data with a Scatterplot Graph
-    * Zipline: Visualize Data with a Heat Map
-    * Zipline: Show Relationships with a Force Directed Graph
-    * Zipline: Map Data Across the Globe
+    * Visualize Data with a Bar Chart
+    * Visualize Data with a Scatterplot Graph
+    * Visualize Data with a Heat Map
+    * Show Relationships with a Force Directed Graph
+    * Map Data Across the Globe
 
 #### Back End Development Certification
 
-* [Upper Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc-03-back-end-development/fcc-01-upper-intermediate-algorithm-scripting)
-* Advanced Algorithm Scripting
 * API Projects
-    * Basejump: Timestamp Microservice
-    * Basejump: Request Header Parser Microservice
-    * Basejump: URL Shortener Microservice
-    * Basejump: Image Search Abstraction Layer
-    * Basejump: File Metadata Microservice
+    * Timestamp Microservice
+    * Request Header Parser Microservice
+    * URL Shortener Microservice
+    * Image Search Abstraction Layer
+    * File Metadata Microservice
 * Dynamic Web Applications
-    * Basejump: Build a Voting App
-    * Basejump: Build a Nightlife Coordination App
-    * Basejump: Chart the Stock Market
-    * Basejump: Manage a Book Trading Club
-    * Basejump: Build a Pinterest Clone
+    * Build a Voting App
+    * Build a Nightlife Coordination App
+    * Chart the Stock Market
+    * Manage a Book Trading Club
+    * Build a Pinterest Clone
 
 ***
 
