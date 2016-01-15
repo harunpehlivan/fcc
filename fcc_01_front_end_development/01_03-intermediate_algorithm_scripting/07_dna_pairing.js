@@ -4,6 +4,7 @@ Base pairs are a pair of AT and CG. Match the missing element to the provided ch
 Return the provided character as the first element in each array.
 For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]].
 The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+http://en.wikipedia.org/wiki/Base_pair
 */
 
 function pair(str) {
