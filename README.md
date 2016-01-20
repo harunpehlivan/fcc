@@ -68,10 +68,10 @@ Eloquent JavaScript is a book about JavaScript, programming, and the wonders of 
 
 #### Part 1: Language
 
-* [Program Structure]()
-* [Functions]()
-* [Data Structures: Objects and Arrays]()
-* [Higher-order Functions]()
+* [Program Structure](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/02_program_structure)
+* [Functions](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/03_functions)
+* [Data Structures: Objects and Arrays](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/04_data_structures_objects_and_arrays)
+* [Higher-order Functions](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/05_higher_order_functions)
 * The Secret Life of Objects
 * Project: Electronic Life
 * Bugs and Error Handling
