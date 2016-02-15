@@ -1,82 +1,30 @@
-/* FONTS */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,400);
-
-/* LAYOUT */
-.button.ghost {
-  background-color: transparent;
-  border: 2px solid #FFF;
-  border-radius: 3px;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 16px;
-  margin: 0;
-  padding: 10px 16px;
-  text-transform: upperCase;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+#fafafa {
+  background-color: #fafafa;
 }
-
-.button.ghost:hover, .button.ghost:focus {
-  background-color: transparent;
-  color: #fff;
+#f5f5f5 {
+  background-color: #f5f5f5;
 }
-
+.row {
+  max-width: 77.5em;
+}
 .button.info {
   background-color: #00838f;
   border-radius: 3px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  height: 32px;
-  line-height: 32px;
-  margin: 0;
-  padding: 0 16px;
-  text-transform: upperCase;
-  word-spacing: 4px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 28px;
+  line-height: 28px;
+  margin: 1px;
+  padding: 2px 4px;
 }
-
 .button.info:hover, .button.info:focus {
   background-color: #00838f;
   color: #fff;
 }
-
-.row {
-  max-width: 77.5em;
-}
-
-/* <<<<< customize foundation <<<<< */
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-h1, h2 {
-  font-family: 'Roboto', sans-serif;
-}
-
-h3 {
-  font-family: 'Roboto Slab', serif;
-}
-
-p {
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: 300;
-}
-
-/* HEADER */
-/* PROJECTS */
-#fafafa {
-  background-color: #fafafa;
-}
-
-#f5f5f5 {
-  background-color: #f5f5f5;
-}
-
-/* Project Thumbnail */
 .project-thumbnail {
   display: block;
   height: 100%;
@@ -90,8 +38,6 @@ p {
   width: 100%;
   z-index: 1;
 }
-
-/* Browser Thumbnail */
 .browser-thumbnail {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -102,7 +48,6 @@ p {
   width: 92.5%;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .browser-thumbnail img {
   border-radius: 0 0 1px 1px;
   height: auto;
@@ -110,7 +55,6 @@ p {
   max-width: 770px;
   width: 100%;
 }
-
 .browser-thumbnail .browser-bar {
   background: #fff;
   border-radius: 3px 3px 0 0;
@@ -119,18 +63,15 @@ p {
   position: relative;
   width: 100%;
 }
-
 .browser-thumbnail .browser-bar .navigation {
   color: rgba(0, 0, 0, 0.5);
   left: 8px;
   position: relative;
   top: 9px;
 }
-
 .browser-thumbnail .browser-bar .navigation i {
   font-size: 22px;
 }
-
 .browser-thumbnail .browser-bar .address-bar {
   border-radius: 2px;
   bottom: 8px;
@@ -145,11 +86,9 @@ p {
   text-align: left;
   top: 7px;
 }
-
 .browser-thumbnail .browser-bar .address-bar i {
-  font-size: inherit;
+  font-size: inherit;
 }
-
 .browser-thumbnail .browser-bar .menu {
   color: rgba(0, 0, 0, 0.5);
   float: right;
@@ -157,12 +96,9 @@ p {
   right: 8px;
   top: 9px;
 }
-
 .browser-thumbnail .browser-bar .menu i {
   font-size: 22px;
 }
-
-/* Phone Thumbnail */
 .phone-thumbnail {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -173,67 +109,54 @@ p {
   position: absolute;
   right: 0;
   bottom: -4%;
-  /* ? */
   width: 30%;
-  /* ? */
   z-index: 1;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
-.phone-thumbnail div {
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.phone-thumbnail span {
-  background: rgba(0, 0, 0, 0.5);
-  display: block;
-  margin: 0 auto;
-}
-
-.phone-thumbnail .phone-top {
-  height: 26px;
-  position: relative;
-  width: 100%;
-}
-
-.phone-thumbnail .phone-top .camera {
-  top: 8px;
-}
-
-.phone-thumbnail .phone-top .camera span {
-  border-radius: 2px;
-  height: 4px;
-  width: 4px;
-}
-
-.phone-thumbnail .phone-top .speaker {
-  top: 16px;
-}
-
-.phone-thumbnail .phone-top .speaker span {
-  border-radius: 2px;
-  height: 2px;
-  width: 18px;
-}
-
 .phone-thumbnail img {
   border: 1px solid rgba(0, 0, 0, 0.5);
   height: auto;
   width: 100%;
 }
-
+.phone-thumbnail .phone-top {
+  height: 26px;
+  position: relative;
+  width: 100%;
+}
+.phone-thumbnail .phone-top .camera {
+  top: 8px;
+}
+.phone-thumbnail .phone-top .camera span {
+  border-radius: 2px;
+  height: 4px;
+  width: 4px;
+}
+.phone-thumbnail .phone-top .speaker {
+  top: 16px;
+}
+.phone-thumbnail .phone-top .speaker span {
+  border-radius: 2px;
+  height: 2px;
+  width: 18px;
+}
+.phone-thumbnail div {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.phone-thumbnail span {
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0 auto;
+}
 .phone-thumbnail .phone-bottom {
   height: 26px;
   position: relative;
   width: 100%;
 }
-
 .phone-thumbnail .phone-bottom div {
   top: 4px;
 }
-
 .phone-thumbnail .phone-bottom div span {
   border-radius: 9px;
   height: 18px;
@@ -241,138 +164,106 @@ p {
   background: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-
-/* Project Info */
 .project-info {
   margin: auto;
   margin-bottom: 50px;
 }
-
 .project-info h3 {
   color: rgba(0, 0, 0, 0.75);
+  font-family: "Roboto Slab", serif;
   letter-spacing: 1px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-
 .project-info span i {
   color: #00838f;
   font-size: 22px;
 }
-
+.project-info p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
+}
 .project-info ul {
   color: #00838f;
   margin: 0;
   width: 100%;
 }
-
 .project-info ul li {
   display: inline;
   font-size: 90%;
   white-space: nowrap;
 }
-
 .large-display {
   display: none;
 }
-
-.project-info p {
-  margin-top: 20px;
-}
-
-/* FOOTER */
-/* MEDIA QUERIES */
-/* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-  /* PROJECTS */
-  /* Project Thumbnail */
   .project-thumbnail {
     margin-bottom: 75px;
     margin-top: 75px;
   }
-
-  /* Phone Thumbnail */
   .phone-thumbnail {
     border-radius: 23px;
     min-width: 180px;
     padding: 0 10px;
   }
-
   .phone-thumbnail .phone-top {
     height: 52px;
   }
-
   .phone-thumbnail .phone-top .camera {
     top: 14px;
   }
-
   .phone-thumbnail .phone-top .camera span {
     border-radius: 4px;
     height: 8px;
     width: 8px;
   }
-
   .phone-thumbnail .phone-top .speaker {
     top: 32px;
   }
-
   .phone-thumbnail .phone-top .speaker span {
     height: 4px;
     width: 38px;
   }
-
   .phone-thumbnail .phone-bottom {
     height: 52px;
   }
-
   .phone-thumbnail .phone-bottom div {
     top: 9px;
   }
-
   .phone-thumbnail .phone-bottom div span {
     border-radius: 17px;
     height: 34px;
     width: 34px;
   }
-
-  /* Project Info */
   .project-info {
     margin-bottom: 75px;
   }
 }
-/* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
-  /* PROJECTS */
-  /* Project Thumbnail */
   .project-thumbnail {
     margin-bottom: 125px;
     margin-top: 100px;
   }
-
   .large-left {
     float: left;
     left: 0;
   }
-
   .large-right {
     float: right;
     right: 0;
   }
-
-  /* Project Info */
   .project-info {
     margin-bottom: 0px;
     margin-top: 55%;
   }
-
   .large-align {
     text-align: right;
   }
-
   .small-display {
     display: none;
   }
-
   .large-display {
     display: inline;
   }
