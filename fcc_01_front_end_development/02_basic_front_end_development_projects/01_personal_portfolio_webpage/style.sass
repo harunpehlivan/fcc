@@ -22,6 +22,7 @@ $black-050: rgba(0,0,0,0.50)
 $black-075: rgba(0,0,0,0.75)
 $cyan800: #00838f
 $cyan900: #006064
+$bluegrey900: #263238
 
   
 // MIXINS
@@ -45,8 +46,7 @@ $cyan900: #006064
 // FOUNDATION
 
 .row
-  max-width: 77.5em
-  
+  max-width: 80em
   
 .button.info
   background-color: $cyan800
@@ -54,7 +54,7 @@ $cyan900: #006064
   color: #fff
   font-family: $roboto
   font-size: 14px
-  font-weight: 300
+  font-weight: 400
   height: 28px
   line-height: 28px
   margin: 1px
@@ -65,7 +65,20 @@ $cyan900: #006064
   color: #fff
 
 
-
+// LAYOUT
+// Header
+header
+  background-color: $bluegrey900
+  
+  .top-bar
+    background-color: $bluegrey900
+    
+    .menu
+      background-color: $bluegrey900
+.logo
+  height: 30px
+  margin-top: 4px
+  
 // Project Thumbnail
 .project-thumbnail
   display: block
@@ -217,7 +230,7 @@ $cyan900: #006064
     color: $black-075
     font-family: $roboto-slab
     letter-spacing: 1px
-    margin-bottom: 20px
+    
     text-transform: uppercase
     
   span i
@@ -228,6 +241,7 @@ $cyan900: #006064
     color: $black-050
     font-family: $roboto
     font-weight: 300
+    margin-bottom: 20px
     margin-top: 20px
     
   ul
@@ -237,13 +251,15 @@ $cyan900: #006064
     
     li
       display: inline
-      font-size: 90%
       white-space: nowrap
 
 .large-display
   display: none
   
   
+// Footer
+
+
 // MEDIA QUERIES
 // min-width 641px, medium screens
 @media only screen and (min-width: 40.063em)
@@ -290,7 +306,7 @@ $cyan900: #006064
           
   // Project Info
   .project-info
-    margin-bottom: 75px
+    margin-bottom: 0px
     
 // min-width 1025px, large screens  
 @media only screen and (min-width: 64.063em)
@@ -313,6 +329,7 @@ $cyan900: #006064
   .project-info 
     margin-bottom: 0px
     margin-top: 55%
+    
  
   .large-align 
     text-align: right
