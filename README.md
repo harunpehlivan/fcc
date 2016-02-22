@@ -14,22 +14,22 @@ Free Code Camp is an open-source community where you learn to code and help nonp
 
 #### Front End Development Certification
 
-* [Basic Front End Development Projects]()
+* [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_basic_front_end_development_projects)
     * [Build a Tribute Page]()
     * [Build a Personal Portfolio Webpage]()
-* [Basic Algorithm Scripting]()
-* [Intermediate Front End Development Projects]()
+* [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/02_basic_algorithm_scripting)
+* [Intermediate Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/03_intermediate_front_end_development_projects)
     * Build a Random Quote Machine
     * Show the Local Weather
     * Build a Wikipedia Viewer
     * Use the Twitch.tv JSON API
-* [Intermediate Algorithm Scripting]()
-* [Advanced Front End Development Projects]()
+* [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/04_intermediate_algorithm_scripting)
+* [Advanced Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/05_advanced_front_end_development_projects)
     * Build a Calculator
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
-* [Advanced Algorithm Scripting]()
+* [Advanced Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/06_advanced_algorithm_scripting)
 
 #### Data Visualization Certification
 
