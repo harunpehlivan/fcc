@@ -16,7 +16,7 @@ Free Code Camp is an open-source community where you learn to code and help nonp
 
 * [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_basic_front_end_development_projects)
     * [Build a Tribute Page]()
-    * [Build a Personal Portfolio Webpage]()
+    * [Build a Personal Portfolio Webpage](http://bomholt.github.io/JavaScript_solutions/fcc_01_front_end_development/01_basic_front_end_development_projects/02_personal_portfolio_webpage)
 * [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/02_basic_algorithm_scripting)
 * [Intermediate Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/03_intermediate_front_end_development_projects)
     * Build a Random Quote Machine
