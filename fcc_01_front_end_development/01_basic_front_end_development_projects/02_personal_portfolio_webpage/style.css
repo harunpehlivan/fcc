@@ -9,21 +9,8 @@
 .row {
   max-width: 80em;
 }
-.button.info {
-  background-color: #00838f;
-  border-radius: 3px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  height: 28px;
-  line-height: 28px;
-  margin: 1px;
-  padding: 2px 4px;
-}
-.button.info:hover, .button.info:focus {
-  background-color: #00838f;
-  color: #fff;
+.menu li a {
+  padding: 0.7rem 0rem 0.7rem 2rem;
 }
 header {
   background-color: #263238;
@@ -112,7 +99,6 @@ header .top-bar .menu {
 .browser-thumbnail .browser-bar .menu i {
   font-size: 22px;
 }
-
 .phone-thumbnail {
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.5);
@@ -188,10 +174,6 @@ header .top-bar .menu {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.project-info span i {
-  color: #00838f;
-  font-size: 22px;
-}
 .project-info p {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Roboto", sans-serif;
@@ -207,6 +189,16 @@ header .top-bar .menu {
 .project-info ul li {
   display: inline;
   white-space: nowrap;
+  background-color: #00838f;
+  border-radius: 3px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 28px;
+  line-height: 28px;
+  margin: 1px;
+  padding: 3px 5px;
 }
 .large-display {
   display: none;
