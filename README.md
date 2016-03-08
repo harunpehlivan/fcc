@@ -1,35 +1,25 @@
-# JavaScript Solutions
+## FreeCodeCamp Solutions
 
-This repository contains my in **JavaScript** written solutions to challenges and exercises offered by popular websites and books like:
-
-* [Free Code Camp](http://freecodecamp.com/)
-* [Eloquent JavaScript: Second Edition](http://eloquentjavascript.net/)
-* JavaScript: The Good Parts
-
-***
-
-## Free Code Camp
-
-Free Code Camp is an open-source community where you learn to code and help nonprofits.
+Free Code Camp is an open source community of people who learn to code and help nonprofits.
 
 #### Front End Development Certification
 
-* [Basic Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/01_basic_front_end_development_projects)
+* [Basic Front End Development Projects]()
     * [Build a Tribute Page]()
-    * [Build a Personal Portfolio Webpage](http://bomholt.github.io/JavaScript_solutions/fcc_01_front_end_development/01_basic_front_end_development_projects/02_personal_portfolio_webpage)
-* [Basic Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/02_basic_algorithm_scripting)
-* [Intermediate Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/03_intermediate_front_end_development_projects)
+    * [Build a Personal Portfolio Webpage]()
+* [Basic Algorithm Scripting]()
+* [Intermediate Front End Development Projects]()
     * Build a Random Quote Machine
     * Show the Local Weather
     * Build a Wikipedia Viewer
     * Use the Twitch.tv JSON API
-* [Intermediate Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/04_intermediate_algorithm_scripting)
-* [Advanced Front End Development Projects](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/05_advanced_front_end_development_projects)
+* [Intermediate Algorithm Scripting]()
+* [Advanced Front End Development Projects]()
     * Build a Calculator
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
-* [Advanced Algorithm Scripting](https://github.com/bomholt/JavaScript_solutions/tree/master/fcc_01_front_end_development/06_advanced_algorithm_scripting)
+* [Advanced Algorithm Scripting]()
 
 #### Data Visualization Certification
 
@@ -60,39 +50,3 @@ Free Code Camp is an open-source community where you learn to code and help nonp
     * Chart the Stock Market
     * Manage a Book Trading Club
     * Build a Pinterest Clone
-
-***
-
-## Eloquent JavaScript
-
-Eloquent JavaScript is a book about JavaScript, programming, and the wonders of the digital. 
-
-#### Part 1: Language
-
-* [Program Structure](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/02_program_structure)
-* [Functions](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/03_functions)
-* [Data Structures: Objects and Arrays](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/04_data_structures_objects_and_arrays)
-* [Higher-order Functions](https://github.com/bomholt/JavaScript_solutions/tree/master/ejs_01_language/05_higher_order_functions)
-* The Secret Life of Objects
-* Project: Electronic Life
-* Bugs and Error Handling
-* Regular Expressions
-* Modules
-* Project: A Programming Language
-
-#### Part 2: Browser
-
-* The Document Object Model
-* Handling Events
-* Project: A Platform Game
-* Drawing on Canvas
-* HTTP
-* Forms and Form Fields
-* Project: A Paint Program
-
-#### Part 3: Node
-
-* Node.js
-* Project: Skill-Sharing Website
-
-***
