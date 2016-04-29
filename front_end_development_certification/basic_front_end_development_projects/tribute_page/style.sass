@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600)
+@import url(https://fonts.googleapis.com/css?family=Roboto:500)
 
 html
   min-height: 100%
@@ -6,7 +7,7 @@ html
 
 body
   background-color: #e77d68
-  font-family: 'Open Sans', sans-serif
+  font-family: "Open Sans", sans-serif
   font-weight: 400
   margin-bottom: 42px
 
@@ -40,7 +41,7 @@ body
       color: inherit
       margin: 0
 
-  .card-action
+  .card-actions
     border-top: 1px solid rgba(160, 160, 160, 0.2)
     padding: 16px
 
@@ -55,14 +56,33 @@ body
 footer
   background-color: #cc6e5c
   bottom: 0
+  font-family: "Roboto", sans-serif
+  font-weight: 500
   height: 42px
   position: absolute
   width: 100%
 
-  a
-    color: #f2dbd6
-    line-height: 42px
-    font-weight: 600
-    &:hover
+  .txt-responsive
+    text-align: center
+
+    a
       color: #f2dbd6
-      text-decoration: none
+      line-height: 42px
+      position: relative
+      top: 1px
+      &:hover
+        color: #f2dbd6
+        text-decoration: none
+
+      i
+        vertical-align: text-top
+
+@media (min-width: 768px)
+
+  footer .txt-responsive
+    text-align: right
+
+  body
+    margin-bottom: 57px
+    margin-top: 15px
+    
