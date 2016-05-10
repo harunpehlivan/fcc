@@ -14,7 +14,7 @@ body {
   background-clip: padding-box;
   background-color: transparent;
   box-sizing: border-box;
-  margin: 40px auto;
+  margin: 42px auto;
   max-width: 420px;
 }
 .duh img {
@@ -91,7 +91,7 @@ footer .txt-responsive a i {
 }
 @media (min-width: 768px) {
   .duh {
-    margin: 80px auto;
+    margin-top: 160px;
   }
   body {
     margin-bottom: 57px;
