@@ -10,6 +10,17 @@ body {
   font-weight: 400;
   margin-bottom: 42px;
 }
+.duh {
+  background-clip: padding-box;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin: 40px auto;
+  max-width: 420px;
+}
+.duh img {
+  background-clip: padding-box;
+  position: relative;
+}
 .card {
   background-color: #fff;
   background-clip: padding-box;
@@ -69,7 +80,7 @@ footer .txt-responsive a {
   color: #f2dbd6;
   line-height: 42px;
   position: relative;
-  top: 2px;
+  top: 1px;
 }
 footer .txt-responsive a:hover {
   color: #f2dbd6;
@@ -79,11 +90,14 @@ footer .txt-responsive a i {
   vertical-align: text-top;
 }
 @media (min-width: 768px) {
-  footer .txt-responsive {
-    text-align: right;
+  .duh {
+    margin: 80px auto;
   }
   body {
     margin-bottom: 57px;
     margin-top: 15px;
+  }
+  footer .txt-responsive {
+    text-align: right;
   }
 }

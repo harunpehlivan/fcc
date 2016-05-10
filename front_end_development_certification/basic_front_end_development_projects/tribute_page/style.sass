@@ -11,6 +11,17 @@ body
   font-weight: 400
   margin-bottom: 42px
 
+.duh
+  background-clip: padding-box
+  background-color: transparent
+  box-sizing: border-box
+  margin: 40px auto
+  max-width: 420px
+
+  img
+    background-clip: padding-box
+    position: relative
+
 .card
   background-color: #fff
   background-clip: padding-box
@@ -69,7 +80,7 @@ footer
       color: #f2dbd6
       line-height: 42px
       position: relative
-      top: 2px
+      top: 1px
       &:hover
         color: #f2dbd6
         text-decoration: none
@@ -79,10 +90,13 @@ footer
 
 @media (min-width: 768px)
 
-  footer .txt-responsive
-    text-align: right
+  .duh
+    margin: 80px auto
 
   body
     margin-bottom: 57px
     margin-top: 15px
+
+  footer .txt-responsive
+    text-align: right
     
