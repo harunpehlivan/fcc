@@ -5,7 +5,7 @@ Free Code Camp is an open source community of people who learn to code and help 
 #### Front End Development Certification
 
 * [Basic Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/basic_front_end_development_projects)
-    * [Build a Tribute Page](http://michaelbomholt.com/freecodecamp_solutions/front_end_development_certification/basic_front_end_development_projects/tribute_page/)
+    * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp_solutions/front_end_development_certification/basic_front_end_development_projects/tribute_page/)
     * Build a Personal Portfolio Webpage
 * [Basic Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/basic_algorithm_scripting)
 * [Intermediate Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/intermediate_front_end_development_projects)
