@@ -1,70 +1,93 @@
 [
   {"text": "Good news, everyone!",
-   "author": "Professor Farnsworth"},
+   "author": "Professor Farnsworth",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Bite my shiny, metal ass!",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Just shut up and take my money!",
-   "author": "Fry"},
+   "author": "Fry",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "This is the worst kind of discrimination, the kind against me!",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Please try to understand: You're a man, I'm a woman. We're just too different.",
-   "author": "Leela"},
+   "author": "Leela",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "I don't want to live on this planet anymore.",
-   "author": "Professor Farnsworth"},
+   "author": "Professor Farnsworth",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "You win again, gravity.",
-   "author": "Zapp Brannigan"},
+   "author": "Zapp Brannigan",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Oh, wait. You're serious. Let me laugh even harder.",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Kif, I have made it with a woman. Inform the men.",
-   "author": "Zapp Brannigan"},
+   "author": "Zapp Brannigan",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "I'm so embarrassed, I wish everybody else was dead.",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "At the risk of sounding negative ... no!",
-   "author": "Leela"},
+   "author": "Leela",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "Hooray! A happy ending for the rich people!",
-   "author": "Zoidberg"},
+   "author": "Zoidberg",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "Ehh, it's like a party in my mouth, and everyone's throwing up.",
-   "author": "Fry"},
+   "author": "Fry",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "With a warning label this big, you know they gotta be fun!",
-   "author": "Hermes"},
+   "author": "Hermes",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "That young man fills me with hope. Plus some other emotions which are weird and deeply confusing.",
-   "author": "Zapp Brannigan"},
+   "author": "Zapp Brannigan",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "Everyone, I have a very dramatic announcement. So anyone with a weak heart should leave now. Goodbye.",
-   "author": "Professor Farnsworth"},
+   "author": "Professor Farnsworth",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/marge_simpson.jpg"},
 
   {"text": "They're like sex, except I'm having them!",
-   "author": "Fry"},
+   "author": "Fry",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "Valentine's Days coming? Oh, crap. I forgot to get a girlfriend again.",
-   "author": "Fry"},
+   "author": "Fry",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "Now my usual fee is 500 bucks. But seeing how it's you, I'll need it in advance.",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "Now, now, there'll be plenty of time to discuss your objections when and if you return.",
-   "author": "Professor Farnsworth"},
+   "author": "Professor Farnsworth",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "This concept of 'wuv' confuses and infuriates us!",
-   "author": "Lrrr"},
+   "author": "Lrrr",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "Well, thanks to the Internet, I'm now bored with sex.",
-   "author": "Fry"},
+   "author": "Fry",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "You can’t keep boogie-ing like this. You’ll come down with a fever of some sort.",
-   "author": "Leela"}
+   "author": "Leela",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"}
 ]
