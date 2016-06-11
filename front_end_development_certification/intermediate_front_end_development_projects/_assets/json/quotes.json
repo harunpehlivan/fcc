@@ -1,115 +1,70 @@
 [
- {
-  "text": "Good news, everyone!",
-  "author": "Professor Farnsworth"
- },
- {
-  "text": "Bite my shiny, metal ass!",
-  "author": "Bender"
- },
+ {"text": "Good news, everyone!",
+  "author": "Professor Farnsworth"},
+  
+ {"text": "Bite my shiny, metal ass!",
+  "author": "Bender"},
  
- {
-  "text": "Just shut up and take my money!",
-  "author": "Fry"
- },
+ {"text": "Just shut up and take my money!",
+  "author": "Fry"},
+  
+ {"text": "This is the worst kind of discrimination, the kind against me!",
+  "author": "Bender"},
+  
+ {"text": "Please try to understand: You're a man, I'm a woman. We're just too different.",
+  "author": "Leela"},
  
- {
-  "text": "This is the worst kind of discrimination, the kind against me!",
-  "author": "Bender"
- },
+ {"text": "I don't want to live on this planet anymore.",
+  "author": "Professor Farnsworth"},
  
- {
-  "text": "Please try to understand: You're a man, I'm a woman. We're just too different.",
-  "author": "Leela"
- },
+ {"text": "You win again, gravity.",
+  "author": "Zapp Brannigan"},
  
- {
-  "text": "I don't want to live on this planet anymore.",
-  "author": "Professor Farnsworth"
- },
+ {"text": "Oh, wait. You're serious. Let me laugh even harder.",
+  "author": "Bender"},
  
- {
-  "text": "You win again, gravity.",
-  "author": "Zapp Brannigan"
- },
+ {"text": "Kif, I have made it with a woman. Inform the men.",
+  "author": "Zapp Brannigan"},
  
- {
-  "text": "Oh, wait. You're serious. Let me laugh even harder.",
-  "author": "Bender"
- },
+ {"text": "I'm so embarrassed, I wish everybody else was dead.",
+  "author": "Bender"},
  
- {
-  "text": "Kif, I have made it with a woman. Inform the men.",
-  "author": "Zapp Brannigan"
- },
+ {"text": "At the risk of sounding negative ... no!",
+  "author": "Leela"},
  
- {
-  "text": "I'm so embarrassed, I wish everybody else was dead.",
-  "author": "Bender"
- },
+ {"text": "Hooray! A happy ending for the rich people!",
+  "author": "Zoidberg"},
  
- {
-  "text": "At the risk of sounding negative ... no!",
-  "author": "Leela"
- },
+ {"text": "Ehh, it's like a party in my mouth, and everyone's throwing up.",
+  "author": "Fry"},
  
- {
-  "text": "Hooray! A happy ending for the rich people!",
-  "author": "Zoidberg"
- },
+ {"text": "With a warning label this big, you know they gotta be fun!",
+  "author": "Hermes"},
  
- {
-  "text": "Ehh, it's like a party in my mouth, and everyone's throwing up.",
-  "author": "Fry"
- },
+ {"text": "That young man fills me with hope. Plus some other emotions which are weird and deeply confusing.",
+  "author": "Zapp Brannigan"},
  
- {
-  "text": "With a warning label this big, you know they gotta be fun!",
-  "author": "Hermes"
- },
+ {"text": "Everyone, I have a very dramatic announcement. So anyone with a weak heart should leave now. Goodbye.",
+  "author": "Professor Farnsworth"},
  
- {
-  "text": "That young man fills me with hope. Plus some other emotions which are weird and deeply confusing.",
-  "author": "Zapp Brannigan"
- },
+ {"text": "They're like sex, except I'm having them!",
+  "author": "Fry"},
  
- {
-  "text": "Everyone, I have a very dramatic announcement. So anyone with a weak heart should leave now. Goodbye.",
-  "author": "Professor Farnsworth"
- },
+ {"text": "Valentine's Days coming? Oh, crap. I forgot to get a girlfriend again.",
+  "author": "Fry"},
  
- {
-  "text": "They're like sex, except I'm having them!",
-  "author": "Fry"
- },
+ {"text": "Now my usual fee is 500 bucks. But seeing how it's you, I'll need it in advance.",
+  "author": "Bender"},
  
- {
-  "text": "Valentine's Days coming? Oh, crap. I forgot to get a girlfriend again.",
-  "author": "Fry"
- },
+ {"text": "Now, now, there'll be plenty of time to discuss your objections when and if you return.",
+  "author": "Professor Farnsworth"},
  
- {
-  "text": "Now my usual fee is 500 bucks. But seeing how it's you, I'll need it in advance.",
-  "author": "Bender"
- },
+ {"text": "This concept of 'wuv' confuses and infuriates us!",
+  "author": "Lrrr"},
  
- {
-  "text": "Now, now, there'll be plenty of time to discuss your objections when and if you return.",
-  "author": "Professor Farnsworth"
- },
+ {"text": "Well, thanks to the Internet, I'm now bored with sex.",
+  "author": "Fry"},
  
- {
-  "text": "This concept of 'wuv' confuses and infuriates us!",
-  "author": "Lrrr"
- },
- 
- {
-  "text": "Well, thanks to the Internet, I'm now bored with sex.",
-  "author": "Fry"
- },
- 
- {
-  "text": "You can’t keep boogie-ing like this. You’ll come down with a fever of some sort.",
-  "author": "Leela"
- },
+ {"text": "You can’t keep boogie-ing like this. You’ll come down with a fever of some sort.",
+  "author": "Leela"},
 ]
