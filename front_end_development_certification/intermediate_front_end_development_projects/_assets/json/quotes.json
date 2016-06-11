@@ -1,24 +1,30 @@
 [
   {"text": "Good news, everyone!",
-   "author": "Professor Farnsworth"},
+   "author": "Professor Farnsworth",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Bite my shiny, metal ass!",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Just shut up and take my money!",
-   "author": "Fry"},
+   "author": "Fry",
+   "image":"https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "This is the worst kind of discrimination, the kind against me!",
-   "author": "Bender"},
+   "author": "Bender",
+   "image": "https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/homer_simpson.jpg"},
 
   {"text": "Please try to understand: You're a man, I'm a woman. We're just too different.",
-   "author": "Leela"},
+   "author": "Leela",
+   "image":"https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "I don't want to live on this planet anymore.",
    "author": "Professor Farnsworth"},
 
   {"text": "You win again, gravity.",
-   "author": "Zapp Brannigan"},
+   "author": "Zapp Brannigan",
+   "image":"https://raw.githubusercontent.com/bomholt/FreeCodeCamp_solutions/master/front_end_development_certification/basic_front_end_development_projects/_assets/img/bart_simpson.jpg"},
 
   {"text": "Oh, wait. You're serious. Let me laugh even harder.",
    "author": "Bender"},
@@ -67,7 +73,4 @@
 
   {"text": "You can’t keep boogie-ing like this. You’ll come down with a fever of some sort.",
    "author": "Leela"},
-
-  {"text": "If for any reason you're not completely satisfied, I hate you.",
-   "author": "7-11 Clerk"}
 ]
