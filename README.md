@@ -4,22 +4,22 @@ Free Code Camp is an open source community of people who learn to code and help 
 
 #### Front End Development Certification
 
-* [Basic Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/basic_front_end_development_projects)
-    * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp_solutions/front_end_development_certification/basic_front_end_development_projects/tribute_page/)
+* [Basic Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/basic_front_end_development_projects)
+    * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp_solutions/basic_front_end_development_projects/tribute_page/)
     * Build a Personal Portfolio Webpage
-* [Basic Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/basic_algorithm_scripting)
-* [Intermediate Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/intermediate_front_end_development_projects)
+* [Basic Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/basic_algorithm_scripting)
+* [Intermediate Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/intermediate_front_end_development_projects)
     * Build a Random Quote Machine
     * Show the Local Weather
     * Build a Wikipedia Viewer
     * Use the Twitch.tv JSON API
-* [Intermediate Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/intermediate_algorithm_scripting)
-* [Advanced Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/advanced_front_end_development_projects)
+* [Intermediate Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/intermediate_algorithm_scripting)
+* [Advanced Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/advanced_front_end_development_projects)
     * Build a Calculator
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
-* [Advanced Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/front_end_development_certification/advanced_algorithm_scripting)
+* [Advanced Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/advanced_algorithm_scripting)
 
 #### Data Visualization Certification
 
