@@ -1,5 +1,5 @@
 [
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/clerk.jpg",
    "text": "Our policy is: If for any reason you're not completely satisfied, I hate you.",
    "author": "Clerk",
    "episode": "War Is the H-Word"},
@@ -19,12 +19,12 @@
    "author": "Bender",
    "episode": "War Is the H-Word"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/leela(1).jpg",
    "text": "Please try to understand: You're a man, I'm a woman. We're just too different.",
    "author": "Leela",
    "episode": "Time Keeps on Slippin'"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/professor_farnsworth(1).jpg",
    "text": "I don't want to live on this planet anymore.",
    "author": "Professor Farnsworth",
    "episode": "A Clockwork Origin"},
@@ -49,12 +49,12 @@
    "author": "Bender",
    "episode": "Bend Her"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/leela(1).jpg",
    "text": "At the risk of sounding negative ... no!",
    "author": "Leela",
    "episode": "The Birdbot of Ice-Catraz"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zoidberg.jpg",
    "text": "Hooray! A happy ending for the rich people!",
    "author": "Zoidberg",
    "episode": "The Mutants Are Revolting"},
@@ -64,7 +64,7 @@
    "author": "Fry",
    "episode": "Parasites Lost"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/hermes.jpg",
    "text": "With a warning label this big, you know they gotta be fun!",
    "author": "Hermes",
    "episode": "Three Hundred Big Boys"},
@@ -74,7 +74,7 @@
    "author": "Zapp Brannigan",
    "episode": "War Is the H-Word"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/professor_farnsworth(2).jpg",
    "text": "Everyone, I have a very dramatic announcement. So anyone with a weak heart should leave now. Goodbye.",
    "author": "Professor Farnsworth",
    "episode": "A Clone of My Own"},
@@ -94,12 +94,12 @@
    "author": "Bender",
    "episode": "Put Your Head on My Shoulders"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/professor_farnsworth(1).jpg",
    "text": "Now, now, there'll be plenty of time to discuss your objections when and if you return.",
    "author": "Professor Farnsworth",
    "episode": "A Big Piece of Garbage"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/lrrr.jpg",
    "text": "This concept of 'wuv' confuses and infuriates us!",
    "author": "Lrrr",
    "episode": "Love And Rocket"},
@@ -109,7 +109,7 @@
    "author": "Fry",
    "episode": "A Bicyclops Built for Two"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/leela(1).jpg",
    "text": "You can’t keep boogie-ing like this. You’ll come down with a fever of some sort.",
    "author": "Leela",
    "episode": "Jurassic Bark"}
