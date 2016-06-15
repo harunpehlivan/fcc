@@ -4,17 +4,17 @@
    "author": "Clerk",
    "episode": "War Is the H-Word"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(2).jpg",
    "text": "Game's over, losers. I have all the money! Compare your lives to mine and then kill yourselves!",
    "author": "Bender",
    "episode": "A Head in the Polls"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/fry(3).jpg",
    "text": "Just shut up and take my money!",
    "author": "Fry",
    "episode": "Attack of the Killer App"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(1).jpg",
    "text": "This is the worst kind of discrimination, the kind against me!",
    "author": "Bender",
    "episode": "War Is the H-Word"},
@@ -29,27 +29,27 @@
    "author": "Professor Farnsworth",
    "episode": "A Clockwork Origin"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(1).jpg",
    "text": "You win again, gravity.",
    "author": "Zapp Brannigan",
    "episode": "Amazon Women in the Mood"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(3).jpg",
    "text": "Oh, wait. You're serious. Let me laugh even harder.",
    "author": "Bender",
    "episode": "Love And Rocket"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(2).jpg",
    "text": "Kif, I have made it with a woman. Inform the men.",
    "author": "Zapp Brannigan",
    "episode": "Love's Labours Lost in Space"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(1).jpg",
    "text": "I'm so embarrassed, I wish everybody else was dead.",
    "author": "Bender",
    "episode": "Bend Her"},
 
-  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/leela(1).jpg",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/leela(2).jpg",
    "text": "At the risk of sounding negative ... no!",
    "author": "Leela",
    "episode": "The Birdbot of Ice-Catraz"},
@@ -59,7 +59,7 @@
    "author": "Zoidberg",
    "episode": "The Mutants Are Revolting"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/fry(1).jpg",
    "text": "Ehh, it's like a party in my mouth, and everyone's throwing up.",
    "author": "Fry",
    "episode": "Parasites Lost"},
@@ -69,7 +69,7 @@
    "author": "Hermes",
    "episode": "Three Hundred Big Boys"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(1).jpg",
    "text": "That young man fills me with hope. Plus some other emotions which are weird and deeply confusing.",
    "author": "Zapp Brannigan",
    "episode": "War Is the H-Word"},
@@ -79,17 +79,17 @@
    "author": "Professor Farnsworth",
    "episode": "A Clone of My Own"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/fry(2).jpg",
    "text": "They're like sex, except I'm having them!",
    "author": "Fry",
    "episode": "The Problem with Popplers"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/fry(3).jpg",
    "text": "Valentine's Days coming? Oh, crap. I forgot to get a girlfriend again.",
    "author": "Fry",
    "episode": "Put Your Head on My Shoulders"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(2).jpg",
    "text": "Now my usual fee is 500 bucks. But seeing how it's you, I'll need it in advance.",
    "author": "Bender",
    "episode": "Put Your Head on My Shoulders"},
@@ -104,7 +104,7 @@
    "author": "Lrrr",
    "episode": "Love And Rocket"},
 
-  {"image": "",
+  {"image": "https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/fry(2).jpg",
    "text": "Well, thanks to the Internet, I'm now bored with sex.",
    "author": "Fry",
    "episode": "A Bicyclops Built for Two"},
