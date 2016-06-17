@@ -9,7 +9,7 @@ Free Code Camp is an open source community of people who learn to code and help 
     * Build a Personal Portfolio Webpage
 * [Basic Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/basic_algorithm_scripting)
 * [Intermediate Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/intermediate_front_end_development_projects)
-    * Build a Random Quote Machine
+    * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp_solutions/intermediate_front_end_development_projects/random_quote_machine/)
     * Show the Local Weather
     * Build a Wikipedia Viewer
     * Use the Twitch.tv JSON API
