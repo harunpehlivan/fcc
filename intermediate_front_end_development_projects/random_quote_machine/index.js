@@ -21,7 +21,6 @@ $(document).ready(function(){
   }
   function getQuote(){
     var $image = $(".card-image");
-    MotionUI.animateIn($image, 'fade-in');
     var $content = $(".card-content");
     MotionUI.animateIn($content, 'fade-in');
     $("#image").attr("src", quotes[i].image);
@@ -29,5 +28,6 @@ $(document).ready(function(){
     $("#author").html(quotes[i].author);
     $("#episode").html(quotes[i].episode);
     $("#tweet").attr("href", "https://twitter.com/intent/tweet?text=" + "\"" + quotes[i].text + "\" - " + quotes[i].author);
+    MotionUI.animateIn($image, "fade-in");
   }
 });
