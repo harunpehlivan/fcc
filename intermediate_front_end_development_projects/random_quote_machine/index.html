@@ -18,12 +18,13 @@
         <div class="card">
           <div class="card-image slow">
             <img id="image">
-            <h3>futurama quotes</h3>
+            <h3 id="author"></h3>
           </div>
           <div class="card-content">
-            <div id="text"></div>
-            <div id="author"></div>
-            <span id="episode"></span>
+            <h5 id="text"></h5>
+            <small>
+              <p id="episode" class="text-right"></p>
+            </small>
           </div>
           <div class="card-actions">
             <a href="#" id="quote">new quote</a>
@@ -48,8 +49,34 @@
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.js"></script>
+<div id="preload">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/711_clerk.jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(1).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(2).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(3).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(4).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/bender(5).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/hermes_conrad.jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/hubert_j_farnsworth(1).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/hubert_j_farnsworth(2).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/hubert_j_farnsworth(3).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/john_a_zoidberg.jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/lrrr.jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/phillip_j_fry(1).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/phillip_j_fry(2).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/phillip_j_fry(3).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/phillip_j_fry(4).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/phillip_j_fry(5).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/turanga_leela(1).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/turanga_leela(2).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/turanga_leela(3).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(1).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(2).jpg" width="1" height="1">
+  <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/zapp_brannigan(3).jpg" width="1" height="1">
+</div>
+<script src='https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.js'></script>
 <script src="index.js"></script>
+
 </body>
 </html>

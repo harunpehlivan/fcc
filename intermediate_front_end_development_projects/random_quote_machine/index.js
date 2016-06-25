@@ -21,11 +21,9 @@ $(document).ready(function(){
   }
   function getQuote(){
     var $image = $(".card-image");
-    var $content = $(".card-content");
-    MotionUI.animateIn($content, 'fade-in');
     $("#image").attr("src", quotes[i].image);
-    $("#text").html(quotes[i].text);
     $("#author").html(quotes[i].author);
+    $("#text").html(quotes[i].text);
     $("#episode").html(quotes[i].episode);
     $("#tweet").attr("href", "https://twitter.com/intent/tweet?text=" + "\"" + quotes[i].text + "\" - " + quotes[i].author);
     MotionUI.animateIn($image, "fade-in");
