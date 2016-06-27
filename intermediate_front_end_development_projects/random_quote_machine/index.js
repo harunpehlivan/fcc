@@ -25,6 +25,7 @@ $(document).ready(function(){
     $("#author").html(quotes[i].author);
     $("#text").html(quotes[i].text);
     $("#episode").html(quotes[i].episode);
+    $("#share").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("https://codepen.io/bomholt/full/beeRYb/"));
     $("#tweet").attr("href", "https://twitter.com/intent/tweet?text=" + "\"" + quotes[i].text + "\" - " + quotes[i].author);
     MotionUI.animateIn($image, "fade-in");
   }
