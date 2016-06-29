@@ -13,8 +13,8 @@ $(document).ready(function(){
       showUnits(data.flags.units);
       showIcon(data.currently.icon, "#icon");
       showBackground(data.currently.icon);
+      showWindSpeed(data.flags.units, data.currently.windSpeed);
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
-      showWind(data.flags.units, data.currently.windSpeed);
       showDayByDayForecast(data.daily);
     });
   }
@@ -69,19 +69,19 @@ $(document).ready(function(){
       $("#unit2").html("°F");
     }
   }
-  function showWind(units, windSpeed){
+  function showWindSpeed(units, windSpeed){
     switch(units){
       case "us":
-        $("#wind").html(Math.round(windSpeed) + " mph");
+        $("#windspeed").html(Math.round(windSpeed) + " mph");
         break;
       case "si":
-        $("#wind").html(Math.round(windSpeed * 3.6) + " km/h");
+        $("#windspeed").html(Math.round(windSpeed * 3.6) + " km/h");
         break;
       case "ca":
-        $("#wind").html(Math.round(windSpeed) + " km/h");
+        $("#windspeed").html(Math.round(windSpeed) + " km/h");
         break;
       case "uk2":
-        $("#wind").html(Math.round(windSpeed) + " mph");
+        $("#windspeed").html(Math.round(windSpeed) + " mph");
         break;
     }
   }

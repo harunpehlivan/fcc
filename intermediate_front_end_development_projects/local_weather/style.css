@@ -42,14 +42,39 @@ a {
 }
 #current #temperature {
   font-size: 72px;
+  display: inline-block;
+}
+#current #unit1 {
+  padding-left: 10px;
+}
+#current #unit1, #current #unit2 {
+  font-size: 24px;
+  display: inline-block;
 }
 #current #icon {
-  font-size: 88px;
-  padding-left: 33%;
+  font-size: 96px;
+  padding-left: 48px;
 }
-#current #precipitation {
-  padding-top: 8px;
+#current .wind .icon {
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
 }
-.id {
+#current .wind #windspeed {
+  padding-left: 24px;
+  display: inline-block;
+}
+#current .precip .icon {
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+}
+#current .precip #precipitation {
+  padding-left: 24px;
+  display: inline-block;
+}
+#daybyday {
   background-color: #fff;
 }
