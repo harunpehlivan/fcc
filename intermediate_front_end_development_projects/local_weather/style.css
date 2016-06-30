@@ -1,34 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
-a {
-  color: #fff;
-}
 .container-fluid {
   background-color: #e0e0e0;
-}
-.amber {
-  background-color: #ffc107;
-}
-.purple {
-  background-color: #9c27b0;
-}
-.green {
-  background-color: #4caf50;
-}
-.indigo {
-  background-color: #3f51b5;
-}
-.red {
-  background-color: #f44336;
-}
-.blue-grey {
-  background-color: #607d8b;
-}
-.teal {
-  background-color: #009688;
-}
-.deep-orange {
-  background-color: #ff5722;
+  min-height: 100%;
 }
 #current {
   color: #fff;
@@ -40,22 +14,26 @@ a {
   color: rgba(255, 255, 255, 0.8);
   margin: 5px 0;
 }
-#current #temperature {
+#current .temp {
+  display: inline-block;
+}
+#current .temp #temperature {
   font-size: 72px;
   display: inline-block;
 }
-#current #unit1 {
+#current .temp #unit1 {
   padding-left: 10px;
 }
-#current #unit1, #current #unit2 {
-  font-size: 24px;
+#current .temp #unit1, #current .temp #unit2 {
+  font-size: 20px;
   display: inline-block;
 }
 #current #icon {
   font-size: 96px;
-  padding-left: 48px;
+  padding-left: 32px;
+  display: inline-block;
 }
-#current .wind .icon {
+#current .wind .wind-icon {
   display: inline-block;
   font-size: 18px;
   text-align: center;
@@ -65,7 +43,7 @@ a {
   padding-left: 24px;
   display: inline-block;
 }
-#current .precip .icon {
+#current .precip .precip-icon {
   display: inline-block;
   font-size: 18px;
   text-align: center;
@@ -77,4 +55,18 @@ a {
 }
 #daybyday {
   background-color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+#footer {
+  background-color: #fff;
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  border-radius: 0 0 2px 2px;
+  padding: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #9e9e9e;
+}
+#footer a {
+  color: #9e9e9e;
 }

@@ -16,6 +16,41 @@ $(document).ready(function(){
       showWindSpeed(data.flags.units, data.currently.windSpeed);
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
       showDayByDayForecast(data.daily);
+      $("#carousel").owlCarousel({
+        items : 5,
+        itemsCustom : false,
+        itemsDesktop : [1199,4],
+        itemsDesktopSmall : [980,3],
+        itemsTablet: [768,2],
+        itemsTabletSmall: false,
+        itemsMobile : [479,1],
+        singleItem : false,
+        itemsScaleUp : false,
+
+        //Basic Speeds
+        slideSpeed : 200,
+        paginationSpeed : 800,
+        rewindSpeed : 1000,
+
+        //Autoplay
+        autoPlay : false,
+        stopOnHover : false,
+
+        // Navigation
+        navigation : false,
+        navigationText : ["prev","next"],
+        rewindNav : true,
+        scrollPerPage : false,
+
+        //Pagination
+        pagination : false,
+        paginationNumbers: false,
+
+        // Responsive
+        responsive: true,
+        responsiveRefreshRate : 200,
+        responsiveBaseWidth: window
+      });
     });
   }
   function showError(error){
@@ -88,46 +123,46 @@ $(document).ready(function(){
   function showBackground(icon){
     switch(icon){
       case "clear-day":
-        $("#current").addClass("amber");
+        $("#current").css("background-color", "#ffc107");
         break;
       case "clear-night":
-        $("#current").addClass("purple");
+        $("#current").css("background-color", "#9c27b0");
         break;
       case "rain":
-        $("#current").addClass("blue-grey");
+        $("#current").css("background-color", "#607d8b");
         break;
       case "snow":
-        $("#current").addClass("blue-grey");
+        $("#current").css("background-color", "#607d8b");
         break;
       case "sleet":
-        $("#current").addClass("blue-grey");
+        $("#current").css("background-color", "#607d8b");
         break;
       case "wind":
-        $("#current").addClass("teal");
+        $("#current").css("background-color", "#009688");
         break;
       case "fog":
-        $("#current").addClass("teal");
+        $("#current").css("background-color", "#009688");
         break;
       case "cloudy":
-        $("#current").addClass("teal");
+        $("#current").css("background-color", "#009688");
         break;
       case "partly-cloudy-day":
-        $("#current").addClass("green");
+        $("#current").css("background-color", "#4caf50");
         break;
       case "partly-cloudy-night":
-        $("#current").addClass("indigo");
+        $("#current").css("background-color", "#3f51b5");
         break;
       case "hail":
-        $("#current").addClass("red");
+        $("#current").css("background-color", "#f44336");
         break;
       case "thunderstorm":
-        $("#current").addClass("red");
+        $("#current").css("background-color", "#f44336");
         break;
       case "tornado":
-        $("#current").addClass("red");
+        $("#current").css("background-color", "#f44336");
         break;
       default:
-        $("#current").addClass("deep-orange");
+        $("#current").css("background-color", "#ff5722");
     }
   }
   function showDayByDayForecast(daily){
