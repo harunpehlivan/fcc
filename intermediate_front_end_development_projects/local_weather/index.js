@@ -17,13 +17,13 @@ $(document).ready(function(){
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
       showDayByDayForecast(data.daily);
       $("#carousel").owlCarousel({
-        items : 5,
+        items : 6,
         itemsCustom : false,
-        itemsDesktop : [1199,4],
-        itemsDesktopSmall : [980,3],
-        itemsTablet: [768,2],
+        itemsDesktop : [1199,6],
+        itemsDesktopSmall : [980,6],
+        itemsTablet: [768,6],
         itemsTabletSmall: false,
-        itemsMobile : [479,1],
+        itemsMobile : [479,4],
         singleItem : false,
         itemsScaleUp : false,
 
