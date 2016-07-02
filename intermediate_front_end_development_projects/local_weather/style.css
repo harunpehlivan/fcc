@@ -1,69 +1,107 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+::-moz-selection {
+  background: transparent;
+}
+::selection {
+  background: transparent;
+}
 html, body {
+  background-color: #f5f5f5;
   height: 100%;
-  background-color: #e0e0e0;
 }
 .container-fluid {
-  background-color: #e0e0e0;
+  background-color: #f5f5f5;
 }
-#current {
-  color: #fff;
+.card {
+  background-clip: padding-box;
+  border-radius: 2px 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  display: block;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin: 5% auto;
+  max-width: 480px;
+}
+.card-current {
+  color: #fff;
   padding: 16px;
 }
-#current #time, #current #summary {
+.card-current #time, .card-current #summary {
   color: rgba(255, 255, 255, 0.8);
   margin: 5px 0;
 }
-#current .temp {
+.card-current .temp {
   display: inline-block;
   padding: 10% 0;
 }
-#current .temp #temperature {
+.card-current .temp #temperature {
   display: inline-block;
   font-size: 72px;
   line-height: 60px;
   vertical-align: middle;
 }
-#current .temp #unit1 {
+.card-current .temp #unit1 {
   padding-left: 10px;
 }
-#current .temp #unit1, #current .temp #unit2 {
-  font-size: 20px;
+.card-current .temp #unit1, .card-current .temp #unit2 {
   display: inline-block;
+  font-size: 20px;
   vertical-align: top;
 }
-#current #icon {
-  font-size: 96px;
+.card-current #icon {
+  display: inline-block;
+  font-size: 112px;
   padding-left: 24%;
-  display: inline-block;
 }
-#current .wind .wind-icon {
+.card-current .precip {
+  font-size: 15px;
+}
+.card-current .precip .precip-icon {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
+  vertical-align: middle;
   width: 30px;
 }
-#current .wind #windspeed {
-  padding-left: 24px;
+.card-current .precip #precipitation {
   display: inline-block;
+  padding-left: 16px;
 }
-#current .precip .precip-icon {
+.card-current .wind {
+  font-size: 15px;
+}
+.card-current .wind .wind-icon {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
+  vertical-align: middle;
   width: 30px;
 }
-#current .precip #precipitation {
-  padding-left: 24px;
+.card-current .wind #windspeed {
   display: inline-block;
+  padding-left: 16px;
 }
 #daybyday {
   background-color: #fff;
   padding: 16px;
   text-align: center;
+}
+#daybyday #carousel {
+  color: #212121;
+  font-size: 15px;
+}
+#daybyday #carousel div i {
+  color: #424242;
+  font-size: 20px;
+}
+#daybyday #carousel #tempMax-day-0, #daybyday #carousel #tempMax-day-1, #daybyday #carousel #tempMax-day-2, #daybyday #carousel #tempMax-day-3, #daybyday #carousel #tempMax-day-4, #daybyday #carousel #tempMax-day-5, #daybyday #carousel #tempMax-day-6, #daybyday #carousel #tempMax-day-7 {
+  margin: 10px 0 0 0;
+}
+#daybyday #carousel #tempMin-day-0, #daybyday #carousel #tempMin-day-1, #daybyday #carousel #tempMin-day-2, #daybyday #carousel #tempMin-day-3, #daybyday #carousel #tempMin-day-4, #daybyday #carousel #tempMin-day-5, #daybyday #carousel #tempMin-day-6, #daybyday #carousel #tempMin-day-7 {
+  color: #757575;
+  margin: 0;
 }
 #footer {
   background-color: #fff;

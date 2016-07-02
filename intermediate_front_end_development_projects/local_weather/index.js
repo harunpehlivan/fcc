@@ -13,43 +13,36 @@ $(document).ready(function(){
       showUnits(data.flags.units);
       showIcon(data.currently.icon, "#icon");
       showBackground(data.currently.icon);
-      showWindSpeed(data.flags.units, data.currently.windSpeed);
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
+      showWindSpeed(data.flags.units, data.currently.windSpeed);
       showDayByDayForecast(data.daily);
       $("#carousel").owlCarousel({
-        items : 6,
+        items : 5,
         itemsCustom : false,
-        itemsDesktop : [1199,6],
-        itemsDesktopSmall : [980,6],
-        itemsTablet: [768,6],
+        itemsDesktop : [1199,5],
+        itemsDesktopSmall : [980,5],
+        itemsTablet: [768,5],
         itemsTabletSmall: false,
         itemsMobile : [479,4],
         singleItem : false,
         itemsScaleUp : false,
-
         //Basic Speeds
         slideSpeed : 200,
-        paginationSpeed : 800,
-        rewindSpeed : 1000,
-
-        //Autoplay
         autoPlay : false,
-        stopOnHover : false,
-
-        // Navigation
         navigation : false,
-        navigationText : ["prev","next"],
-        rewindNav : true,
-        scrollPerPage : false,
-
-        //Pagination
         pagination : false,
-        paginationNumbers: false,
-
-        // Responsive
         responsive: true,
         responsiveRefreshRate : 200,
-        responsiveBaseWidth: window
+        responsiveBaseWidth: window,
+        lazyLoad : false,
+        autoHeight : false,
+        jsonPath : false,
+        jsonSuccess : false,
+        dragBeforeAnimFinish : true,
+        mouseDrag : true,
+        touchDrag : true,
+        transitionStyle : false,
+        addClassActive : false
       });
     });
   }
@@ -123,46 +116,46 @@ $(document).ready(function(){
   function showBackground(icon){
     switch(icon){
       case "clear-day":
-        $("#current").css("background-color", "#ffc107");
+        $(".card-current").css("background-color", "#ffc107");
         break;
       case "clear-night":
-        $("#current").css("background-color", "#9c27b0");
+        $(".card-current").css("background-color", "#9c27b0");
         break;
       case "rain":
-        $("#current").css("background-color", "#607d8b");
+        $(".card-current").css("background-color", "#607d8b");
         break;
       case "snow":
-        $("#current").css("background-color", "#607d8b");
+        $(".card-current").css("background-color", "#607d8b");
         break;
       case "sleet":
-        $("#current").css("background-color", "#607d8b");
+        $(".card-current").css("background-color", "#607d8b");
         break;
       case "wind":
-        $("#current").css("background-color", "#009688");
+        $(".card-current").css("background-color", "#009688");
         break;
       case "fog":
-        $("#current").css("background-color", "#009688");
+        $(".card-current").css("background-color", "#009688");
         break;
       case "cloudy":
-        $("#current").css("background-color", "#009688");
+        $(".card-current").css("background-color", "#009688");
         break;
       case "partly-cloudy-day":
-        $("#current").css("background-color", "#4caf50");
+        $(".card-current").css("background-color", "#4caf50");
         break;
       case "partly-cloudy-night":
-        $("#current").css("background-color", "#3f51b5");
+        $(".card-current").css("background-color", "#3f51b5");
         break;
       case "hail":
-        $("#current").css("background-color", "#f44336");
+        $(".card-current").css("background-color", "#f44336");
         break;
       case "thunderstorm":
-        $("#current").css("background-color", "#f44336");
+        $(".card-current").css("background-color", "#f44336");
         break;
       case "tornado":
-        $("#current").css("background-color", "#f44336");
+        $(".card-current").css("background-color", "#f44336");
         break;
       default:
-        $("#current").css("background-color", "#ff5722");
+        $(".card-current").css("background-color", "#ff5722");
     }
   }
   function showDayByDayForecast(daily){
@@ -174,7 +167,7 @@ $(document).ready(function(){
     }
   }
   function showDay(time, id){
-    var dayArr = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+    var dayArr = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     var day = dayArr[new Date(time*1000).getDay()];
     $(id).html(day);
   }

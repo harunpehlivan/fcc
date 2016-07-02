@@ -11,95 +11,95 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-        <div id="current">
-          <h2 id="location"></h2>
-          <h4 id="time"></h4>
-          <h4 id="summary"></h4>
-          <div class="temp">
-            <div id="temperature"></div>
-            <div id="unit1"></div>
-            <div id="unit2"></div>
-          </div>
-          <i id="icon"></i>
-          <div class="wind">
-            <div class="wind-icon">
-              <i class="wi wi-cloudy-gusts"></i>
+      <div class="col-xs-12">
+        <div class="card">
+          <div class="card-current">
+            <h2 id="location"></h2>
+            <h4 id="time"></h4>
+            <h4 id="summary"></h4>
+            <div class="temp">
+              <div id="temperature"></div>
+              <div id="unit1"></div>
+              <div id="unit2"></div>
             </div>
-            <div id="windspeed"></div>
-          </div>
-          <div class="precip">
-            <div class="precip-icon">
-              <i class="wi wi-rain"></i>
+            <i id="icon"></i>
+            <div class="precip">
+              <div class="precip-icon">
+                <i class="wi wi-raindrop"></i>
+              </div>
+              <div id="precipitation"></div>
             </div>
-            <div id="precipitation"></div>
-          </div>
-        </div>
-        <div id="daybyday">
-          <div id="carousel" class="owl-carousel">
-            <div>
-              <p id="day-0"></p>
-              <i id="icon-day-0"></i>
-              <p id="tempMax-day-0"></p>
-              <p id="tempMin-day-0"></p>
-            </div>
-            <div>
-              <p id="day-1"></p>
-              <i id="icon-day-1"></i>
-              <p id="tempMax-day-1"></p>
-              <p id="tempMin-day-1"></p>
-            </div>
-            <div>
-              <p id="day-2"></p>
-              <i id="icon-day-2"></i>
-              <p id="tempMax-day-2"></p>
-              <p id="tempMin-day-2"></p>
-            </div>
-            <div>
-              <p id="day-3"></p>
-              <i id="icon-day-3"></i>
-              <p id="tempMax-day-3"></p>
-              <p id="tempMin-day-3"></p>
-            </div>
-            <div>
-              <p id="day-4"></p>
-              <i id="icon-day-4"></i>
-              <p id="tempMax-day-4"></p>
-              <p id="tempMin-day-4"></p>
-            </div>
-            <div>
-              <p id="day-5"></p>
-              <i id="icon-day-5"></i>
-              <p id="tempMax-day-5"></p>
-              <p id="tempMin-day-5"></p>
-            </div>
-            <div>
-              <p id="day-6"></p>
-              <i id="icon-day-6"></i>
-              <p id="tempMax-day-6"></p>
-              <p id="tempMin-day-6"></p>
-            </div>
-            <div>
-              <p id="day-7"></p>
-              <i id="icon-day-7"></i>
-              <p id="tempMax-day-7"></p>
-              <p id="tempMin-day-7"></p>
+            <div class="wind">
+              <div class="wind-icon">
+                <i class="wi wi-strong-wind"></i>
+              </div>
+              <div id="windspeed"></div>
             </div>
           </div>
-        </div>
-        <div id="footer">
-          <a href="https://github.com/bomholt" class="bomholt" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
-          <a href="http://forecast.io/" target="_blank" rel="noopener noreferrer">(powered by forecast.io)</a>
+          <div id="daybyday">
+            <div id="carousel" class="owl-carousel">
+              <div>
+                <p id="day-0"></p>
+                <i id="icon-day-0"></i>
+                <p id="tempMax-day-0"></p>
+                <p id="tempMin-day-0"></p>
+              </div>
+              <div>
+                <p id="day-1"></p>
+                <i id="icon-day-1"></i>
+                <p id="tempMax-day-1"></p>
+                <p id="tempMin-day-1"></p>
+              </div>
+              <div>
+                <p id="day-2"></p>
+                <i id="icon-day-2"></i>
+                <p id="tempMax-day-2"></p>
+                <p id="tempMin-day-2"></p>
+              </div>
+              <div>
+                <p id="day-3"></p>
+                <i id="icon-day-3"></i>
+                <p id="tempMax-day-3"></p>
+                <p id="tempMin-day-3"></p>
+              </div>
+              <div>
+                <p id="day-4"></p>
+                <i id="icon-day-4"></i>
+                <p id="tempMax-day-4"></p>
+                <p id="tempMin-day-4"></p>
+              </div>
+              <div>
+                <p id="day-5"></p>
+                <i id="icon-day-5"></i>
+                <p id="tempMax-day-5"></p>
+                <p id="tempMin-day-5"></p>
+              </div>
+              <div>
+                <p id="day-6"></p>
+                <i id="icon-day-6"></i>
+                <p id="tempMax-day-6"></p>
+                <p id="tempMin-day-6"></p>
+              </div>
+              <div>
+                <p id="day-7"></p>
+                <i id="icon-day-7"></i>
+                <p id="tempMax-day-7"></p>
+                <p id="tempMin-day-7"></p>
+              </div>
+            </div>
+          </div>
+          <div id="footer">
+            <a href="https://github.com/bomholt" class="bomholt" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
+            <a href="http://forecast.io/" target="_blank" rel="noopener noreferrer">(powered by forecast.io)</a>
+          </div>
         </div>
       </div>
 
     </div>
   </div>
-
   <script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.owlcarousel/1.3.2/owl.carousel.min.js"></script>
   <script src="index.js"></script>
