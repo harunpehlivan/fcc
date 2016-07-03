@@ -27,7 +27,7 @@ html, body
   padding: 16px
 
   #time, #summary
-    color: rgba(255,255,255,0.80)
+    color: rgba(255,255,255,0.75)
     margin: 5px 0
 
   .temp
@@ -40,13 +40,25 @@ html, body
       line-height: 60px
       vertical-align: middle
 
-    #unit1
-      padding-left: 10px
+    .spacer
+      color: rgba(255,255,255,0.75)
+      display: inline-block
+      font-size: 20px
+      vertical-align: top
 
     #unit1, #unit2
       display: inline-block
       font-size: 20px
       vertical-align: top
+
+    #unit1
+      padding-left: 10px
+
+    #unit2
+      color: #551A8B
+      &:hover
+        cursor: pointer
+        text-decoration: none
 
   #icon
     display: inline-block
@@ -94,12 +106,20 @@ html, body
       color: #424242
       font-size: 20px
 
-    #tempMax-day-0, #tempMax-day-1, #tempMax-day-2, #tempMax-day-3, #tempMax-day-4, #tempMax-day-5, #tempMax-day-6, #tempMax-day-7
-      margin: 10px 0 0 0
+    span
+      display: inline-block
 
-    #tempMin-day-0, #tempMin-day-1, #tempMin-day-2, #tempMin-day-3, #tempMin-day-4, #tempMin-day-5, #tempMin-day-6, #tempMin-day-7
+    .tempMax p
+      margin: 10px 0 0 0
+      display: inline-block
+
+    .tempMin p
       color: #757575
+      display: inline-block
       margin: 0
+
+    .tempMin span
+      color: #757575
 
 #footer
   background-color: #fff

@@ -29,7 +29,7 @@ html, body {
   padding: 16px;
 }
 .card-current #time, .card-current #summary {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.75);
   margin: 5px 0;
 }
 .card-current .temp {
@@ -42,13 +42,26 @@ html, body {
   line-height: 60px;
   vertical-align: middle;
 }
-.card-current .temp #unit1 {
-  padding-left: 10px;
+.card-current .temp .spacer {
+  color: rgba(255, 255, 255, 0.75);
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: top;
 }
 .card-current .temp #unit1, .card-current .temp #unit2 {
   display: inline-block;
   font-size: 20px;
   vertical-align: top;
+}
+.card-current .temp #unit1 {
+  padding-left: 10px;
+}
+.card-current .temp #unit2 {
+  color: #551A8B;
+}
+.card-current .temp #unit2:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
 .card-current #icon {
   display: inline-block;
@@ -96,12 +109,20 @@ html, body {
   color: #424242;
   font-size: 20px;
 }
-#daybyday #carousel #tempMax-day-0, #daybyday #carousel #tempMax-day-1, #daybyday #carousel #tempMax-day-2, #daybyday #carousel #tempMax-day-3, #daybyday #carousel #tempMax-day-4, #daybyday #carousel #tempMax-day-5, #daybyday #carousel #tempMax-day-6, #daybyday #carousel #tempMax-day-7 {
-  margin: 10px 0 0 0;
+#daybyday #carousel span {
+  display: inline-block;
 }
-#daybyday #carousel #tempMin-day-0, #daybyday #carousel #tempMin-day-1, #daybyday #carousel #tempMin-day-2, #daybyday #carousel #tempMin-day-3, #daybyday #carousel #tempMin-day-4, #daybyday #carousel #tempMin-day-5, #daybyday #carousel #tempMin-day-6, #daybyday #carousel #tempMin-day-7 {
+#daybyday #carousel .tempMax p {
+  margin: 10px 0 0 0;
+  display: inline-block;
+}
+#daybyday #carousel .tempMin p {
   color: #757575;
+  display: inline-block;
   margin: 0;
+}
+#daybyday #carousel .tempMin span {
+  color: #757575;
 }
 #footer {
   background-color: #fff;

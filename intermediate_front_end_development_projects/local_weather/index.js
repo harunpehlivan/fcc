@@ -11,6 +11,30 @@ $(document).ready(function(){
       $("#summary").html(data.currently.summary);
       $("#temperature").html(Math.round(data.currently.temperature));
       showUnits(data.flags.units);
+      $("#unit2").on("click", function(){
+        var temp = $("#temperature").text();
+        if($("#unit2").text() == "°F"){
+          $("#temperature").html(Math.round((temp * 9 / 5) + 32));
+          $("#unit1").html("°F");
+          $("#unit2").html("°C");
+          for(i = 0; i <= 7; i++){
+            var tempMax = $("#tempMax-day-"+i).text();
+            var tempMin = $("#tempMin-day-"+i).text();
+            $("#tempMax-day-"+i).html(Math.round((tempMax * 9 / 5) + 32));
+            $("#tempMin-day-"+i).html(Math.round((tempMin * 9 / 5) + 32));
+          }
+        }else if($("#unit2").text() == "°C"){
+          $("#temperature").html(Math.round((temp - 32) * 5 / 9));
+          $("#unit1").html("°C");
+          $("#unit2").html("°F");
+          for(i = 0; i <= 7; i++){
+            var tempMax = $("#tempMax-day-"+i).text();
+            var tempMin = $("#tempMin-day-"+i).text();
+            $("#tempMax-day-"+i).html(Math.round((tempMax - 32) * 5 / 9));
+            $("#tempMin-day-"+i).html(Math.round((tempMin - 32) * 5 / 9));
+          }
+        }
+      });
       showIcon(data.currently.icon, "#icon");
       showBackground(data.currently.icon);
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
@@ -90,10 +114,10 @@ $(document).ready(function(){
   }
   function showUnits(unit){
     if(unit == "us"){
-      $("#unit1").html("°F /");
+      $("#unit1").html("°F");
       $("#unit2").html("°C");
     }else{
-      $("#unit1").html("°C /");
+      $("#unit1").html("°C");
       $("#unit2").html("°F");
     }
   }
@@ -217,9 +241,9 @@ $(document).ready(function(){
     }
   }
   function showTempMax(temp, id){
-    $(id).html(Math.round(temp) + "°");
+    $(id).html(Math.round(temp));
   }
   function showTempMin(temp, id){
-    $(id).html(Math.round(temp) + "°");
+    $(id).html(Math.round(temp));
   }
 });
