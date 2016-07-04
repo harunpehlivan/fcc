@@ -1,12 +1,25 @@
 $(document).ready(function(){
+  var lat, lon;
   if(navigator.geolocation){
-    navigator.geolocation.getCurrentPosition(showForecast, showError);
+    navigator.geolocation.getCurrentPosition(showPositionHTML, showPositionIP);
+  }
+  function showPositionHTML(position){
+    lat = position.coords.latitude;
+    lon = position.coords.longitude;
+    showForecast();
+  }
+  function showPositionIP(){
+    $.getJSON("http://ip-api.com/json/?callback=?", function(data){
+      lat = data.lat;
+      lon = data.lon;
+      showForecast();
+    });
   }
   function showForecast(position){
-    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," + position.coords.longitude + "&key=AIzaSyCrTwmvBdez8KIplFv7v6CcBHSFYB96WFs", function(data){
+    $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon + "&key=AIzaSyCrTwmvBdez8KIplFv7v6CcBHSFYB96WFs", function(data){
       showLocation(data.results[0]);
     });
-    $.getJSON("https://api.forecast.io/forecast/752d72f732230515fda08531e4d58c37/" + position.coords.latitude + "," + position.coords.longitude + "?units=auto&callback=?", function(data){
+    $.getJSON("https://api.forecast.io/forecast/752d72f732230515fda08531e4d58c37/" + lat + "," + lon + "?units=auto&callback=?", function(data){
       showTime(data.currently.time);
       $("#summary").html(data.currently.summary);
       $("#temperature").html(Math.round(data.currently.temperature));
@@ -70,22 +83,7 @@ $(document).ready(function(){
       });
     });
   }
-  function showError(error){
-    switch(error.code){
-      case error.PERMISSION_DENIED:
-        alert("User denied the request for Geolocation.");
-        break;
-      case error.POSITION_UNAVAILABLE:
-        alert("Location information is unavailable.");
-        break;
-      case error.TIMEOUT:
-        alert("The request for Geolocation timed out.");
-        break;
-      case error.UNKNOWN_ERROR:
-        alert("An unknown error occurred.");
-        break;
-    }
-  }
+
   function showLocation(location){
     for(i = 0; i < location.address_components.length; i++){
       if(location.address_components[i].types[0] == "locality"){
@@ -140,34 +138,34 @@ $(document).ready(function(){
   function showBackground(icon){
     switch(icon){
       case "clear-day":
-        $(".card-current").css("background-color", "#ffc107");
-        break;
-      case "clear-night":
-        $(".card-current").css("background-color", "#9c27b0");
-        break;
-      case "rain":
-        $(".card-current").css("background-color", "#607d8b");
-        break;
-      case "snow":
-        $(".card-current").css("background-color", "#607d8b");
-        break;
-      case "sleet":
-        $(".card-current").css("background-color", "#607d8b");
-        break;
-      case "wind":
-        $(".card-current").css("background-color", "#009688");
-        break;
-      case "fog":
-        $(".card-current").css("background-color", "#009688");
-        break;
-      case "cloudy":
-        $(".card-current").css("background-color", "#009688");
-        break;
-      case "partly-cloudy-day":
         $(".card-current").css("background-color", "#4caf50");
         break;
-      case "partly-cloudy-night":
+      case "clear-night":
         $(".card-current").css("background-color", "#3f51b5");
+        break;
+      case "rain":
+        $(".card-current").css("background-color", "#2196f3");
+        break;
+      case "snow":
+        $(".card-current").css("background-color", "#2196f3");
+        break;
+      case "sleet":
+        $(".card-current").css("background-color", "#2196f3");
+        break;
+      case "wind":
+        $(".card-current").css("background-color", "#ff9800");
+        break;
+      case "fog":
+        $(".card-current").css("background-color", "#");
+        break;
+      case "cloudy":
+        $(".card-current").css("background-color", "#");
+        break;
+      case "partly-cloudy-day":
+        $(".card-current").css("background-color", "#009688");
+        break;
+      case "partly-cloudy-night":
+        $(".card-current").css("background-color", "#673ab7");
         break;
       case "hail":
         $(".card-current").css("background-color", "#f44336");
@@ -178,8 +176,6 @@ $(document).ready(function(){
       case "tornado":
         $(".card-current").css("background-color", "#f44336");
         break;
-      default:
-        $(".card-current").css("background-color", "#ff5722");
     }
   }
   function showDayByDayForecast(daily){
@@ -198,45 +194,59 @@ $(document).ready(function(){
   function showIcon(icon, id){
     switch(icon){
       case "clear-day":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-clear-day");
         break;
       case "clear-night":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-clear-night");
         break;
       case "rain":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-rain");
         break;
       case "snow":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-snow");
         break;
       case "sleet":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-sleet");
         break;
       case "wind":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-wind");
         break;
       case "fog":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-fog");
         break;
       case "cloudy":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-cloudy");
         break;
       case "partly-cloudy-day":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-partly-cloudy-day");
         break;
       case "partly-cloudy-night":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-partly-cloudy-night");
         break;
       case "hail":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-hail");
         break;
       case "thunderstorm":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-thunderstorm");
         break;
       case "tornado":
+        $(id).removeClass();
         $(id).addClass("wi wi-forecast-io-tornado");
         break;
       default:
+        $(id).removeClass();
         $(id).addClass("wi wi-na");
     }
   }
