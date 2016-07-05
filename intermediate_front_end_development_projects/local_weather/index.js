@@ -1,5 +1,56 @@
 $(document).ready(function(){
   var lat, lon;
+  $("#unit2").on("click", function(){
+    var temp = $("#temperature").text();
+    if($("#unit2").text() == "| °F"){
+      $("#temperature").html(Math.round((temp * 9 / 5) + 32));
+      $("#unit1").html("°F");
+      $("#unit2").html("| °C");
+      for(i = 0; i <= 7; i++){
+        var tempMax = $("#tempMax-day-"+i).text();
+        var tempMin = $("#tempMin-day-"+i).text();
+        $("#tempMax-day-"+i).html(Math.round((tempMax * 9 / 5) + 32));
+        $("#tempMin-day-"+i).html(Math.round((tempMin * 9 / 5) + 32));
+      }
+    }else if($("#unit2").text() == "| °C"){
+      $("#temperature").html(Math.round((temp - 32) * 5 / 9));
+      $("#unit1").html("°C");
+      $("#unit2").html("| °F");
+      for(i = 0; i <= 7; i++){
+        var tempMax = $("#tempMax-day-"+i).text();
+        var tempMin = $("#tempMin-day-"+i).text();
+        $("#tempMax-day-"+i).html(Math.round((tempMax - 32) * 5 / 9));
+        $("#tempMin-day-"+i).html(Math.round((tempMin - 32) * 5 / 9));
+      }
+    }
+  });
+  $("#carousel").owlCarousel({
+    items : 5,
+    itemsCustom : false,
+    itemsDesktop : false,
+    itemsDesktopSmall : false,
+    itemsTablet: false,
+    itemsTabletSmall: false,
+    itemsMobile : [420,4],
+    singleItem : false,
+    itemsScaleUp : false,
+    slideSpeed : 200,
+    autoPlay : false,
+    navigation : false,
+    pagination : false,
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+    lazyLoad : false,
+    autoHeight : false,
+    jsonPath : false,
+    jsonSuccess : false,
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+    transitionStyle : false,
+    addClassActive : false
+  });
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(showPositionHTML, showPositionIP);
   }
@@ -24,66 +75,13 @@ $(document).ready(function(){
       $("#summary").html(data.currently.summary);
       $("#temperature").html(Math.round(data.currently.temperature));
       showUnits(data.flags.units);
-      $("#unit2").on("click", function(){
-        var temp = $("#temperature").text();
-        if($("#unit2").text() == "°F"){
-          $("#temperature").html(Math.round((temp * 9 / 5) + 32));
-          $("#unit1").html("°F");
-          $("#unit2").html("°C");
-          for(i = 0; i <= 7; i++){
-            var tempMax = $("#tempMax-day-"+i).text();
-            var tempMin = $("#tempMin-day-"+i).text();
-            $("#tempMax-day-"+i).html(Math.round((tempMax * 9 / 5) + 32));
-            $("#tempMin-day-"+i).html(Math.round((tempMin * 9 / 5) + 32));
-          }
-        }else if($("#unit2").text() == "°C"){
-          $("#temperature").html(Math.round((temp - 32) * 5 / 9));
-          $("#unit1").html("°C");
-          $("#unit2").html("°F");
-          for(i = 0; i <= 7; i++){
-            var tempMax = $("#tempMax-day-"+i).text();
-            var tempMin = $("#tempMin-day-"+i).text();
-            $("#tempMax-day-"+i).html(Math.round((tempMax - 32) * 5 / 9));
-            $("#tempMin-day-"+i).html(Math.round((tempMin - 32) * 5 / 9));
-          }
-        }
-      });
       showIcon(data.currently.icon, "#icon");
       showBackground(data.currently.icon);
       $("#precipitation").html(Math.round(data.currently.precipProbability * 100) + "%");
       showWindSpeed(data.flags.units, data.currently.windSpeed);
       showDayByDayForecast(data.daily);
-      $("#carousel").owlCarousel({
-        items : 5,
-        itemsCustom : false,
-        itemsDesktop : [1199,5],
-        itemsDesktopSmall : [980,5],
-        itemsTablet: [768,5],
-        itemsTabletSmall: false,
-        itemsMobile : [479,4],
-        singleItem : false,
-        itemsScaleUp : false,
-        //Basic Speeds
-        slideSpeed : 200,
-        autoPlay : false,
-        navigation : false,
-        pagination : false,
-        responsive: true,
-        responsiveRefreshRate : 200,
-        responsiveBaseWidth: window,
-        lazyLoad : false,
-        autoHeight : false,
-        jsonPath : false,
-        jsonSuccess : false,
-        dragBeforeAnimFinish : true,
-        mouseDrag : true,
-        touchDrag : true,
-        transitionStyle : false,
-        addClassActive : false
-      });
     });
   }
-
   function showLocation(location){
     for(i = 0; i < location.address_components.length; i++){
       if(location.address_components[i].types[0] == "locality"){
@@ -113,10 +111,10 @@ $(document).ready(function(){
   function showUnits(unit){
     if(unit == "us"){
       $("#unit1").html("°F");
-      $("#unit2").html("°C");
+      $("#unit2").html("| °C");
     }else{
       $("#unit1").html("°C");
-      $("#unit2").html("°F");
+      $("#unit2").html("| °F");
     }
   }
   function showWindSpeed(units, windSpeed){
@@ -156,10 +154,10 @@ $(document).ready(function(){
         $(".card-current").css("background-color", "#ff9800");
         break;
       case "fog":
-        $(".card-current").css("background-color", "#");
+        $(".card-current").css("background-color", "#ffc107");
         break;
       case "cloudy":
-        $(".card-current").css("background-color", "#");
+        $(".card-current").css("background-color", "#ffc107");
         break;
       case "partly-cloudy-day":
         $(".card-current").css("background-color", "#009688");

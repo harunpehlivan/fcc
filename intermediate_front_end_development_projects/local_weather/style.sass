@@ -1,15 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600)
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500)
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600)
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500)
 
 ::selection
   background: transparent
 
 html, body
-  background-color: #ECEFF1
+  background-color: #eceff1
   height: 100%
 
-.container-fluid
-  background-color: #ECEFF1
+.container
+  background-color: #eceff1
+
+.col-xs-12
+  padding: 0
 
 .card
   background-clip: padding-box
@@ -19,8 +22,8 @@ html, body
   display: block
   font-family: "Open Sans", sans-serif
   font-weight: 400
-  margin: 5% auto
-  max-width: 480px
+  margin: 8px auto
+  max-width: 520px
 
 .card-current
   background-color: #673ab7
@@ -41,22 +44,17 @@ html, body
       line-height: 60px
       vertical-align: middle
 
-    .spacer
-      color: rgba(255,255,255,0.75)
-      display: inline-block
-      font-size: 20px
-      vertical-align: top
-
     #unit1, #unit2
       display: inline-block
       font-size: 20px
       vertical-align: top
+      font-weight: 600
 
     #unit1
-      padding-left: 10px
+      padding-left: 8px
 
     #unit2
-      color: #551A8B
+      color: rgba(255,255,255,0.25)
       &:hover
         cursor: pointer
         text-decoration: none
@@ -64,7 +62,7 @@ html, body
   #icon
     display: inline-block
     font-size: 112px
-    padding-left: 24%
+    padding-left: 8%
 
   .precip
     font-size: 15px
@@ -107,11 +105,11 @@ html, body
       color: #424242
       font-size: 20px
 
-    span
-      display: inline-block
-
     .tempMax p
       margin: 10px 0 0 0
+      display: inline-block
+
+    .tempMax span
       display: inline-block
 
     .tempMin p
@@ -121,6 +119,7 @@ html, body
 
     .tempMin span
       color: #757575
+      display: inline-block
 
 #footer
   background-color: #fff
@@ -139,3 +138,16 @@ html, body
 
   .bomholt
     font-weight: 500
+
+@media (min-width: 420px)
+
+  .card .card-current #icon
+    padding-left: 16%
+
+@media (min-width: 520px)
+
+  .card
+    margin: 3% auto
+
+    .card-current #icon
+      padding-left: 24%
