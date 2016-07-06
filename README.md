@@ -11,7 +11,7 @@ Free Code Camp is an open source community of people who learn to code and help 
 * [Intermediate Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/intermediate_front_end_development_projects)
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp_solutions/intermediate_front_end_development_projects/random_quote_machine/)
     * [Show the Local Weather](https://michaelbomholt.com/freecodecamp_solutions/intermediate_front_end_development_projects/local_weather/)
-    * Build a Wikipedia Viewer
+    * [Build a Wikipedia Viewer](https://michaelbomholt.com/freecodecamp_solutions/intermediate_front_end_development_projects/wikipedia_viewer/)
     * Use the Twitch.tv JSON API
 * [Intermediate Algorithm Scripting](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/intermediate_algorithm_scripting)
 * [Advanced Front End Development Projects](https://github.com/bomholt/FreeCodeCamp_solutions/tree/master/advanced_front_end_development_projects)
