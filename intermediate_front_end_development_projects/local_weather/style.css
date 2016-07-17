@@ -53,7 +53,7 @@ html, body {
 }
 .card-current .temp #unit1 {
   font-weight: 600;
-  padding-left: 8px;
+  padding-left: 6px;
 }
 .card-current .temp #unit2 {
   color: rgba(255, 255, 255, 0.7);
