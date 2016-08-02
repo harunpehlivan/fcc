@@ -60,9 +60,9 @@ $(document).ready(function(){
     showForecast();
   }
   function showPositionIP(){
-    $.getJSON("http://ip-api.com/json/?callback=?", function(data){
-      lat = data.lat;
-      lon = data.lon;
+    $.getJSON("https://freegeoip.net/json/", function(data){
+      lat = data.latitude;
+      lon = data.longitude;
       showForecast();
     });
   }

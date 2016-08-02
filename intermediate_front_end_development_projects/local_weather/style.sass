@@ -22,11 +22,11 @@ html, body
   display: block
   font-family: "Open Sans", sans-serif
   font-weight: 400
-  margin: 8px auto
+  margin: 8px auto 16px
   max-width: 520px
 
 .card-current
-  background-color: #673ab7
+  background-color: #9c27b0
   color: #fff
   padding: 16px
 
@@ -40,8 +40,8 @@ html, body
 
     #temperature
       display: inline-block
-      font-size: 72px
-      line-height: 60px
+      font-size: 64px
+      line-height: 56px
       vertical-align: middle
 
     #unit1, #unit2
@@ -63,7 +63,7 @@ html, body
 
   #icon
     display: inline-block
-    font-size: 112px
+    font-size: 96px
     padding-left: 8%
 
   .precip
@@ -141,15 +141,28 @@ html, body
   .bomholt
     font-weight: 500
 
-@media (min-width: 420px)
+@media (min-width: 375px)
 
-  .card .card-current #icon
-    padding-left: 16%
+  .card
+
+    .temp #temperature
+      font-size: 72px
+      line-height: 60px
+
+    #icon
+      font-size: 112px
+      padding-left: 16%
 
 @media (min-width: 520px)
 
   .card
-    margin: 3% auto
+    margin: 2% auto 1%
 
-    .card-current #icon
+    #icon
+      font-size: 120px
       padding-left: 24%
+
+@media (min-width: 1380px)
+
+  .card
+    margin: 6% auto 2%
