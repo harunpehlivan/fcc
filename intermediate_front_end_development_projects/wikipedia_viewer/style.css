@@ -1,0 +1,117 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,400,500";
+html, body {
+  background-color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+.container {
+  display: table;
+  margin-bottom: -42px;
+  min-height: 100%;
+  min-width: 100%;
+}
+.container:after {
+  content: "";
+  display: block;
+  height: 42px;
+}
+[type=search]:focus {
+  border: 1px solid #ff4081;
+}
+#row-init {
+  display: table-cell;
+  vertical-align: middle;
+}
+#row-init #wikipedia-init {
+  margin: 10px auto 52px;
+  max-width: 480px;
+  text-align: center;
+}
+#row-init #wikipedia-init .init-search {
+  display: table;
+  padding: 24px 16px 47px;
+  width: 100%;
+}
+@media (min-width: 640px) {
+  #row-init #wikipedia-init .init-search {
+    padding: 24px 16px;
+  }
+}
+#row-init #wikipedia-init .init-search div {
+  display: table-cell;
+  width: 100%;
+}
+#row-init #wikipedia-init .init-search div #init-input {
+  padding-right: 50px;
+  display: inline-block;
+}
+@media (min-width: 640px) {
+  #row-init #wikipedia-init .init-search div #init-input {
+    padding-right: 8px;
+  }
+}
+#row-init #wikipedia-init .init-search div #init-button-mobile {
+  background-color: #ff4081;
+  display: inline-block;
+  margin: -1px 0 1px -42px;
+  padding: 11px;
+  height: 2.4375rem;
+}
+#row-init #wikipedia-init .init-actions .button {
+  background-color: #607d8b;
+  border: 0;
+  margin: 2px 4px 23px;
+  padding: 13px 16px;
+  font-weight: 600;
+}
+#wikipedia-topbar {
+  background-color: #78909C;
+  display: none;
+  padding: 0;
+  position: relative;
+}
+#wikipedia-topbar .top-bar-title {
+  float: none;
+  margin: 0;
+}
+#wikipedia-topbar .top-bar-title img {
+  display: block;
+  margin: 0 auto;
+}
+#wikipedia-topbar .top-bar-left {
+  max-width: 480px;
+}
+#wikipedia-topbar .top-bar-left .menu {
+  padding: 10px;
+}
+#wikipedia-topbar .top-bar-left .menu #topbar-input {
+  width: 100%;
+}
+#wikipedia-topbar .top-bar-left .menu #topbar-button {
+  background-color: #ff4081;
+  padding: 12px 11px 11px;
+}
+#wikipedia-results {
+  display: none;
+}
+footer {
+  background-color: #f5f5f5;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
+}
+footer a {
+  color: #b8b8b8;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+}
+footer a:hover {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+footer a i {
+  vertical-align: text-top;
+}

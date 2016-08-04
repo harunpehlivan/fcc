@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <script src="https://use.fonticons.com/cbfd33e3.js"></script>
+  <link rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Wikipedia Init -->
+    <div id="row-init" class="row">
+      <div class="small-12">
+        <div id="wikipedia-init">
+          <div class="init-image">
+            <img src="https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_logo_v2.png">
+          </div>
+          <div class="init-search">
+            <div>
+              <input id="init-input" type="search">
+            </div>
+            <div>
+              <button id="init-button-mobile" type="button" class="button search show-for-small-only"><i class="fa fa-search fa-lg"></i></button>
+            </div>
+          </div>
+          <div class="init-actions">
+            <button id="init-button" type="button" class="button search show-for-medium">Wikipedia Search</button>
+            <a href="https://en.wikipedia.org/wiki/Special:Random" class="button show-for-medium" target="_blank" rel="noopener noreferrer">I'm Feeling Lucky</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wikipedia Topbar -->
+    <div id="wikipedia-topbar" class="top-bar">
+      <div class="top-bar-title">
+        <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/wikipedia_topbar.png">
+      </div>
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li><input id="topbar-input" type="search"></li>
+          <li><button id="topbar-button" type="button" class="button search"><i class="fa fa-search fa-lg"></i></button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wikipedia Results -->
+    <div class="row">
+      <div class="small-12">
+        <div id="wikipedia-results">
+          <p>world</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="text-center">
+      <a href="https://github.com/bomholt" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
