@@ -1,4 +1,4 @@
-## FreeCodeCamp Solutions
+## Free Code Camp
 
 Free Code Camp is an open source community of people who learn to code and help nonprofits.
 
