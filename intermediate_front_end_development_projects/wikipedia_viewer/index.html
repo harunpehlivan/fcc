@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <script src="https://use.fonticons.com/cbfd33e3.js"></script>
   <link rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
+  <link rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/jquery.ui/1.11.4/jquery-ui.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
       <div class="small-12">
         <div id="wikipedia-init">
           <div class="init-image">
-            <img src="https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_logo_v2.png">
+            <img src="https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_init.png">
           </div>
           <div class="init-search">
             <div>
@@ -36,15 +37,19 @@
     </div>
 
     <!-- Wikipedia Topbar -->
-    <div id="wikipedia-topbar" class="top-bar">
+    <div id="wikipedia-top-bar" class="top-bar">
       <div class="top-bar-title">
-        <img src="https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/img/wikipedia_topbar.png">
+        <img src="https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_topbar.png">
       </div>
       <div class="top-bar-left">
-        <ul class="menu">
-          <li><input id="topbar-input" type="search"></li>
-          <li><button id="topbar-button" type="button" class="button search"><i class="fa fa-search fa-lg"></i></button></li>
-        </ul>
+        <div class="top-bar-search">
+          <div>
+            <input id="top-bar-input" type="search">
+          </div>
+          <div>
+            <button id="top-bar-button" type="button" class="button search"><i class="fa fa-search fa-lg"></i></button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -52,7 +57,7 @@
     <div class="row">
       <div class="small-12">
         <div id="wikipedia-results">
-          <p>world</p>
+
         </div>
       </div>
     </div>
@@ -64,8 +69,8 @@
       <a href="https://github.com/bomholt" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
     </div>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.ui/1.11.4/jquery-ui.min.js"></script>
   <script src="index.js"></script>
 
 </body>
