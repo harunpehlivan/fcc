@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  var input;
   $("#init-input").focus();
   $("#init-input").keyup(function(e){
     $("#top-bar-input").val(this.value);
@@ -23,27 +22,36 @@ $(document).ready(function(){
       });
     },
     select: function(event, ui){
-      input = ui.item.label;
-      search();
+      if (event.which === 1){
+        search(ui.item.value);
+      }
     }
   });
   $(".search").on("click", function(){
-    input = $("#top-bar-input").val();
-    search();
+    search($("#top-bar-input").val());
   });
   $("input").on("keydown", function(){
     if(event.keyCode == 13){
-      input = $("#top-bar-input").val();
-      search();
+      $("#top-bar-input").autocomplete("close");
+      search($("#top-bar-input").val());
     }
   });
-  function search(){
+  function search(input){
     $("#wikipedia-results").empty();
     if (input.length > 0){
-      $.getJSON("https://en.wikipedia.org/w/api.php?action=opensearch&search=" + encodeURI(input) + "&format=json&callback=?", function(data){
-        $("#wikipedia-results").html(JSON.stringify(data));
+      $.getJSON("https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=" + encodeURI(input) + "&callback=?", function(data){
+        for(var i = 0; i < data[1].length; i++){
+          $("#wikipedia-results").append("<div class='card card-" + i + "'></div>");
+          $(".card-"+i).append("<div class='card-content card-content-" + i + "'></div>");
+          $(".card-content-"+i).append("<h4>" + data[1][i] + "</h4>");
+          $(".card-content-"+i).append("<p>" + data[2][i] + "</p>");
+          $(".card-"+i).append("<div class='card-link card-link-" + i + "'></div>");
+          $(".card-link-"+i).append("<a href='" + data[3][i] + "' target='_blank' rel='noopener noreferrer'>read more</a>");
+          $(".card-link-"+i).append("<a href='https://en.wikipedia.org/w/index.php?title=" + encodeURI(data[1][i]) + "&action=edit' target='_blank' rel='noopener noreferrer'>edit source</a>");
+        }
       });
       $("#wikipedia-results").show();
+      $("#top-bar-input").focus();
     }
   }
 });

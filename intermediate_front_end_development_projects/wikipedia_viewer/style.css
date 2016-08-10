@@ -1,6 +1,7 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,400,500";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese";
+@import "https://fonts.googleapis.com/css?family=Roboto:500";
 html, body {
-  background-color: #fafafa;
+  background-color: #f5f5f5;
   font-family: "Open Sans", sans-serif;
   height: 100%;
 }
@@ -14,6 +15,12 @@ html, body {
   content: "";
   display: block;
   height: 42px;
+}
+a {
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 [type=search]:focus {
   border: 1px solid #ff4081;
@@ -67,7 +74,7 @@ html, body {
   font-weight: 600;
 }
 #wikipedia-top-bar {
-  background-color: #78909c;
+  background-color: #607d8b;
   display: none;
   padding: 0;
   position: relative;
@@ -83,17 +90,24 @@ html, body {
 }
 #wikipedia-top-bar .top-bar-title img {
   display: block;
-  margin: 0 auto;
-  padding: 8px;
+  margin: 6px auto 2px;
+  padding: 0;
+}
+@media (min-width: 640px) {
+  #wikipedia-top-bar .top-bar-title img {
+    height: 52px;
+    margin: 4px 4px 4px 8px;
+    width: 57px;
+  }
 }
 #wikipedia-top-bar .top-bar-left {
-  padding: 8px 16px 16px 16px;
+  padding: 8px;
   width: 100%;
 }
 @media (min-width: 640px) {
   #wikipedia-top-bar .top-bar-left {
     max-width: 480px;
-    padding: 16px;
+    padding: 10px 8px;
   }
 }
 #wikipedia-top-bar .top-bar-left .top-bar-search {
@@ -118,17 +132,17 @@ html, body {
 #wikipedia-top-bar .top-bar-left .top-bar-search div #top-bar-button {
   background-color: #ff4081;
   display: inline-block;
-  margin: -1px 0 1px -42px;
+  margin: -1px 0 1px -41px;
   padding: 11px;
   height: 2.4375rem;
 }
 .ui-autocomplete {
-  max-width: 607px;
-  margin: 0 17px;
+  max-width: 608px;
+  margin: 0 9px;
 }
 @media (min-width: 640px) {
   .ui-autocomplete {
-    max-width: 448px;
+    max-width: 464px;
   }
 }
 .ui-menu .ui-menu-item {
@@ -151,8 +165,50 @@ html, body {
 #wikipedia-results {
   display: none;
 }
+#wikipedia-results .card {
+  background: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  display: block;
+  margin: 16px 0;
+  max-width: 720px;
+}
+@media (min-width: 640px) {
+  #wikipedia-results .card {
+    margin: 16px 16px 16px 77px;
+  }
+}
+#wikipedia-results .card .card-content {
+  padding: 16px;
+}
+#wikipedia-results .card .card-content h4 {
+  color: #263238;
+  font-size: 1.25rem;
+}
+@media (min-width: 640px) {
+  #wikipedia-results .card .card-content h4 {
+    font-size: 1.5rem;
+  }
+}
+#wikipedia-results .card .card-content p {
+  margin: 0;
+}
+#wikipedia-results .card .card-link {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 16px;
+  text-transform: uppercase;
+}
+#wikipedia-results .card .card-link a {
+  color: #ff80ab;
+  padding-right: 16px;
+}
 footer {
-  background-color: #f5f5f5;
+  background-color: #eee;
   bottom: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -160,13 +216,13 @@ footer {
   width: 100%;
 }
 footer a {
-  color: #b8b8b8;
+  color: #b3b3b3;
   line-height: 42px;
   position: relative;
   top: 2px;
 }
 footer a:hover {
-  color: #b8b8b8;
+  color: #b3b3b3;
   text-decoration: none;
 }
 footer a i {
