@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var quotes = [];
-  $.getJSON("https://raw.githubusercontent.com/bomholt/freecodecamp_solutions/master/intermediate_front_end_development_projects/_assets/json/quotes.json", function(data){
+  $.getJSON("https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/json/quotes.json", function(data){
     quotes = data;
     newQuote();
   });
