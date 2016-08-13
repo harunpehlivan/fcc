@@ -5,8 +5,14 @@ html, body {
   font-family: "Open Sans", sans-serif;
   height: 100%;
 }
+.moz-container-fix {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
 .container {
   display: table;
+  height: 100%;
   margin-bottom: -42px;
   min-height: 100%;
   min-width: 100%;
@@ -26,6 +32,10 @@ a {
   border: 1px solid #ff4081;
   box-shadow: 0 0 5px #ff4081;
 }
+.moz-row-fix {
+  height: 100%;
+  width: 100%;
+}
 #row-init {
   display: table-cell;
   vertical-align: middle;
@@ -37,11 +47,13 @@ a {
 }
 #row-init #wikipedia-init .init-search {
   display: table;
+  margin-bottom: 6rem;
   padding: 24px 16px 47px;
   width: 100%;
 }
 @media (min-width: 640px) {
   #row-init #wikipedia-init .init-search {
+    margin-bottom: 1rem;
     padding: 24px 16px;
   }
 }
@@ -52,6 +64,9 @@ a {
 #row-init #wikipedia-init .init-search div #init-input {
   padding: 8px 50px 8px 8px;
   display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  vertical-align: -moz-middle-with-baseline;
 }
 @media (min-width: 640px) {
   #row-init #wikipedia-init .init-search div #init-input {
@@ -61,10 +76,12 @@ a {
 #row-init #wikipedia-init .init-search div #init-button-mobile {
   background-color: #ff4081;
   display: inline-block;
-  margin: -1px 0 1px -42px;
-  padding: 11px;
+  margin: 0 0 0 -41px;
+  padding: 10px;
   height: 2.4375rem;
   width: 42px;
+  vertical-align: middle;
+  vertical-align: -moz-middle-with-baseline;
 }
 #row-init #wikipedia-init .init-actions .button {
   background-color: #607d8b;
@@ -128,21 +145,27 @@ a {
   display: inline-block;
   margin: 0;
   max-width: 100%;
+  vertical-align: middle;
+  vertical-align: -moz-middle-with-baseline;
 }
 #wikipedia-top-bar .top-bar-left .top-bar-search div #top-bar-button {
   background-color: #ff4081;
   display: inline-block;
-  margin: -1px 0 1px -41px;
-  padding: 11px;
+  margin: 0 0 0 -41px;
+  padding: 10px;
+  position: relative;
   height: 2.4375rem;
+  vertical-align: middle;
+  vertical-align: -moz-middle-with-baseline;
+  width: 42px;
 }
 .ui-autocomplete {
-  max-width: 608px;
-  margin: 0 9px;
+  max-width: 605px;
+  margin: 0 8px;
 }
 @media (min-width: 640px) {
   .ui-autocomplete {
-    max-width: 464px;
+    max-width: 463px;
   }
 }
 .ui-menu .ui-menu-item {
@@ -164,6 +187,20 @@ a {
 }
 #wikipedia-results {
   display: none;
+}
+#wikipedia-results .no-match {
+  margin: 32px 16px;
+}
+@media (min-width: 640px) {
+  #wikipedia-results .no-match {
+    margin: 32px 16px 32px 77px;
+  }
+}
+#wikipedia-results .no-match p a {
+  color: #ff80ab;
+}
+#wikipedia-results .no-match p a:hover {
+  text-decoration: underline;
 }
 #wikipedia-results .card {
   background: #fff;
