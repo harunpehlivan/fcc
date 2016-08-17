@@ -8,6 +8,9 @@ body {
   background-color: #e77d68;
   margin-bottom: 42px;
 }
+a:focus, a:hover, a:visited {
+  text-decoration: none;
+}
 .duh {
   background-clip: padding-box;
   background-color: transparent;
@@ -63,7 +66,6 @@ body {
 }
 .card .card-actions a:hover {
   color: #4c69af;
-  text-decoration: none;
 }
 footer {
   background-color: #cc6e5c;
@@ -74,20 +76,22 @@ footer {
   position: absolute;
   width: 100%;
 }
-footer .txt-responsive {
-  text-align: center;
-}
-footer .txt-responsive a {
+footer a {
   color: #f2dbd6;
   line-height: 42px;
   position: relative;
   top: 2px;
 }
-footer .txt-responsive a:hover {
+footer a:focus {
   color: #f2dbd6;
-  text-decoration: none;
 }
-footer .txt-responsive a i {
+footer a:hover {
+  color: #f2dbd6;
+}
+footer a:visited {
+  color: #f2dbd6;
+}
+footer a i {
   vertical-align: text-top;
 }
 @media (min-width: 768px) {

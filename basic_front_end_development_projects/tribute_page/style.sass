@@ -9,6 +9,9 @@ body
   background-color: #e77d68
   margin-bottom: 42px
 
+a:focus, a:hover, a:visited
+  text-decoration: none
+
 .duh
   background-clip: padding-box
   background-color: transparent
@@ -63,7 +66,6 @@ body
       text-transform: uppercase
       &:hover
         color: #4c69af
-        text-decoration: none
 
 footer
   background-color: #cc6e5c
@@ -74,20 +76,20 @@ footer
   position: absolute
   width: 100%
 
-  .txt-responsive
-    text-align: center
-
-    a
+  a
+    color: #f2dbd6
+    line-height: 42px
+    position: relative
+    top: 2px
+    &:focus
       color: #f2dbd6
-      line-height: 42px
-      position: relative
-      top: 2px
-      &:hover
-        color: #f2dbd6
-        text-decoration: none
+    &:hover
+      color: #f2dbd6
+    &:visited
+      color: #f2dbd6
 
-      i
-        vertical-align: text-top
+    i
+      vertical-align: text-top
 
 @media (min-width: 768px)
 
