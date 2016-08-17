@@ -28,6 +28,9 @@ a
   outline: none
   -webkit-tap-highlight-color: transparent
 
+a:focus, a:hover, a:visited
+  text-decoration: none
+
 [type=search]:focus
   border: 1px solid #ff4081
   box-shadow: 0 0 5px #ff4081
@@ -226,9 +229,12 @@ footer
     line-height: 42px
     position: relative
     top: 2px
+    &:focus
+      color: #b8b8b8
     &:hover
       color: #b8b8b8
-      text-decoration: none
+    &:visited
+      color: #b8b8b8
 
     i
       vertical-align: text-top
