@@ -7,6 +7,9 @@ html, body {
   background-color: #3ba6c7;
   height: 100%;
 }
+a:focus, a:hover, a:visited {
+  text-decoration: none;
+}
 .container {
   display: table;
   height: 100%;
@@ -96,7 +99,6 @@ html, body {
 }
 .card .card-actions #tweet:hover {
   color: #ed4984;
-  text-decoration: none;
 }
 .card .card-actions #share {
   color: #9e9e9e;
@@ -115,19 +117,21 @@ footer {
   height: 42px;
   width: 100%;
 }
-footer .txt-responsive {
-  text-align: center;
-}
-footer .txt-responsive a {
+footer a {
   color: #ccdee8;
   line-height: 42px;
   position: relative;
   top: 2px;
 }
-footer .txt-responsive a:hover {
+footer a:focus {
   color: #ccdee8;
-  text-decoration: none;
 }
-footer .txt-responsive a i {
+footer a:hover {
+  color: #ccdee8;
+}
+footer a:visited {
+  color: #ccdee8;
+}
+footer a i {
   vertical-align: text-top;
 }
