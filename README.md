@@ -4,15 +4,15 @@ Free Code Camp is an open source community of people who learn to code and help 
 
 ### Front End Development Certification
 
-* [**Basic Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/basic_front_end_development_projects)
+* **Basic Front End Development Projects**
     * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
         
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/basic_front_end_development_projects/_assets/img/tribute_page.jpg)](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
         
         *HTML5, CSS3, Sass, Bootstrap*
         
-* [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
-* [**Intermediate Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_front_end_development_projects)
+* **Basic Algorithm Scripting**
+* **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/random_quote_machine.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
@@ -33,13 +33,13 @@ Free Code Camp is an open source community of people who learn to code and help 
         
     * [Use the Twitch.tv JSON API]()
     
-* [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
-* [**Advanced Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/advanced_front_end_development_projects)
+* **Intermediate Algorithm Scripting**
+* **Advanced Front End Development Projects**
     * Build a Calculator
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
-* [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
+* **Advanced Algorithm Scripting**
 
 #### Data Visualization Certification
 
