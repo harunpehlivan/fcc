@@ -6,23 +6,31 @@ Free Code Camp is an open source community of people who learn to code and help 
 
 * [**Basic Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/basic_front_end_development_projects)
     * Build a Tribute Page
-    
+        
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/basic_front_end_development_projects/_assets/img/tribute_page.jpg)](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
-    
+        
+        *HTML5, CSS3, Sass, Bootstrap*
+        
 * [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
 * [**Intermediate Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_front_end_development_projects)
     * Build a Random Quote Machine
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/random_quote_machine.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
-    
+        
+        *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, Motion UI*
+        
     * Show the Local Weather
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/local_weather.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/local_weather/)
-    
+        
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery*
+        
     * Build a Wikipedia Viewer
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_viewer.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
-    
+        
+        *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI*
+        
     * Use the Twitch.tv JSON API
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
