@@ -9,8 +9,6 @@ Free Code Camp is an open source community of people who learn to code and help 
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/basic_front_end_development_projects/_assets/img/tribute_page.jpg)](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
     
-    * Build a Personal Portfolio Webpage
-    
 * [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
 * [**Intermediate Front End Development Projects**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_front_end_development_projects)
     * Build a Random Quote Machine
