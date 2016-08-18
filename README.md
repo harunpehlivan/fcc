@@ -11,7 +11,7 @@ Free Code Camp is an open source community of people who learn to code and help 
         
         *HTML5, CSS3, Sass, Bootstrap*
         
-* **Basic Algorithm Scripting**
+* [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
 * **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
     
@@ -33,13 +33,13 @@ Free Code Camp is an open source community of people who learn to code and help 
         
     * [Use the Twitch.tv JSON API]()
     
-* **Intermediate Algorithm Scripting**
+* [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
     * Build a Calculator
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
-* **Advanced Algorithm Scripting**
+* [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
 
 #### Data Visualization Certification
 
