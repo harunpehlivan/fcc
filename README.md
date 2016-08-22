@@ -31,7 +31,7 @@ Free Code Camp is an open source community of people who learn to code and help 
         
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI*
         
-    * [Use the Twitch.tv JSON API]()
+    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
