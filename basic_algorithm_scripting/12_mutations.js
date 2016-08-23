@@ -5,20 +5,25 @@ The arguments ["hello", "hey"] should return false because the string "hello" do
 Lastly, ["Alien", "line"], should return true because all of the letters in "line" are present in "Alien".
 */
 
-function mutation(arr) {
+function mutation(arr){
     var j = 0;
-    for (var i = 0; i < arr[1].length; i++) {
-        if (arr[0].toLowerCase().indexOf(arr[1].toLowerCase().charAt(i)) === -1) {
+    for(var i = 0; i < arr[1].length; i++){
+        if(arr[0].toLowerCase().indexOf(arr[1].toLowerCase().charAt(i)) === -1){
             j -= 1;
-        } else {
+        }else{
             j += 1;
         }
     }
-    if (j < arr[1].length) {
+    if(j < arr[1].length){
         return false;
-    } else {
+    }else{
         return true;
     }
 }
 
-mutation(['hello', 'hey']);
+mutation(["hello", "hey"]);
+mutation(["hello", "Hello"]);
+mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]);
+mutation(["Mary", "Army"]);
+mutation(["Mary", "Aarmy"]);
+mutation(["Alien", "line"]);
