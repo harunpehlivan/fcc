@@ -9,15 +9,15 @@ Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do
 https://en.wikipedia.org/wiki/ROT13
 */
 
-function rot13(encodedStr) {
+function rot13(encodedStr){
     var codeArr = encodedStr.split("");
     var decodedArr = [];
-    for (var i = 0; i < codeArr.length; i++) {
-        if (codeArr[i].charCodeAt() >= 65 && codeArr[i].charCodeAt() <= 77) {
+    for(var i = 0; i < codeArr.length; i++){
+        if(codeArr[i].charCodeAt() >= 65 && codeArr[i].charCodeAt() <= 77){
             decodedArr.push(String.fromCharCode(codeArr[i].charCodeAt() + 13));
-        } else if (codeArr[i].charCodeAt() >= 78 && codeArr[i].charCodeAt() <= 90) {
+        }else if(codeArr[i].charCodeAt() >= 78 && codeArr[i].charCodeAt() <= 90){
             decodedArr.push(String.fromCharCode(codeArr[i].charCodeAt() - 13));
-        } else {
+        }else{
             decodedArr.push(codeArr[i]);
         }
     }
@@ -25,3 +25,6 @@ function rot13(encodedStr) {
 }
 
 rot13("SERR PBQR PNZC");
+rot13("SERR CVMMN!");
+rot13("SERR YBIR?");
+rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.");
