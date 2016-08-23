@@ -5,12 +5,15 @@ Factorials are often represented with the shorthand notation n!
 For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 */
 
-function factorialize(num) {
-    if (num === 0 || num === 1) {
+function factorialize(num){
+    if(num === 0 || num === 1){
         return 1;
-    } else {
+    }else{
         return num * factorialize(num - 1);
     }
 }
 
 factorialize(5);
+factorialize(10);
+factorialize(20);
+factorialize(0);
