@@ -41,30 +41,30 @@ This repository contains all my solved algorithm challenges and finished exercis
     * Build a Simon Game
 * [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
 
-#### Data Visualization Certification
+### Data Visualization Certification
 
-* React Projects
+* **React Projects**
     * Build a Markdown Previewer
     * Build a Camper Leaderboard
     * Build a Recipe Box
     * Build the Game of Life
     * Build a Roguelike Dungeon Crawler Game
-* Data Visualization Projects
+* **Data Visualization Projects**
     * Visualize Data with a Bar Chart
     * Visualize Data with a Scatterplot Graph
     * Visualize Data with a Heat Map
     * Show Relationships with a Force Directed Graph
     * Map Data Across the Globe
 
-#### Back End Development Certification
+### Back End Development Certification
 
-* API Projects
+* **API Projects**
     * Timestamp Microservice
     * Request Header Parser Microservice
     * URL Shortener Microservice
     * Image Search Abstraction Layer
     * File Metadata Microservice
-* Dynamic Web Applications
+* **Dynamic Web Applications**
     * Build a Voting App
     * Build a Nightlife Coordination App
     * Chart the Stock Market
