@@ -3,14 +3,14 @@ You will be provided with an initial array (the first argument in the destroyer 
 Remove all elements from the initial array that are of the same value as these arguments.
 */
 
-function destroyer(arr) {
+function destroyer(arr){
     var arg = [];
     var newArr = [];
-    for(var i = 1; i < arguments.length; i++) {
+    for(var i = 1; i < arguments.length; i++){
         arg.push(arguments[i]);
     }
-    for (var j = 0; j < arr.length; j++) {
-        if (arg.indexOf(arr[j]) < 0 ) {
+    for(var j = 0; j < arr.length; j++){
+        if(arg.indexOf(arr[j]) < 0 ){
             newArr.push(arr[j]);
         }
     }
@@ -18,3 +18,7 @@ function destroyer(arr) {
 }
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3);
+destroyer([3, 5, 1, 2, 2], 2, 3, 5);
+destroyer([2, 3, 2, 3], 2, 3);
+destroyer(["tree", "hamburger", 53], "tree", 53);
