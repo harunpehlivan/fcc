@@ -1,6 +1,6 @@
 # Free Code Camp
 
-Free Code Camp is an open source community of people who learn to code and help nonprofits.
+This repository contains all my solved algorithm challenges and finished exercise projects from Free Code Camp's curriculum. Front end development and data visualization projects are also available on [Codepen](https://codepen.io/collection/nbraJJ/).
 
 ### Front End Development Certification
 
