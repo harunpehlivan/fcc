@@ -4,24 +4,27 @@ The range will be an array of two numbers that will not necessarily be in numeri
 e.g. for 1 and 3 - find the smallest common multiple of both 1 and 3 that is evenly divisible by all numbers between 1 and 3.
 */
 
-function smallestCommons(arr) {
+function smallestCommons(arr){
     var range = [];
-    for (var i = Math.min.apply(null, arr); i <= Math.max.apply(null, arr); i++) {
+    for(var i = Math.min.apply(null, arr); i <= Math.max.apply(null, arr); i++){
         range.push(i);
     }
     return range.reduce(lcm);
 }
 
-function lcm(a, b) {
+function lcm(a, b){
     return a * b / gcd(a, b);
 }
 
-function gcd(a, b) {
-    if (b === 0) {
+function gcd(a, b){
+    if(b === 0){
         return a;
-    } else {
+    }else{
         return gcd(b, a % b);
     }
 }
 
 smallestCommons([1,5]);
+smallestCommons([5, 1]);
+smallestCommons([1, 13]);
+smallestCommons([23, 18]);
