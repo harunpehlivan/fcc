@@ -1,8 +1,7 @@
 # Free Code Camp
 
-This repository contains all my solved algorithm challenges and finished exercise projects from Free Code Camp's curriculum. Front end development and data visualization projects are also available on [Codepen](https://codepen.io/collection/nbraJJ/).
+This repository contains all my solved algorithm challenges and finished exercise projects from Free Code Camp's curriculum.
 
-### Front End Development Certification
 
 * **Basic Front End Development Projects**
     * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
@@ -32,6 +31,10 @@ This repository contains all my solved algorithm challenges and finished exercis
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI*
         
     * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
+    
+        [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitchtv_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
+        
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery*
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
