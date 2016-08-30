@@ -22,19 +22,19 @@ This repository contains all my solved algorithm challenges and finished exercis
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/local_weather.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/local_weather/)
         
-        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery*
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Forecast.io API, Google Geocoding API)*
         
     * [Build a Wikipedia Viewer](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_viewer.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
         
-        *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI*
+        *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI, (MediaWiki API)*
         
     * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitchtv_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
         
-        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery*
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch.tv JSON API)*
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
