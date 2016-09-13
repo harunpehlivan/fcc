@@ -1,6 +1,6 @@
 # Free Code Camp
 
-This repository contains all my solved algorithm challenges and finished exercise projects from Free Code Camp's curriculum.
+This repository contains all my solved algorithm challenges and finished exercise projects offered by Free Code Camp.
 
 
 * **Basic Front End Development Projects**
