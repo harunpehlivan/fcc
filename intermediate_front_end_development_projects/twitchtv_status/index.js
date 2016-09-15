@@ -2,12 +2,12 @@ $(document).ready(function(){
   var topStreamer = ["syndicate", "riotgames", "esl_csgo", "Nightblue3", "summit1g", "LIRIK", "PhantomL0rd", "captainsparklez", "sodapoppin", "imaqtpie"];
   for(var i = 0; i < topStreamer.length; i++){
     (function(i){
-      $.getJSON("https://api.twitch.tv/kraken/streams/" + topStreamer[i] + "?callback=?", function(streams){
+      $.getJSON("https://api.twitch.tv/kraken/streams/" + topStreamer[i] + "?client_id=cema7py8k01bs7x8g7p9dig9fk5f91e&callback=?", function(streams){
         if(streams.status === 422){
           $(".offline-channels").show();
           $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='https://rawgit.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitch_closed.jpg'></a><div class='channel-info'><h4><strong><em>CHANNEL CLOSED</em></strong></h4><h5>" + topStreamer[i] + "</h5></div></div>");
         }else if(streams.stream == null){
-          $.getJSON("https://api.twitch.tv/kraken/channels/" + topStreamer[i] + "?callback=?", function(channels){
+          $.getJSON("https://api.twitch.tv/kraken/channels/" + topStreamer[i] + "?client_id=cema7py8k01bs7x8g7p9dig9fk5f91e&callback=?", function(channels){
             $(".offline-channels").show();
             if(channels.video_banner == null){
               $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='https://rawgit.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitch_null.jpg'></a><div class='channel-info'><h4>" + channels.status.substring(0, 26) + "...</h4><h5>" + topStreamer[i] + "</h5></div></div>");
@@ -22,9 +22,9 @@ $(document).ready(function(){
       });
     })(i);
   }
-  $.getJSON("https://api.twitch.tv/kraken/streams/freecodecamp?callback=?", function(stream){
+  $.getJSON("https://api.twitch.tv/kraken/streams/freecodecamp?client_id=cema7py8k01bs7x8g7p9dig9fk5f91e&callback=?", function(stream){
     if(stream.stream == null){
-      $.getJSON("https://api.twitch.tv/kraken/channels/freecodecamp?callback=?", function(channel){
+      $.getJSON("https://api.twitch.tv/kraken/channels/freecodecamp?client_id=cema7py8k01bs7x8g7p9dig9fk5f91e&callback=?", function(channel){
         $("#fcc-preview").append("<img class='img-responsive' src='" + channel.video_banner + "'>");
         $("#fcc-preview").append("<a href='" + channel.url + "' target='_blank' rel='noopener noreferrer'><div class='overlay'><i class='fa fa-play'></i></div></a>");
         $("#fcc-preview").append("<h5>offline</h5>");
