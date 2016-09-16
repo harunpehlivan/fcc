@@ -8,93 +8,108 @@ body {
   font-weight: 400;
   height: 100%;
 }
-.display {
+#display {
   background-color: #eee;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   height: 240px;
   z-index: 1000;
 }
-.keys {
+#keys {
   background-color: #616161;
   color: #fafafa;
   padding: 0;
 }
-.keys div {
+#keys div {
   display: inline-block;
   float: left;
   height: calc(100vh - 240px);
   min-height: 320px;
   width: 25%;
 }
-.keys div span {
-  float: left;
-  text-align: center;
+#keys div span {
   width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.keys div span:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}
-.keys .grey700 {
+#keys .grey700 {
   background-color: #616161;
   width: 26%;
 }
-.keys .grey700 span {
+#keys .grey700 span {
   font-size: 24px;
   height: 25%;
 }
-.keys .grey600 {
+#keys .grey600 {
   background-color: #757575;
   width: 22%;
 }
-.keys .grey600 span {
+#keys .grey600 span {
   height: 20%;
 }
-.keys-extended {
+
+#keys-extended {
   height: calc(100vh - 240px);
-  background-color: #ffea00;
+  background-color: #FFEA00;
   padding: 0;
 }
-.keys-extended div {
+#keys-extended div {
+  background-color: #FFEA00;
   display: inline-block;
   float: left;
   height: 80%;
   min-height: 256px;
   width: 33.3%;
 }
-.keys-extended div span {
-  float: left;
-  text-align: center;
+#keys-extended div span {
   height: 25%;
   width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.keys-extended div span:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em;
-}
-.keys-extended .bomholt {
+#keys-extended .bomholt {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   width: 100%;
   height: 20%;
   min-height: 64px;
 }
-.keys-extended .bomholt a {
-  color: #bfb000;
-  bottom: 16px;
-  right: 16px;
-  position: absolute;
+#keys-extended .bomholt:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
 }
-.keys-extended .bomholt a:hover {
+#keys-extended .bomholt a {
+  color: #bfb000;
+  vertical-align: sub;
+}
+#keys-extended .bomholt a:hover {
   color: #bfb000;
   text-decoration: none;
 }
-.keys-extended .bomholt a i {
+#keys-extended .bomholt a i {
   vertical-align: text-top;
 }

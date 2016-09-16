@@ -10,69 +10,73 @@
 </head>
 <body>
 
-<div class="container-fluid">
-  <div class="row">
+  <div class="container-fluid">
+    <div class="row">
 
-    <!-- Display -->
-    <div class="col-xs-12 display">
+      <!-- Display -->
+      <div id="display" class="col-xs-12">
+        <div class="hiddenResult"><h4></h4></div>
+        <div class="visibleResult"><h2></h2></div>
+      </div>
+
+      <!-- Keys -->
+      <div id="keys" class="col-xs-12 col-sm-8">
+        <div class="grey700">
+          <span class="enable">7</span>
+          <span class="enable">4</span>
+          <span class="enable">1</span>
+          <span class="enable">.</span>
+        </div>
+        <div class="grey700">
+          <span class="enable">8</span>
+          <span class="enable">5</span>
+          <span class="enable">2</span>
+          <span class="enable">0</span>
+        </div>
+        <div class="grey700">
+          <span class="enable">9</span>
+          <span class="enable">6</span>
+          <span class="enable">3</span>
+          <span class="enable">=</span>
+        </div>
+        <div class="grey600">
+          <span class="del">DEL</span>
+          <span class="enable">÷</span>
+          <span class="enable">×</span>
+          <span class="enable">-</span>
+          <span class="enable">+</span>
+        </div>
+      </div>
+
+      <!-- Keys Extemded -->
+      <div id="keys-extended" class="hidden-xs col-sm-4">
+        <div>
+          <span>sin</span>
+          <span>ln</span>
+          <span>π</span>
+          <span class="enable">(</span>
+        </div>
+        <div>
+          <span>cos</span>
+          <span>log</span>
+          <span>e</span>
+          <span class="enable">)</span>
+        </div>
+        <div>
+          <span>tan</span>
+          <span>!</span>
+          <span>^</span>
+          <span>√</span>
+        </div>
+        <div class="bomholt text-center">
+          <a href="https://github.com/bomholt/freecodecamp" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Keys -->
-    <div class="col-xs-12 col-sm-8 keys">
-      <div class="grey700">
-        <span data-value="7">7</span>
-        <span data-value="4">4</span>
-        <span data-value="1">1</span>
-        <span data-value=".">.</span>
-      </div>
-      <div class="grey700">
-        <span data-value="8">8</span>
-        <span data-value="5">5</span>
-        <span data-value="2">2</span>
-        <span data-value="0">0</span>
-      </div>
-      <div class="grey700">
-        <span data-value="9">9</span>
-        <span data-value="6">6</span>
-        <span data-value="3">3</span>
-        <span class="equals" data-value="=">=</span>
-      </div>
-      <div class="grey600">
-        <span class="operator" data-value="/">÷</span>
-        <span class="operator" data-value="*">×</span>
-        <span class="operator" data-value="-">-</span>
-        <span class="operator" data-value="+">+</span>
-        <span class="delete" data-value="DEL">DEL</span>
-      </div>
-    </div>
-
-    <!-- Keys Extemded -->
-    <div class="hidden-xs col-sm-4 keys-extended">
-      <div>
-        <span>sin</span>
-        <span>ln</span>
-        <span>π</span>
-        <span>(</span>
-      </div>
-      <div>
-        <span>cos</span>
-        <span>log</span>
-        <span>e</span>
-        <span>)</span>
-      </div>
-      <div>
-        <span>tan</span>
-        <span>!</span>
-        <span>^</span>
-        <span>√</span>
-      </div>
-      <div class="bomholt text-right">
-        <a href="https://github.com/bomholt/freecodecamp" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>
-      </div>
-    </div>
-
   </div>
-</div>
+
+  <script src="index.js"></script>
 
 </body>
 </html>
