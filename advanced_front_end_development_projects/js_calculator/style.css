@@ -57,7 +57,6 @@ body {
 #keys .grey600 span {
   height: 20%;
 }
-
 #keys-extended {
   height: calc(100vh - 240px);
   background-color: #FFEA00;
