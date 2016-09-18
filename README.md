@@ -38,7 +38,7 @@ This repository contains all my solved algorithm challenges and finished exercis
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
-    * Build a Calculator
+    * [Build a Calculator](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
