@@ -22,7 +22,7 @@ This repository contains all my solved algorithm challenges and finished exercis
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/local_weather.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/local_weather/)
         
-        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Forecast.io API, Google Geocoding API)*
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Dark Sky API, Google Geocoding API)*
         
     * [Build a Wikipedia Viewer](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
     
@@ -34,11 +34,16 @@ This repository contains all my solved algorithm challenges and finished exercis
     
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitchtv_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
         
-        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch.tv JSON API)*
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch API)*
     
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
     * [Build a Calculator](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
+    
+        [![]()]()
+        
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript*
+
     * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
