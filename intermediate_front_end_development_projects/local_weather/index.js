@@ -70,7 +70,7 @@ $(document).ready(function(){
     $.getJSON("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + lat + "," + lon + "&key=AIzaSyCrTwmvBdez8KIplFv7v6CcBHSFYB96WFs", function(data){
       showLocation(data.results[0]);
     });
-    $.getJSON("https://api.forecast.io/forecast/752d72f732230515fda08531e4d58c37/" + lat + "," + lon + "?units=auto&callback=?", function(data){
+    $.getJSON("https://api.darksky.net/forecast/752d72f732230515fda08531e4d58c37/" + lat + "," + lon + "?units=auto&callback=?", function(data){
       showTime(data.currently.time);
       $("#summary").html(data.currently.summary);
       $("#temperature").html(Math.round(data.currently.temperature));
