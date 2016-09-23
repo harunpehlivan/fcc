@@ -40,7 +40,7 @@ This repository contains all my solved algorithm challenges and finished exercis
 * **Advanced Front End Development Projects**
     * [Build a Calculator](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
     
-        [![]()]()
+        [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/js_alculator.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
         
         *HTML5, CSS3, Sass, Bootstrap, JavaScript*
 
