@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>JS Calculator [WIP]</title>
+  <title>JS Calculator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <script src="https://use.fonticons.com/cbfd33e3.js"></script>
   <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,58 +15,61 @@
 
       <!-- Display -->
       <div id="display" class="col-xs-12">
-        <div class="hiddenResult"><h4></h4></div>
-        <div class="visibleResult"><h2></h2></div>
+        <div class="hidden-calculation"><h4>0</h4></div>
+        <div class="latest-calculation"><h3></h3></div>
+        <div class="result"><h1><span class="equals">= </span><span class="open-bracket">0</span><span class="close-bracket"></span></h1></div>
       </div>
 
       <!-- Keys -->
       <div id="keys" class="col-xs-12 col-sm-8">
         <div class="grey700">
-          <span>7</span>
-          <span>4</span>
-          <span>1</span>
-          <span>.</span>
+          <span class="key">7</span>
+          <span class="key">4</span>
+          <span class="key">1</span>
+          <span class="key">.</span>
         </div>
         <div class="grey700">
-          <span>8</span>
-          <span>5</span>
-          <span>2</span>
-          <span>0</span>
+          <span class="key">8</span>
+          <span class="key">5</span>
+          <span class="key">2</span>
+          <span class="key">0</span>
         </div>
         <div class="grey700">
-          <span>9</span>
-          <span>6</span>
-          <span>3</span>
-          <span>=</span>
+          <span class="key">9</span>
+          <span class="key">6</span>
+          <span class="key">3</span>
+          <span class="key">=</span>
         </div>
         <div class="grey600">
-          <span>DEL</span>
-          <span>÷</span>
-          <span>×</span>
-          <span>-</span>
-          <span>+</span>
+          <span class="key">DEL</span>
+          <span class="key">÷</span>
+          <span class="key">×</span>
+          <span class="key">-</span>
+          <span class="key">+</span>
+        </div>
+        <div class="yellowA400">
         </div>
       </div>
 
       <!-- Keys Extemded -->
       <div id="keys-extended" class="hidden-xs col-sm-4">
         <div>
-          <span>sin</span>
-          <span>ln</span>
-          <span class="disabled">π</span>
-          <span>(</span>
+          <span class="key">sin</span>
+          <span class="key">ln</span>
+          <span class="key">π</span>
+          <span class="key">(</span>
         </div>
         <div>
-          <span>cos</span>
-          <span>log</span>
-          <span class="disabled">e</span>
-          <span>)</span>
+          <span class="key">cos</span>
+          <span class="key">log</span>
+          <span class="key">e</span>
+          <span class="key">)</span>
         </div>
         <div>
-          <span>tan</span>
-          <span class="disabled">!</span>
-          <span class="disabled">^</span>
-          <span>√</span>
+          <span class="key">tan</span>
+          <span class="key">!</span>
+          <span class="key">^</span>
+          <span class="key">√</span>
         </div>
         <div class="bomholt text-center">
           <a href="https://github.com/bomholt/freecodecamp" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt</a>

@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700'
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500'
 
 html
   min-height: 100%
@@ -9,11 +9,48 @@ body
   font-weight: 400
   height: 100%
 
+span
+  border: none
+  outline: none
+  -webkit-tap-highlight-color: transparent
+
 #display
   background-color: #eee
+  color: #212121
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
-  height: 240px
+  height: 230px
   z-index: 1000
+  padding: 0
+  overflow: hidden
+
+  .hidden-calculation
+    display: none
+
+  .latest-calculation
+    text-align: right
+    padding: 16px
+    @media (min-width: 768px)
+      padding: 32px
+
+  .result
+    position: absolute
+    bottom: 0
+    width: 100%
+    text-align: right
+    padding: 16px
+    @media (min-width: 768px)
+      padding: 32px
+
+    h1
+      margin: 0
+
+      .equals
+        display: none
+        position: absolute
+        left: 16px
+
+      .close-bracket
+        color: #bdbdbd
 
 #keys
   background-color: #616161
@@ -23,8 +60,8 @@ body
   div
     display: inline-block
     float: left
-    height: calc(100vh - 240px)
-    min-height: 320px
+    height: calc(100vh - 230px)
+    min-height: 250px
     width: 25%
 
     span
@@ -36,7 +73,9 @@ body
 
   .grey700
     background-color: #616161
-    width: 26%
+    width: 24%
+    @media (min-width: 768px)
+      width: 26%
 
     span
       font-size: 24px
@@ -44,22 +83,31 @@ body
 
   .grey600
     background-color: #757575
-    width: 22%
+    width: 23%
+    @media (min-width: 768px)
+      width: 22%
 
     span
       height: 20%
 
+  .yellowA400
+    background-color: #ffea00
+    width: 5%
+    @media (min-width: 768px)
+      display: none
+
 #keys-extended
-  height: calc(100vh - 240px)
-  background-color: #FFEA00
+  color: #212121
+  height: calc(100vh - 230px)
+  background-color: #ffea00
   padding: 0
 
   div
-    background-color: #FFEA00
+    background-color: #ffea00
     display: inline-block
     float: left
     height: 80%
-    min-height: 256px
+    min-height: 200px
     width: 33.3%
 
     span
@@ -75,17 +123,14 @@ body
     font-weight: 500
     width: 100%
     height: 20%
-    min-height: 64px
-    &:before
-      content: ''
-      display: inline-block
-      height: 100%
-      vertical-align: middle
-      margin-right: -0.25em
+    min-height: 50px
+    display: flex
+    align-items: center
+    justify-content: center
 
     a
       color: #bfb000
-      vertical-align: sub
+      margin-top: 5px
       &:hover
         color: #bfb000
         text-decoration: none
