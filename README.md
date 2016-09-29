@@ -2,6 +2,7 @@
 
 This repository contains all my solved algorithm challenges and finished exercise projects offered by Free Code Camp.
 
+### Front End Development Certification
 
 * **Basic Front End Development Projects**
     * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
