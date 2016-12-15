@@ -6,46 +6,46 @@ This repository contains all my solved algorithm challenges and finished exercis
 
 * **Basic Front End Development Projects**
     * [Build a Tribute Page](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
-        
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/basic_front_end_development_projects/_assets/img/tribute_page.jpg)](https://michaelbomholt.com/freecodecamp/basic_front_end_development_projects/tribute_page/)
-        
+
         *HTML5, CSS3, Sass, Bootstrap*
-        
+
 * [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
 * **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
-    
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/random_quote_machine.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
-        
+
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, Motion UI*
-        
+
     * [Show the Local Weather](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/local_weather/)
-    
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/local_weather.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/local_weather/)
-        
+
         *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Dark Sky API, Google Geocoding API)*
-        
+
     * [Build a Wikipedia Viewer](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
-    
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/wikipedia_viewer.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/wikipedia_viewer/)
-        
+
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI, (MediaWiki API)*
-        
+
     * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
-    
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitchtv_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
-        
+
         *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch API)*
-    
+
 * [**Intermediate Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)
 * **Advanced Front End Development Projects**
     * [Build a Calculator](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
-    
+
         [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/js_alculator.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
-        
+
         *HTML5, CSS3, Sass, Bootstrap, JavaScript*
 
-    * [Build a Pomodoro Clock](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/pomodoro_clock/)
+    * Build a Pomodoro Clock
     * Build a Tic Tac Toe Game
     * Build a Simon Game
 * [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
