@@ -12,6 +12,8 @@ window.onload = function(){
   for(var i = 0; i < keys.length; i++){
     if(keys[i].innerHTML === "="){
       keys[i].addEventListener("click", calculate());
+    }else if(keys[i].innerHTML === "DEL"){
+      keys[i].addEventListener("click", remove());
     }else{
       keys[i].addEventListener("click", add(i));
     }
@@ -21,7 +23,6 @@ window.onload = function(){
     return function(){
       var lastCharVisible = openBracket.innerHTML.slice(-1),
           lastCharHidden = hiddenCalculation.innerHTML.slice(-1);
-      document.getElementsByClassName("equals")[0].style.display = "none";
 
       if(openBracket.innerHTML === "Error"){
         openBracket.innerHTML = "";
@@ -43,12 +44,6 @@ window.onload = function(){
             hiddenCalculation.innerHTML += ".";
             openBracket.innerHTML += ".";
           }
-          break;
-        case "DEL":
-          hiddenCalculation.innerHTML = "0";
-          latestCalculation.innerHTML = "";
-          openBracket.innerHTML = "0";
-          closeBracket.innerHTML = "";
           break;
         case "÷":
           if(exponent){
@@ -326,6 +321,7 @@ window.onload = function(){
       }
     };
   }
+
   function factorial(n){
     if(n == 0 || n == 1){
       return 1;
@@ -333,13 +329,17 @@ window.onload = function(){
       return n * factorial(n - 1);
     }
   }
+
+  function remove(){
+
+  }
+
   function calculate(){
     return function(){
       while(closeBracket.innerHTML.indexOf(")") > -1){
         hiddenCalculation.innerHTML += ")";
         closeBracket.innerHTML = closeBracket.innerHTML.slice(0, -1);
-      }
-      try{
+      }try{
         var result = eval(hiddenCalculation.innerHTML).toFixed(11);
         latestCalculation.innerHTML = openBracket.innerHTML;
         hiddenCalculation.innerHTML = parseFloat(result);

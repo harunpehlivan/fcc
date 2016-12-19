@@ -3,24 +3,33 @@ html {
   min-height: 100%;
   position: relative;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   height: 100%;
 }
+
 span {
   border: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
+
 #display {
   background-color: #eee;
   color: #212121;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  height: 230px;
+  height: 33vh;
+  min-height: 160px;
   z-index: 1000;
   padding: 0;
   overflow: hidden;
+}
+@media (min-width: 768px) {
+  #display {
+    min-height: 240px;
+  }
 }
 #display .hidden-calculation {
   display: none;
@@ -57,124 +66,146 @@ span {
 #display .result h1 .close-bracket {
   color: #bdbdbd;
 }
+
 #keys {
   background-color: #616161;
   color: #fafafa;
   padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #keys div {
   display: inline-block;
   float: left;
-  height: calc(100vh - 230px);
-  min-height: 250px;
+  height: 67vh;
+  min-height: 328px;
   width: 25%;
 }
 #keys div span {
   width: 100%;
   cursor: pointer;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
-#keys .grey700 {
-  background-color: #616161;
-  width: 24%;
+#keys .grey800 {
+  background-color: #424242;
+  width: 25%;
 }
 @media (min-width: 768px) {
-  #keys .grey700 {
+  #keys .grey800 {
     width: 26%;
   }
 }
-#keys .grey700 span {
+#keys .grey800 span {
   font-size: 24px;
   height: 25%;
+  padding: 29px 0;
 }
-#keys .grey600 {
-  background-color: #757575;
+@media (min-width: 768px) {
+  #keys .grey800 span {
+    font-size: 30px;
+  }
+}
+#keys .grey700 {
+  background-color: #616161;
   width: 23%;
 }
 @media (min-width: 768px) {
-  #keys .grey600 {
+  #keys .grey700 {
     width: 22%;
   }
 }
-#keys .grey600 span {
+#keys .grey700 span {
+  font-size: 16px;
   height: 20%;
-}
-#keys .yellowA400 {
-  background-color: #ffea00;
-  width: 5%;
+  padding: 24px 0;
 }
 @media (min-width: 768px) {
-  #keys .yellowA400 {
+  #keys .grey700 span {
+    font-size: 18px;
+  }
+}
+#keys .yellowA600 {
+  background-color: #ffd600;
+  width: 2%;
+}
+@media (min-width: 768px) {
+  #keys .yellowA600 {
     display: none;
   }
 }
+
 #keys-extended {
+  background-color: #ffd600;
   color: #212121;
-  height: calc(100vh - 230px);
-  background-color: #ffea00;
+  height: 67vh;
   padding: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 #keys-extended div {
-  background-color: #ffea00;
+  background-color: #ffd600;
   display: inline-block;
   float: left;
   height: 80%;
-  min-height: 200px;
+  min-height: 262px;
   width: 33.3%;
 }
 #keys-extended div span {
+  font-size: 16px;
   height: 25%;
   width: 100%;
   cursor: pointer;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 24px;
+}
+@media (min-width: 768px) {
+  #keys-extended div span {
+    font-size: 18px;
+  }
 }
 #keys-extended .bomholt {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   width: 100%;
   height: 20%;
-  min-height: 50px;
+  min-height: 66px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 26px;
 }
 #keys-extended .bomholt a {
-  color: #bfb000;
+  color: #a38900;
   margin-top: 5px;
 }
 #keys-extended .bomholt a:hover {
-  color: #bfb000;
+  color: #a38900;
   text-decoration: none;
 }
 #keys-extended .bomholt a i {
