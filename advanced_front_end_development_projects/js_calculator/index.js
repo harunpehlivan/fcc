@@ -23,13 +23,12 @@ window.onload = function(){
     return function(){
       var lastCharVisible = openBracket.innerHTML.slice(-1),
           lastCharHidden = hiddenCalculation.innerHTML.slice(-1);
-
+      document.getElementsByClassName("equals")[0].style.display = "none";
       if(openBracket.innerHTML === "Error"){
         openBracket.innerHTML = "";
         hiddenCalculation.innerHTML = "";
         document.getElementsByClassName("result")[0].style.color = "#212121";
       }
-
       switch(keys[i].innerHTML){
         case ".":
           if(lastCharVisible.indexOf(".") > -1){
@@ -331,17 +330,23 @@ window.onload = function(){
   }
 
   function remove(){
-
+    return function(){
+      document.getElementsByClassName("equals")[0].style.display = "none";
+      hiddenCalculation.innerHTML = "0";
+      latestCalculation.innerHTML = "";
+      openBracket.innerHTML = "0";
+      closeBracket.innerHTML = "";
+    };
   }
 
   function calculate(){
     return function(){
+      latestCalculation.innerHTML = openBracket.innerHTML + closeBracket.innerHTML;
       while(closeBracket.innerHTML.indexOf(")") > -1){
         hiddenCalculation.innerHTML += ")";
         closeBracket.innerHTML = closeBracket.innerHTML.slice(0, -1);
       }try{
         var result = eval(hiddenCalculation.innerHTML).toFixed(11);
-        latestCalculation.innerHTML = openBracket.innerHTML;
         hiddenCalculation.innerHTML = parseFloat(result);
         openBracket.innerHTML = parseFloat(result);
         document.getElementsByClassName("equals")[0].style.display = "block";

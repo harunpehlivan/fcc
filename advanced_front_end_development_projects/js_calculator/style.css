@@ -3,19 +3,16 @@ html {
   min-height: 100%;
   position: relative;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   height: 100%;
 }
-
 span {
   border: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
-
 #display {
   background-color: #eee;
   color: #212121;
@@ -66,7 +63,6 @@ span {
 #display .result h1 .close-bracket {
   color: #bdbdbd;
 }
-
 #keys {
   background-color: #616161;
   color: #fafafa;
@@ -143,7 +139,6 @@ span {
     display: none;
   }
 }
-
 #keys-extended {
   background-color: #ffd600;
   color: #212121;
