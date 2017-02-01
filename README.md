@@ -31,9 +31,9 @@ This repository contains all my solved algorithm challenges and finished exercis
 
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery, jQuery UI, (MediaWiki API)*
 
-    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
+    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitch_status/)
 
-        [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitchtv_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitchtv_status/)
+        [![](https://raw.githubusercontent.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitch_status.jpg)](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/twitch_status/)
 
         *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch API)*
 
