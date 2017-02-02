@@ -37,6 +37,7 @@ a:focus, a:hover, a:visited {
 }
 .container {
   background-color: #eceff1;
+  padding-top: calc(50vh - 285px);
 }
 .col-xs-12 {
   padding: 0;
@@ -200,16 +201,8 @@ a:focus, a:hover, a:visited {
   }
 }
 @media (min-width: 520px) {
-  .card {
-    margin: 2% auto 1%;
-  }
   .card #icon {
     font-size: 120px;
     padding-left: 24%;
-  }
-}
-@media (min-width: 1380px) {
-  .card {
-    margin: 6% auto 2%;
   }
 }
