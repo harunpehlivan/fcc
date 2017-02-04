@@ -1,0 +1,116 @@
+body {
+  color: #212121;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  border: none;
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: #fff;
+  padding: 20px 15px;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-header {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-default .navbar-header {
+    text-align: left;
+    width: auto;
+  }
+}
+.navbar-default .navbar-header .navbar-toggle {
+  border: none;
+  margin: 0;
+  padding: 18px 0;
+}
+.navbar-default .navbar-header .navbar-toggle:focus, .navbar-default .navbar-header .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-default .navbar-header .navbar-toggle .icon-bar {
+  background-color: #212121;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #212121;
+  font-size: 24px;
+  font-weight: 300;
+  height: auto;
+  padding: 2px 0;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-header .navbar-brand {
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-default .navbar-header .navbar-brand {
+    float: left;
+    margin-left: 0;
+  }
+}
+.navbar-default .navbar-header .navbar-brand span {
+  background-color: #006400;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  height: 46px;
+  line-height: 46px;
+  margin-right: 10px;
+  text-align: center;
+  width: 46px;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-collapse {
+  border: none;
+  padding: 0;
+}
+.navbar-default .navbar-collapse .navbar-nav {
+  font-size: 18px;
+  font-weight: 300;
+  margin-right: 0;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-collapse .navbar-nav {
+    padding-top: 14px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-default .navbar-collapse .navbar-nav {
+    padding-top: 0;
+    width: auto;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-collapse .navbar-nav li {
+    display: inline-block;
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-default .navbar-collapse .navbar-nav li {
+    display: block;
+    float: left;
+  }
+}
+.navbar-default .navbar-collapse .navbar-nav li a {
+  color: #212121;
+}
+#about {
+  background-color: #212121;
+  height: 300px;
+}
+.portfolio-item {
+  margin-bottom: 25px;
+}
+footer {
+  margin: 50px 0;
+}
