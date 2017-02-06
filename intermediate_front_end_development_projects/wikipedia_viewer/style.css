@@ -248,7 +248,7 @@ a:focus, a:hover, a:visited {
   padding-right: 16px;
 }
 footer {
-  background-color: #e0e0e0;
+  background-color: #eee;
   bottom: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -256,19 +256,13 @@ footer {
   width: 100%;
 }
 footer a {
-  color: #b8b8b8;
+  color: #b3b3b3;
   line-height: 42px;
   position: relative;
   top: 2px;
 }
-footer a:focus {
-  color: #b8b8b8;
-}
-footer a:hover {
-  color: #b8b8b8;
-}
-footer a:visited {
-  color: #b8b8b8;
+footer a:focus, footer a:hover, footer a:visited {
+  color: #b3b3b3;
 }
 footer a i {
   vertical-align: text-top;
