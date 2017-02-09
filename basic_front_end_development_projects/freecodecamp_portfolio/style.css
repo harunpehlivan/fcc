@@ -4,6 +4,15 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  margin: 20px 0 15px;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5;
+}
 .navbar {
   border: none;
   margin-bottom: 0;
@@ -108,14 +117,19 @@ body {
 }
 #about {
   background-color: #212121;
-  height: 300px;
+  color: #fff;
+  padding: 30px 0;
 }
 .grid {
-  margin-bottom: 25px;
+  margin: 10px 0;
+  text-align: center;
 }
 .grid .img-responsive {
   border-radius: 2px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#front-end-development {
+  padding: 30px 0;
 }
 footer {
   margin: 50px 0;
