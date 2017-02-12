@@ -11,6 +11,8 @@ This repository contains my solved algorithm challenges and finished exercise pr
 
         *HTML5, CSS3, Sass, Bootstrap*
 
+    * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/freecodecamp/)
+
 * [**Basic Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)
 * **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
