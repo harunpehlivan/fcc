@@ -170,5 +170,15 @@ h4 {
   padding: 20px 0 0;
 }
 footer {
-  margin: 50px 0;
+  background-color: #212121;
+  padding: 15px 0;
+}
+footer a {
+  color: #fff;
+}
+footer .social-icons {
+  text-align: right;
+}
+footer .social-icons i {
+  padding-left: 7px;
 }
