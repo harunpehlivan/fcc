@@ -1,14 +1,30 @@
 body {
   background-color: #eee;
 }
+.container {
+  display: table;
+  height: 100%;
+  margin-bottom: -42px;
+  min-height: 100%;
+  min-width: 100%;
+  table-layout: fixed;
+  width: 100%;
+}
+.container:after {
+  content: "";
+  display: block;
+  height: 42px;
+}
 .row {
-  max-width: 412px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
   text-align: center;
 }
 .floating-button {
   margin: 8px;
 }
-.floating-button .fa {
+.floating-button .pdbtn {
   font-size: 60px;
   color: #ef5350;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
@@ -18,4 +34,25 @@ body {
 }
 #stop {
   display: none;
+}
+footer {
+  background-color: #bdbdbd;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  color: #efefef;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+}
+footer a:focus, footer a:hover, footer a:visited {
+  color: #efefef;
+}
+footer a i {
+  vertical-align: text-top;
 }
