@@ -1,20 +1,40 @@
 $(document).ready(function(){
-
-  var sessionLength = parseInt($("#session").html());
-  var breakLength = parseInt($("#break").html());
+  $("#name-input").val("Pomodoro");
+  $("#session-input").val("25");
+  $("#break-input").val("5");
+  var sessionLength = parseInt($("#session-input").val() * 60);
+  var breakLength = parseInt($("#break-input").val() * 60);
   var time = 0;
   var sessionInterval, sessionTimeout, breakInterval, breakTimeout;
   var pomodoro = true;
+
+  $("#session-input").keyup(function(){
+    sessionLength = parseInt($("#session-input").val() * 60);
+    time = sessionLength;
+    if(time % 60 >= 10){
+      $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
+    }else{
+      $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
+    }
+  });
+
+  $("#break-input").keyup(function(){
+    breakLength = parseInt($("#break-input").val() * 60);
+  });
 
   stopTimer();
 
   function stopTimer(){
     pauseTimer();
     $("body").css("background-color", "#eee");
-    $("footer").css("background-color", "#bdbdbd");
-    $("footer a").css("color", "#efefef");
+    $("footer").css("background-color", "#e0e0e0");
+    $("footer a").css("color", "#a8a8a8");
     time = sessionLength;
-    $("#time").html(time);
+    if(time % 60 >= 10){
+      $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
+    }else{
+      $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
+    }
     pomodoro = true;
   }
 
@@ -42,7 +62,11 @@ $(document).ready(function(){
 
   function breakTick(){
     time--;
-    $("#time").html(time);
+    if(time % 60 >= 10){
+      $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
+    }else{
+      $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
+    }
     if(time === 0){
       pauseTimer();
       $("#pause").css("display", "none");
@@ -52,7 +76,11 @@ $(document).ready(function(){
 
   function sessionTick(){
     time--;
-    $("#time").html(time);
+    if(time % 60 >= 10){
+      $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
+    }else{
+      $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
+    }
     if(time === 0){
       pauseTimer();
       sessionTimeout = setTimeout(sessionNotification, 1000);
@@ -60,20 +88,23 @@ $(document).ready(function(){
   }
 
   function breakNotification(){
-
     alert("break complete");
   }
 
   function sessionNotification(){
     time = breakLength;
-    $("#time").html(time);
+    if(time % 60 >= 10){
+      $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
+    }else{
+      $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
+    }
     pomodoro = false;
     playTimer();
   }
 
-
-
   $("#play").click(function(){
+    $("form").hide();
+    $("#time").show();
     $("#play").css("display", "none");
     $(".pdbtn").css("color", "#fff");
     $("#pause").css("display", "inline-block");
@@ -88,6 +119,8 @@ $(document).ready(function(){
 	});
 
   $("#stop").click(function(){
+    $("#time").hide();
+    $("form").show();
     $("#pause").css("display", "none");
     $("#stop").css("display", "none");
     $(".pdbtn").css("color", "#ef5350");
