@@ -1,12 +1,14 @@
 $(document).ready(function(){
-  $("#name-input").val("Coding");
-  $("#session-input").val("25");
-  $("#break-input").val("5");
+  $("#task").html($("#task-input").val() + " session");
   var sessionLength = parseInt($("#session-input").val() * 60);
   var breakLength = parseInt($("#break-input").val() * 60);
   var time, lastFrame = 0;
   var sessionInterval, sessionTimeout, breakInterval, breakTimeout;
   var session = true;
+
+  $( "#notification-input" ).click(function(){
+
+  });
 
   $("#circle").circleProgress({
     size: 320,
@@ -14,6 +16,10 @@ $(document).ready(function(){
     thickness: 5,
     fill: "#fff",
     value: 1
+  });
+
+  $("#task-input").keyup(function(){
+    $("#task").html($("#task-input").val() + " session");
   });
 
   $("#session-input").keyup(function(){
@@ -63,6 +69,7 @@ $(document).ready(function(){
       $("body").css("background-color", "#66bb6a");
       $("footer").css("background-color", "#43a047");
       $("footer a").css("color", "#cdeace");
+      $("#task").html($("#task-input").val() + " break");
       $("#circle").circleProgress({
         emptyFill: "#1b5e20",
         animationStartValue: lastFrame,
@@ -131,6 +138,7 @@ $(document).ready(function(){
   $("#play").click(function(){
     $("form").hide();
     $(".canvas-timer").show();
+    $("#task").show();
     $("#play").css("display", "none");
     $(".pdbtn").css("color", "#fff");
     $("#pause").css("display", "inline-block");
@@ -146,6 +154,8 @@ $(document).ready(function(){
 
   $("#stop").click(function(){
     $(".canvas-timer").hide();
+    $("#task").hide();
+    $("#task").html($("#task-input").val() + " session");
     $("form").show();
     $("#pause").css("display", "none");
     $("#stop").css("display", "none");

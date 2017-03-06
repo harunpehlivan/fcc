@@ -18,21 +18,36 @@
 
         <form>
           <div class="form-group">
-            <input type="text" id="name-input" required>
+            <input type="text" id="task-input" value="Coding" required>
             <span class="bar"></span>
-            <label>Task</label>
+            <label>Task Name</label>
           </div>
           <div class="form-group">
-            <input type="text" id="session-input" required>
+            <span class="caret">▼</span>
+            <input type="text" id="notification-input" class="select-input" readonly="true" value="Alarm 1">
+            <span class="bar"></span>
+            <label class="select-label">Notification Sound</label>
+
+            <ul class="select-dropdown">
+              <li class=""><span>Alarm 1</span></li>
+              <li class=""><span>Alarm 2</span></li>
+              <li class=""><span>Alarm 3</span></li>
+            </ul>
+
+          </div>
+          <div class="form-group">
+            <input type="text" id="session-input" value="0.5" required>
             <span class="bar"></span>
             <label>Session Length</label>
           </div>
           <div class="form-group">
-            <input type="text" id="break-input" required>
+            <input type="text" id="break-input" value="0.5" required>
             <span class="bar"></span>
             <label>Break Length</label>
           </div>
         </form>
+
+        <h4 id="task"></h4>
 
         <div class="canvas-timer">
           <div class="box">
