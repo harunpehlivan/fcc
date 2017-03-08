@@ -1,5 +1,5 @@
 body
-  background-color: #eee
+  background-color: #f5f5f5
 
 h1
   color: #fff
@@ -92,6 +92,10 @@ form
     input:focus ~ .bar:before, input:focus ~ .bar:after
       width: 50%
 
+    .select-bar
+      display: block
+      width: 100%
+
     label
       color: #999
       font-size: 18px
@@ -139,10 +143,22 @@ form
 
         span
           font-size: 16px
+          font-weight: 600
           color: #26a69a
           display: block
           line-height: 22px
           padding: 14px 16px
+          &:hover
+            background-color: #eee
+
+        .disabled
+          color: rgba(0,0,0,0.3)
+          background-color: transparent
+          &:hover
+            background-color: transparent
+
+        .active
+          background-color: #e0e0e0
           &:hover
             background-color: #e0e0e0
 

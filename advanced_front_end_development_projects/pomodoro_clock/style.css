@@ -1,5 +1,5 @@
 body {
-  background-color: #eee;
+  background-color: #f5f5f5;
 }
 h1 {
   color: #fff;
@@ -99,6 +99,10 @@ form .form-group .bar:before, form .form-group .bar:after {
 form .form-group input:focus ~ .bar:before, form .form-group input:focus ~ .bar:after {
   width: 50%;
 }
+form .form-group .select-bar {
+  display: block;
+  width: 100%;
+}
 form .form-group label {
   color: #999;
   font-size: 18px;
@@ -147,12 +151,26 @@ form .form-group .select-dropdown li {
 }
 form .form-group .select-dropdown li span {
   font-size: 16px;
+  font-weight: 600;
   color: #26a69a;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
 }
 form .form-group .select-dropdown li span:hover {
+  background-color: #eee;
+}
+form .form-group .select-dropdown li .disabled {
+  color: rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+}
+form .form-group .select-dropdown li .disabled:hover {
+  background-color: transparent;
+}
+form .form-group .select-dropdown li .active {
+  background-color: #e0e0e0;
+}
+form .form-group .select-dropdown li .active:hover {
   background-color: #e0e0e0;
 }
 #task {
@@ -197,7 +215,6 @@ form .form-group .select-dropdown li span:hover {
   max-height: 100%;
   max-width: 100%;
 }
-
 .floating-button {
   margin: 8px;
 }

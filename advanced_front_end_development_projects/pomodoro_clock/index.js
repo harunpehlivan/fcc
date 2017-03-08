@@ -1,14 +1,64 @@
 $(document).ready(function(){
-  $("#task").html($("#task-input").val() + " session");
   var sessionLength = parseInt($("#session-input").val() * 60);
   var breakLength = parseInt($("#break-input").val() * 60);
   var time, lastFrame = 0;
   var sessionInterval, sessionTimeout, breakInterval, breakTimeout;
   var session = true;
+  var alert = $("#levelup-audio")[0];
 
-  $( "#notification-input" ).click(function(){
-
+  $("#task").html($("#task-input").val() + " session");
+  $("#task-input").keyup(function(){
+    $("#task").html($("#task-input").val() + " session");
   });
+
+  if(!("Notification" in window)){
+    alert("This browser does not support desktop notification");
+  }
+  Notification.requestPermission().then(function(result){
+    console.log(result);
+  });
+
+  $("#notification-input").focusin(function(){
+    $(".select-dropdown").slideDown("fast");
+  });
+  $("#notification-input").focusout(function(){
+    setTimeout(hideDropdown, 100);
+  });
+  function hideDropdown(){
+    $(".select-dropdown").fadeOut("fast");
+  }
+
+  $("#bumptious").click(function(){
+    alert.pause();
+    alert.currentTime = 0;
+    $("#notification-input").val("Bumptious");
+    $(".select").removeClass("active");
+    $("#bumptious").addClass("active");
+    alert = $("#bumptious-audio")[0];
+    setTimeout(playAlert, 100);
+  });
+  $("#levelup").click(function(){
+    alert.pause();
+    alert.currentTime = 0;
+    $("#notification-input").val("Level Up");
+    $(".select").removeClass("active");
+    $("#levelup").addClass("active");
+    alert = $("#levelup-audio")[0];
+    setTimeout(playAlert, 100);
+  });
+  $("#yamahap95").click(function(){
+    alert.pause();
+    alert.currentTime = 0;
+    $("#notification-input").val("Yamaha P95");
+    $(".select").removeClass("active");
+    $("#yamahap95").addClass("active");
+    alert = $("#yamahap95-audio")[0];
+    setTimeout(playAlert, 100);
+  });
+  function playAlert(){
+    alert.load();
+    alert.play();
+  }
 
   $("#circle").circleProgress({
     size: 320,
@@ -16,10 +66,6 @@ $(document).ready(function(){
     thickness: 5,
     fill: "#fff",
     value: 1
-  });
-
-  $("#task-input").keyup(function(){
-    $("#task").html($("#task-input").val() + " session");
   });
 
   $("#session-input").keyup(function(){
@@ -31,7 +77,6 @@ $(document).ready(function(){
       $("#time").html(Math.floor(time / 60) + ":" + "0" + (time % 60));
     }
   });
-
   $("#break-input").keyup(function(){
     breakLength = parseInt($("#break-input").val() * 60);
   });
@@ -41,7 +86,7 @@ $(document).ready(function(){
   function stopTimer(){
     pauseTimer();
     lastFrame = 0;
-    $("body").css("background-color", "#eee");
+    $("body").css("background-color", "#f5f5f5");
     $("footer").css("background-color", "#e0e0e0");
     $("footer a").css("color", "#a8a8a8");
     time = sessionLength;
@@ -52,7 +97,6 @@ $(document).ready(function(){
     }
     session = true;
   }
-
   function pauseTimer(){
     $($("#circle").circleProgress("widget")).stop();
     lastFrame = $("#circle").data("circle-progress").lastFrameValue;
@@ -62,7 +106,6 @@ $(document).ready(function(){
       clearInterval(sessionInterval);
     }
   }
-
   function playTimer(){
     lastFrame = 0;
     if(!session){
@@ -102,11 +145,9 @@ $(document).ready(function(){
     }
     if(time === 0){
       pauseTimer();
-      $("#pause").css("display", "none");
       breakTimeout = setTimeout(breakEvent, 1000);
     }
   }
-
   function sessionTick(){
     time--;
     if(time % 60 >= 10){
@@ -121,10 +162,13 @@ $(document).ready(function(){
   }
 
   function breakEvent(){
-
+    $("#pause").css("display", "none");
+    breakNotification();
+    alert.play();
   }
-
   function sessionEvent(){
+    sessionNotification();
+    alert.play();
     time = breakLength;
     if(time % 60 >= 10){
       $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
@@ -133,6 +177,23 @@ $(document).ready(function(){
     }
     session = false;
     playTimer();
+  }
+
+  function sessionNotification(theBody,theIcon,theTitle){
+    var options = {
+      body: "Your " + $("#task-input").val().toLowerCase() + " session is over.",
+      icon: "https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/session_tomato.png"
+    };
+    var n = new Notification("Pomodoro Notification",options);
+    setTimeout(n.close.bind(n), 5000);
+  }
+  function breakNotification(theBody,theIcon,theTitle){
+    var options = {
+      body: "Your " + $("#task-input").val().toLowerCase() + " break is over.",
+      icon: "https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/break_tomato.png"
+    };
+    var n = new Notification("Pomodoro Notification",options);
+    setTimeout(n.close.bind(n), 5000);
   }
 
   $("#play").click(function(){
@@ -145,13 +206,11 @@ $(document).ready(function(){
     $("#stop").css("display", "inline-block");
     playTimer();
 	});
-
   $("#pause").click(function(){
 		$("#pause").css("display", "none");
     $("#play").css("display", "inline-block");
     pauseTimer();
 	});
-
   $("#stop").click(function(){
     $(".canvas-timer").hide();
     $("#task").hide();
@@ -163,5 +222,4 @@ $(document).ready(function(){
     $("#play").css("display", "inline-block");
     stopTimer();
 	});
-
 });
