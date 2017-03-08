@@ -4,6 +4,8 @@ $(document).ready(function(){
   var time, lastFrame = 0;
   var sessionInterval, sessionTimeout, breakInterval, breakTimeout;
   var session = true;
+  var mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ? true : false;
+  var muted = true;
   var alert = $("#levelup-audio")[0];
 
   $("#task").html($("#task-input").val() + " session");
@@ -14,9 +16,11 @@ $(document).ready(function(){
   if(!("Notification" in window)){
     alert("This browser does not support desktop notification");
   }
-  Notification.requestPermission().then(function(result){
-    console.log(result);
-  });
+  if(!mobile){
+    Notification.requestPermission().then(function(result){
+      console.log(result);
+    });
+  }
 
   $("#notification-input").focusin(function(){
     $(".select-dropdown").slideDown("fast");
@@ -34,7 +38,9 @@ $(document).ready(function(){
     $("#notification-input").val("Bumptious");
     $(".select").removeClass("active");
     $("#bumptious").addClass("active");
+    $(".select-input").css("color", "#212121");
     alert = $("#bumptious-audio")[0];
+    muted = false;
     setTimeout(playAlert, 100);
   });
   $("#levelup").click(function(){
@@ -43,7 +49,9 @@ $(document).ready(function(){
     $("#notification-input").val("Level Up");
     $(".select").removeClass("active");
     $("#levelup").addClass("active");
+    $(".select-input").css("color", "#212121");
     alert = $("#levelup-audio")[0];
+    muted = false;
     setTimeout(playAlert, 100);
   });
   $("#yamahap95").click(function(){
@@ -52,7 +60,9 @@ $(document).ready(function(){
     $("#notification-input").val("Yamaha P95");
     $(".select").removeClass("active");
     $("#yamahap95").addClass("active");
+    $(".select-input").css("color", "#212121");
     alert = $("#yamahap95-audio")[0];
+    muted = false;
     setTimeout(playAlert, 100);
   });
   function playAlert(){
@@ -163,12 +173,20 @@ $(document).ready(function(){
 
   function breakEvent(){
     $("#pause").css("display", "none");
-    breakNotification();
-    alert.play();
+    if(!mobile){
+      breakNotification();
+    }
+    if(!muted){
+      playAlert();
+    }
   }
   function sessionEvent(){
-    sessionNotification();
-    alert.play();
+    if(!mobile){
+      sessionNotification();
+    }
+    if(!muted){
+      playAlert();
+    }
     time = breakLength;
     if(time % 60 >= 10){
       $("#time").html(Math.floor(time / 60) + ":" + (time % 60));

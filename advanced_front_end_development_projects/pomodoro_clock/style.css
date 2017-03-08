@@ -16,7 +16,7 @@ h4 {
   display: table;
   height: 100%;
   margin-bottom: -42px;
-  min-height: 640px;
+  min-height: 680px;
   min-width: 100%;
   table-layout: fixed;
   width: 100%;
@@ -34,6 +34,7 @@ h4 {
 }
 [type=text] {
   box-shadow: none;
+  color: #212121;
 }
 [type=text]:focus {
   box-shadow: none;
@@ -74,6 +75,7 @@ form .form-group input:focus {
   outline: none;
 }
 form .form-group .select-input {
+  color: #9e9e9e;
   cursor: pointer;
 }
 form .form-group .bar {
