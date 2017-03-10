@@ -52,8 +52,8 @@ This repository contains my solved algorithm challenges and finished exercise pr
         [![](https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/pomodoro_clock.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/pomodoro_clock/)
 
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery*
-        
-    * Build a Tic Tac Toe Game
+
+    * [Build a Tic Tac Toe Game](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/tic_tac_toe/)
     * Build a Simon Game
 * [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
 
