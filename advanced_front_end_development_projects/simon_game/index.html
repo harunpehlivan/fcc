@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://rawgit.com/bomholt/freecodecamp/master/_assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,13 +27,17 @@
       </div>
 
       <div class="controls">
-        <a class="btn">start game</a>
-        <a class="btn disabled">restart game</a>
-        <input type="checkbox" id="strict">
-        <label for="strict">strict</label>
+        <a id="start" class="btn">start game</a>
+        <a id="stop" class="btn">stop game</a>
+        <a id="restart" class="btn disabled">restart game</a>
+        <div class="checkbox">
+          <input type="checkbox" value="1" id="checkboxFiveInput" name="" />
+          <label for="checkboxFiveInput"></label>
+          <span>strict</span>
+        </div>
       </div>
 
     </div>
-  </div>  
+  </div>
 </body>
 </html>

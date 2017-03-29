@@ -2,6 +2,10 @@
 body {
   background-color: #EEE;
   font-family: "Roboto", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .wrapper {
   height: calc(100vh - 30px);
@@ -17,16 +21,12 @@ body {
 .wrapper .container {
   height: 470px;
   width: 290px;
-  top: 50%;
-  margin: 0 auto;
-  position: relative;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.wrapper .container:after {
-  clear: both;
-  content: "";
-  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 @media (min-width: 768px) {
   .wrapper .container {
@@ -137,6 +137,9 @@ body {
   text-transform: uppercase;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 }
+.wrapper .container .controls #stop {
+  display: none;
+}
 .wrapper .container .controls .disabled {
   pointer-events: none;
   background-color: #DFDFDF;
@@ -144,7 +147,47 @@ body {
   color: #9F9F9F;
   cursor: default;
 }
-.wrapper .container .controls label {
+.wrapper .container .controls .checkbox {
+  width: 15px;
+  position: relative;
+}
+.wrapper .container .controls .checkbox label {
+  cursor: pointer;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0;
+  left: 0;
+  background: #F5F5F5;
+  border: 2px solid #424242;
+  border-radius: 2px;
+}
+.wrapper .container .controls .checkbox label:after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: transparent;
+  top: 2px;
+  left: 1px;
+  border: 3px solid #F5F5F5;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.wrapper .container .controls .checkbox [type=checkbox]:checked + label {
+  background-color: #424242;
+}
+.wrapper .container .controls .checkbox [type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+.wrapper .container .controls .checkbox span {
   color: #212121;
   font-size: 14px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 25px;
 }
