@@ -3,6 +3,7 @@
 body
   background-color: #EEE
   font-family: "Roboto", sans-serif
+  user-select: none
 
 .wrapper
   height: calc(100vh - 30px)
@@ -15,14 +16,12 @@ body
   .container
     height: 470px
     width: 290px
-    top: 50%
-    margin: 0 auto
-    position: relative
-    transform: translateY(-50%)
-    &:after
-      clear: both
-      content: ""
-      display: block
+    position: absolute
+    margin: auto
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
     @media (min-width:768px)
       height: 600px
       width: 420px
@@ -37,6 +36,7 @@ body
         width: 420px
 
       .col
+        cursor: pointer
         float: left
         height: 141px
         width: 141px
@@ -86,6 +86,18 @@ body
           height: 210px
           width: 210px
 
+        .counter
+          display: none
+          color: #212121
+          font-size: 24px
+          margin: 0
+          text-align: center
+          vertical-align: middle
+          line-height: 145px
+          @media (min-width:768px)
+            font-size: 32px
+            line-height: 210px
+
     .controls
       width: 160px
       margin: 0 auto
@@ -108,6 +120,9 @@ body
         text-transform: uppercase
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
 
+      #stop
+        display: none
+
       .disabled
         pointer-events: none
         background-color: #DFDFDF
@@ -115,9 +130,44 @@ body
         color: #9F9F9F
         cursor: default
 
-      input
+      .checkbox
+        width: 15px
+        position: relative
 
-      label
-        color: #212121
-        font-size: 14px
-        
+        label
+          cursor: pointer
+          position: absolute
+          width: 15px
+          height: 15px
+          top: 0
+          left: 0
+          background: #F5F5F5
+          border: 2px solid #424242
+          border-radius: 2px
+          &:after
+            opacity: 0
+            content: ""
+            position: absolute
+            width: 10px
+            height: 5px
+            background: transparent
+            top: 2px
+            left: 1px
+            border: 3px solid #F5F5F5
+            border-top: none
+            border-right: none
+            transform: rotate(-45deg)
+
+        [type=checkbox]:checked + label
+          background-color: #424242
+
+        [type=checkbox]:checked + label:after
+          opacity: 1
+
+        span
+          color: #212121
+          font-size: 14px
+          line-height: 20px
+          position: absolute
+          top: 0
+          left: 25px

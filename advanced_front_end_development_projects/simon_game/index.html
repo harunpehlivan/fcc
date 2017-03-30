@@ -12,32 +12,35 @@
 
 <body>
   <div class="wrapper">
-    <div class="container">
+  <div class="container">
 
-      <div class="outer">
-        <div class="row">
-          <div id="green" class="col"></div>
-          <div id="red" class="col"></div>
-        </div>
-        <div class="row">
-          <div id="yellow" class="col"></div>
-          <div id="blue" class="col"></div>
-        </div>
-        <div class="inner"></div>
+    <div class="outer">
+      <div class="row">
+        <span id="green" class="col"></span>
+        <div id="red" class="col"></div>
       </div>
-
-      <div class="controls">
-        <a id="start" class="btn">start game</a>
-        <a id="stop" class="btn">stop game</a>
-        <a id="restart" class="btn disabled">restart game</a>
-        <div class="checkbox">
-          <input type="checkbox" value="1" id="checkboxFiveInput" name="" />
-          <label for="checkboxFiveInput"></label>
-          <span>strict</span>
-        </div>
+      <div class="row">
+        <div id="yellow" class="col"></div>
+        <div id="blue" class="col"></div>
       </div>
-
+      <div class="inner">
+        <p class="counter">0</p>
+      </div>
     </div>
+
+    <div class="controls">
+      <a id="start" class="btn">start game</a>
+      <a id="stop" class="btn">stop game</a>
+      <a id="restart" class="btn disabled">restart game</a>
+      <div class="checkbox">
+        <input type="checkbox" id="strict" name="" />
+        <label for="strict"></label>
+        <span>strict</span>
+      </div>
+    </div>
+
   </div>
+</div>
+<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
