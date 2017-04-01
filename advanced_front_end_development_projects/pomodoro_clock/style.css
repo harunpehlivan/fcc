@@ -232,7 +232,7 @@ form .form-group .select-dropdown li .active:hover {
   display: none;
 }
 footer {
-  background-color: #e0e0e0;
+  background-color: #eee;
   bottom: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -241,13 +241,13 @@ footer {
   text-align: center;
 }
 footer a {
-  color: #a8a8a8;
+  color: #b3b3b3;
   line-height: 42px;
   position: relative;
   top: 2px;
 }
 footer a:focus, footer a:hover, footer a:visited {
-  color: #a8a8a8;
+  color: #b3b3b3;
 }
 footer a i {
   vertical-align: text-top;

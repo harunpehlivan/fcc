@@ -102,8 +102,8 @@ $(document).ready(function(){
     pauseTimer();
     lastFrame = 0;
     $("body").css("background-color", "#f5f5f5");
-    $("footer").css("background-color", "#e0e0e0");
-    $("footer a").css("color", "#a8a8a8");
+    $("footer").css("background-color", "#eee");
+    $("footer a").css("color", "#b3b3b3");
     time = sessionLength;
     if(time % 60 >= 10){
       $("#time").html(Math.floor(time / 60) + ":" + (time % 60));
