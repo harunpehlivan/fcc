@@ -122,7 +122,7 @@ $(document).ready(function(){
       var check = pattern.game.length === pattern.user.length;
       if(check){
         if(pattern.count == 20){
-          alert("You won!");
+          alert("Congratulations, You Won!");
         }else{
           turn = false;
           $(".col").css("cursor", "default");
