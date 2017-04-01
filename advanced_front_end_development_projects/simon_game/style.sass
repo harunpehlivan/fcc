@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto")
 
+::selection
+  background: transparent
+
 body
   background-color: #EEE
   font-family: "Roboto", sans-serif
   user-select: none
+  -webkit-tap-highlight-color: transparent
 
 .wrapper
-  height: calc(100vh - 30px)
+  height: calc(100vh - 72px)
   min-height: 500px
   padding: 15px
   position: relative
@@ -36,7 +40,7 @@ body
         width: 420px
 
       .col
-        cursor: pointer
+        cursor: default
         float: left
         height: 141px
         width: 141px
@@ -73,6 +77,7 @@ body
           margin: 8px 0 0 8px
 
       .inner
+        pointer-events: none
         height: 145px
         width: 145px
         background-color: #EEE
@@ -171,3 +176,24 @@ body
           position: absolute
           top: 0
           left: 25px
+
+footer
+  background-color: #e0e0e0
+  bottom: 0
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  height: 42px
+  width: 100%
+  text-align: center
+
+  a
+    color: #a8a8a8
+    line-height: 42px
+    position: relative
+    top: 2px
+    text-decoration: none
+    &:focus, &:hover, &:visited
+      color: #a8a8a8
+
+    i
+      vertical-align: text-top

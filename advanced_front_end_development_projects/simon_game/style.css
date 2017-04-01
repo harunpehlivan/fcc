@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+::-moz-selection {
+  background: transparent;
+}
+::selection {
+  background: transparent;
+}
 body {
   background-color: #EEE;
   font-family: "Roboto", sans-serif;
@@ -6,9 +12,10 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 .wrapper {
-  height: calc(100vh - 30px);
+  height: calc(100vh - 72px);
   min-height: 500px;
   padding: 15px;
   position: relative;
@@ -47,7 +54,7 @@ body {
   }
 }
 .wrapper .container .outer .col {
-  cursor: pointer;
+  cursor: default;
   float: left;
   height: 141px;
   width: 141px;
@@ -99,6 +106,7 @@ body {
   }
 }
 .wrapper .container .outer .inner {
+  pointer-events: none;
   height: 145px;
   width: 145px;
   background-color: #EEE;
@@ -206,4 +214,27 @@ body {
   position: absolute;
   top: 0;
   left: 25px;
+}
+
+footer {
+  background-color: #e0e0e0;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  color: #a8a8a8;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+  text-decoration: none;
+}
+footer a:focus, footer a:hover, footer a:visited {
+  color: #a8a8a8;
+}
+footer a i {
+  vertical-align: text-top;
 }

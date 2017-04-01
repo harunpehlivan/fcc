@@ -11,36 +11,58 @@
 </head>
 
 <body>
+  <audio id="green-audio">
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/green.mp3" type="audio/mpeg"/>
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/green.ogg" type="audio/ogg"/>
+  </audio>
+  <audio id="red-audio">
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/red.mp3" type="audio/mpeg"/>
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/red.ogg" type="audio/ogg"/>
+  </audio>
+  <audio id="yellow-audio">
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/yellow.mp3" type="audio/mpeg"/>
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/yellow.ogg" type="audio/ogg"/>
+  </audio>
+  <audio id="blue-audio">
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/blue.mp3" type="audio/mpeg"/>
+    <source src="https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/audio/blue.ogg" type="audio/ogg"/>
+  </audio>
+
   <div class="wrapper">
-  <div class="container">
+    <div class="container">
 
-    <div class="outer">
-      <div class="row">
-        <span id="green" class="col"></span>
-        <div id="red" class="col"></div>
+      <div class="outer">
+        <div class="row">
+          <span id="green" class="col"></span>
+          <div id="red" class="col"></div>
+        </div>
+        <div class="row">
+          <div id="yellow" class="col"></div>
+          <div id="blue" class="col"></div>
+        </div>
+        <div class="inner">
+          <p class="counter"></p>
+        </div>
       </div>
-      <div class="row">
-        <div id="yellow" class="col"></div>
-        <div id="blue" class="col"></div>
+
+      <div class="controls">
+        <a id="start" class="btn">start game</a>
+        <a id="stop" class="btn">stop game</a>
+        <a id="restart" class="btn disabled">restart game</a>
+        <div class="checkbox">
+          <input type="checkbox" id="strict" name="" />
+          <label for="strict"></label>
+          <span>strict</span>
+        </div>
       </div>
-      <div class="inner">
-        <p class="counter">0</p>
-      </div>
+
     </div>
-
-    <div class="controls">
-      <a id="start" class="btn">start game</a>
-      <a id="stop" class="btn">stop game</a>
-      <a id="restart" class="btn disabled">restart game</a>
-      <div class="checkbox">
-        <input type="checkbox" id="strict" name="" />
-        <label for="strict"></label>
-        <span>strict</span>
-      </div>
-    </div>
-
   </div>
-</div>
-<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+
+  <footer>
+    <a href="https://github.com/bomholt/freecodecamp" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt / freecodecamp</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
