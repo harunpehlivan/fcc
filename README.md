@@ -55,6 +55,11 @@ This repository contains my solved algorithm challenges and finished exercise pr
 
     * [Build a Tic Tac Toe Game](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/tic_tac_toe/)
     * [Build a Simon Game](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/simon_game/)
+
+        [![](https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/simon_game.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/simone_game/)
+
+        *HTML5, CSS3, Sass, JavaScript, jQuery*
+
 * [**Advanced Algorithm Scripting**](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)
 
 ### Data Visualization Certification
