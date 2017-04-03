@@ -1,46 +1,59 @@
 body
-  margin: 20px
+  background-color: #78909C
 
-ol, ul
-  padding-left: 30px
+.container
+  padding-right: 10px
+  padding-left: 10px
 
-#errors
-  background: #c00
-  color: #fff
-  margin: -20px -20px 20px
-  padding: 20px
-  white-space: pre-wrap
+  .grid
+    background-color: transparent
+    width: 300px
+    height: 300px
+    margin: 50px auto
+    @media (min-width:768px)
+      width: 450px
+      height: 450px
 
-.board-row:after
-  clear: both
-  content: ""
-  display: table
+    .field
+      width: 100px
+      height: 100px
+      display: block
+      float: left
+      @media (min-width:768px)
+        width: 150px
+        height: 150px
 
-.status
-  margin-bottom: 10px
+    .top
+      border-bottom: 8px solid #455A64
 
-.square
-  background: #fff
-  border: 1px solid #999
-  float: left
-  font-size: 24px
-  font-weight: bold
-  line-height: 34px
-  height: 34px
-  margin-right: -1px
-  margin-top: -1px
-  padding: 0
+    .right
+      border-left: 8px solid #455A64
+
+    .bottom
+      border-top: 8px solid #455A64
+
+    .left
+      border-right: 8px solid #455A64
+
+
+footer
+  position: absolute
+  background-color: #607D8B
+  bottom: 0
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  height: 42px
+  width: 100%
   text-align: center
-  width: 34px
-  &:focus
-    outline: none
 
-.kbd-navigation .square:focus
-  background: #ddd
+  a
+    color: #D6DFE3
+    line-height: 42px
+    position: relative
+    top: 2px
+    text-decoration: none
+    &:focus, &:hover, &:visited
+      color: #D6DFE3
 
-.game
-  display: flex
-  flex-direction: row
-
-.game-info
-  margin-left: 20px
+    i
+      vertical-align: text-top

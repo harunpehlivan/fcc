@@ -1,53 +1,66 @@
 body {
-  margin: 20px;
+  background-color: #78909C;
 }
-ol, ul {
-  padding-left: 30px;
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
 }
-#errors {
-  background: #c00;
-  color: #fff;
-  margin: -20px -20px 20px;
-  padding: 20px;
-  white-space: pre-wrap;
+.container .grid {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
 }
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+@media (min-width: 768px) {
+  .container .grid {
+    width: 450px;
+    height: 450px;
+  }
 }
-.status {
-  margin-bottom: 10px;
-}
-.square {
-  background: #fff;
-  border: 1px solid #999;
+.container .grid .field {
+  width: 100px;
+  height: 100px;
+  display: block;
   float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
+}
+@media (min-width: 768px) {
+  .container .grid .field {
+    width: 150px;
+    height: 150px;
+  }
+}
+.container .grid .top {
+  border-bottom: 8px solid #455A64;
+}
+.container .grid .right {
+  border-left: 8px solid #455A64;
+}
+.container .grid .bottom {
+  border-top: 8px solid #455A64;
+}
+.container .grid .left {
+  border-right: 8px solid #455A64;
+}
+footer {
+  position: absolute;
+  background-color: #607D8B;
+  bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: 42px;
+  width: 100%;
   text-align: center;
-  width: 34px;
 }
-.square:focus {
-  outline: none;
+footer a {
+  color: #D6DFE3;
+  line-height: 42px;
+  position: relative;
+  top: 2px;
+  text-decoration: none;
 }
-.kbd-navigation .square:focus {
-  background: #ddd;
+footer a:focus, footer a:hover, footer a:visited {
+  color: #D6DFE3;
 }
-.game {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-.game-info {
-  margin-left: 20px;
+footer a i {
+  vertical-align: text-top;
 }
