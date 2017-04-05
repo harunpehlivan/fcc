@@ -3,17 +3,17 @@ $(document).ready(function(){
   var pattern = {
     color: ["green", "red", "yellow", "blue"],
     count: 0,
-    game: [],
-    user: [],
+    computer: [],
+    player: [],
   };
   var highlight;
 
   function clearGame(){
     pattern.count = 0;
-    pattern.game = [];
+    pattern.computer = [];
   }
   function clearUser(){
-    pattern.user = [];
+    pattern.player = [];
   }
   function addCount(){
     pattern.count++;
@@ -51,13 +51,13 @@ $(document).ready(function(){
   }
 
   function generateGamePattern(){
-    pattern.game.push(pattern.color[Math.floor(Math.random() * 4)]);
+    pattern.computer.push(pattern.color[Math.floor(Math.random() * 4)]);
     showGamePattern();
   }
   function showGamePattern(){
     var i = 0;
     highlight = setInterval(function(){
-      switch(pattern.game[i]){
+      switch(pattern.computer[i]){
         case "green":
           $("#green").css("background-color", "#7FE283");
           $("#green-audio")[0].play();
@@ -88,7 +88,7 @@ $(document).ready(function(){
           break;
       }
       i++;
-      if(i >= pattern.game.length){
+      if(i >= pattern.computer.length){
         clearInterval(highlight);
         turn = true;
         $(".col").css("cursor", "pointer");
@@ -97,7 +97,7 @@ $(document).ready(function(){
     clearUser();
   }
   function checkUserPattern(){
-    if(pattern.user[pattern.user.length - 1] !== pattern.game[pattern.user.length - 1]){
+    if(pattern.player[pattern.player.length - 1] !== pattern.computer[pattern.player.length - 1]){
       if(strict){
         turn = false;
         $(".col").css("cursor", "default");
@@ -119,7 +119,7 @@ $(document).ready(function(){
         }, 1000);
       }
     }else{
-      var check = pattern.game.length === pattern.user.length;
+      var check = pattern.computer.length === pattern.player.length;
       if(check){
         if(pattern.count == 20){
           alert("Congratulations, You Won!");
@@ -140,7 +140,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $("#green").css("background-color", "#4CAF50");
       }, 500);
-      pattern.user.push("green");
+      pattern.player.push("green");
       checkUserPattern();
     }
 	});
@@ -151,7 +151,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $("#red").css("background-color", "#F44336");
       }, 500);
-      pattern.user.push("red");
+      pattern.player.push("red");
       checkUserPattern();
     }
 	});
@@ -162,7 +162,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $("#yellow").css("background-color", "#FFEB3B");
       }, 500);
-      pattern.user.push("yellow");
+      pattern.player.push("yellow");
       checkUserPattern();
     }
 	});
@@ -173,7 +173,7 @@ $(document).ready(function(){
       setTimeout(function(){
         $("#blue").css("background-color", "#2196F3");
       }, 500);
-      pattern.user.push("blue");
+      pattern.player.push("blue");
       checkUserPattern();
     }
 	});
