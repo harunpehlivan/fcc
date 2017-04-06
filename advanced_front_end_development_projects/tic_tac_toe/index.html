@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Tic Tac Toe</title>
-  <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://rawgit.com/bomholt/freecodecamp/master/_assets/css/font-awesome.min.css">
@@ -27,14 +26,15 @@
     </div>
 
     <div class="controls">
-      <a id="restart" class="btn">restart game</a>
       <div class="radio">
-        <input type="radio" id="turnx" name="turn" />
-        <label for="turnx"></label>
+        <input type="radio" id="playx" class="play" name="play" checked />
+        <label for="playx"></label>
+        <span>Play "X"</span>
       </div>
       <div class="radio">
-        <input type="radio" id="turno" name="turn" />
-        <label for="turno"></label>
+        <input type="radio" id="playo" class="play" name="play" />
+        <label for="playo"></label>
+        <span>Play "O"</span>
       </div>
     </div>
 
@@ -44,5 +44,6 @@
     <a href="https://github.com/bomholt/freecodecamp" target="_blank" rel="noopener noreferrer"><i class="fa fa-github-alt fa-lg"></i> bomholt / freecodecamp</a>
   </footer>
   <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>

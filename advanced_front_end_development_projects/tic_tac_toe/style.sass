@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500")
 
+html
+  min-height: 100%
+  position: relative
+
 body
-  background-color: #90A4AE
+  background-color: #78909C
+  margin-bottom: 42px
   user-select: none
   -webkit-tap-highlight-color: transparent
 
@@ -10,89 +15,99 @@ body
   padding-right: 10px
   padding-left: 10px
   padding-top: calc(50vh - 250px)
+  min-height: 500px
+  height: 100%
   @media (min-width:768px)
+    min-height: 650px
     padding-top: calc(50vh - 325px)
 
   .grid
     background-color: transparent
     width: 300px
     height: 300px
-    margin: 50px auto
+    margin: 40px auto
     @media (min-width:768px)
       width: 450px
       height: 450px
+      margin: 50px auto
 
     .field
+      cursor: pointer
       width: 100px
       height: 100px
       display: block
+      font-size: 50px
       float: left
+      text-align: center
+      line-height: 100px
       @media (min-width:768px)
         width: 150px
         height: 150px
+        line-height: 150px
 
     .top
-      border-bottom: 4px solid #546E7A
+      border-bottom: 3px solid #455A64
+      @media (min-width:768px)
+        border-bottom: 4px solid #455A64
 
     .right
-      border-left: 4px solid #546E7A
+      border-left: 3px solid #455A64
+      @media (min-width:768px)
+        border-left: 4px solid #455A64
 
     .bottom
-      border-top: 4px solid #546E7A
+      border-top: 3px solid #455A64
+      @media (min-width:768px)
+        border-top: 4px solid #455A64
 
     .left
-      border-right: 4px solid #546E7A
+      border-right: 3px solid #455A64
+      @media (min-width:768px)
+        border-right: 4px solid #455A64
 
     .horizontal
-      border-top: 4px solid #546E7A
-      border-bottom: 4px solid #546E7A
+      border-top: 3px solid #455A64
+      border-bottom: 3px solid #455A64
+      @media (min-width:768px)
+        border-top: 4px solid #455A64
+        border-bottom: 4px solid #455A64
 
     .vertical
-      border-right: 4px solid #546E7A
-      border-left: 4px solid #546E7A
+      border-right: 3px solid #455A64
+      border-left: 3px solid #455A64
+      @media (min-width:768px)
+        border-right: 4px solid #455A64
+        border-left: 4px solid #455A64
 
   .controls
-    width: 190px
+    width: 200px
     margin: 0 auto
-
-    .btn
-      text-decoration: none
-      display: block
-      color: #37474F
-      cursor: pointer
-      background-color: #1DE9B6
-      font-size: 14px
-      font-weight: 500
-      text-align: center
-      letter-spacing: 0.5px
-      border: none
-      border-radius: 2px
-      height: 36px
-      width: 100%
-      line-height: 36px
-      margin: 15px 0
-      padding: 0
-      text-transform: uppercase
-      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2)
+    @media (min-width:768px)
+      width: 240px
 
     .radio
-      height: 16px
-
-
+      height: 14px
+      margin: 10px 0
+      display: block
+      float: left
+      width: 100px
+      @media (min-width:768px)
+        height: 16px
+        width: 120px
 
       input
-        margin-left: 2px
+        display: none
 
       label
         cursor: pointer
         position: absolute
-        width: 16px
-        height: 16px
-        min-height: 16px
+        width: 14px
+        height: 14px
+        min-height: 14px
         padding-left: 0
         top: 0
-        left: 0
-        background: #F5F5F5
+        left: 18px
+        background: #ECEFF1
         border: 2px solid #424242
         border-radius: 50%
         &:after
@@ -100,17 +115,33 @@ body
           content: ""
           position: absolute
           background: transparent
+        @media (min-width:768px)
+          width: 16px
+          height: 16px
+          min-height: 16px
 
       [type=radio]:checked + label
-        background-color: #1DE9B6
-        border: 2px solid #1DE9B6
+        background-color: #69F0AE
+        border: 2px solid #69F0AE
 
       [type=radio]:checked + label:after
         opacity: 1
 
+      span
+        color: #212121
+        font-size: 14px
+        line-height: 14px
+        position: absolute
+        top: 0
+        left: 39px
+        @media (min-width:768px)
+          font-size: 16px
+          line-height: 16px
+          left: 42px
+
 footer
   position: absolute
-  background-color: #78909C
+  background-color: #607D8B
   bottom: 0
   font-family: "Roboto", sans-serif
   height: 42px
@@ -118,13 +149,13 @@ footer
   text-align: center
 
   a
-    color: #DDE3E6
-    line-height: 38px
+    color: #D6DFE3
+    line-height: 40px
     position: relative
     top: 2px
     text-decoration: none
     &:focus, &:hover, &:visited
-      color: #DDE3E6
+      color: #D6DFE3
 
     i
       vertical-align: text-top
