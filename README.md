@@ -54,6 +54,11 @@ This repository contains my solved algorithm challenges and finished exercise pr
         *HTML5, CSS3, Sass, Foundation, JavaScript, jQuery*
 
     * [Build a Tic Tac Toe Game](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/tic_tac_toe/)
+
+        [![](https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/tic_tac_toe.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/tic_tac_toe/)
+
+        *HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery*
+
     * [Build a Simon Game](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/simon_game/)
 
         [![](https://rawgit.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/simon_game.jpg)](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/simon_game/)
