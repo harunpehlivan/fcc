@@ -96,7 +96,7 @@ $(document).ready(function(){
     }, 1000);
     clearUser();
   }
-  function checkUserPattern(){
+  function checkUserPattern(col){
     if(pattern.player[pattern.player.length - 1] !== pattern.computer[pattern.player.length - 1]){
       if(strict){
         turn = false;
@@ -120,6 +120,7 @@ $(document).ready(function(){
       }
     }else{
       var check = pattern.computer.length === pattern.player.length;
+      $(col + "-audio")[0].play();
       if(check){
         if(pattern.count == 20){
           alert("Congratulations, You Won!");
@@ -136,45 +137,41 @@ $(document).ready(function(){
   $("#green").click(function(){
     if(turn){
       $("#green").css("background-color", "#7FE283");
-      $("#green-audio")[0].play();
       setTimeout(function(){
         $("#green").css("background-color", "#4CAF50");
       }, 500);
       pattern.player.push("green");
-      checkUserPattern();
+      checkUserPattern("#green");
     }
 	});
   $("#red").click(function(){
     if(turn){
       $("#red").css("background-color", "#FF7669");
-      $("#red-audio")[0].play();
       setTimeout(function(){
         $("#red").css("background-color", "#F44336");
       }, 500);
       pattern.player.push("red");
-      checkUserPattern();
+      checkUserPattern("#red");
     }
 	});
   $("#yellow").click(function(){
     if(turn){
       $("#yellow").css("background-color", "#FFFF6E");
-      $("#yellow-audio")[0].play();
       setTimeout(function(){
         $("#yellow").css("background-color", "#FFEB3B");
       }, 500);
       pattern.player.push("yellow");
-      checkUserPattern();
+      checkUserPattern("#yellow");
     }
 	});
   $("#blue").click(function(){
     if(turn){
       $("#blue").css("background-color", "#54C9FF");
-      $("#blue-audio")[0].play();
       setTimeout(function(){
         $("#blue").css("background-color", "#2196F3");
       }, 500);
       pattern.player.push("blue");
-      checkUserPattern();
+      checkUserPattern("#blue");
     }
 	});
 
