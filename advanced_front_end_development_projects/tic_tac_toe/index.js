@@ -36,19 +36,146 @@ $(document).ready(function(){
   }
   function computerMove(){
     var taken = true;
-    while(taken === true){
-      console.log("!" + count);
-      var int = Math.floor(Math.random()* 9);
-      var computerfield = $("#" + int).text();
-      if(computerfield !== "X" && computerfield !== "O"){
-        taken = false;
-        turn = true;
-        $(".field").css("cursor", "pointer");
-        board[int] = computer;
-        $("#" + int).css("color", computerColor);
-        $("#" + int).text(computer);
-        count++;
-        checkMove(computer);
+    count++;
+    if((board[1] === computer && board[2] === computer && board[0] !== player) || (board[3] === computer && board[6] === computer && board[0] !== player) || (board[4] === computer && board[8] === computer && board[0] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[0] = computer;
+      $("#0").css("color", computerColor);
+      $("#0").text(computer);
+      checkMove(computer);
+    }else if((board[0] === computer && board[2] === computer && board[1] !== player) || (board[4] === computer && board[7] === computer && board[1] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[1] = computer;
+      $("#1").css("color", computerColor);
+      $("#1").text(computer);
+      checkMove(computer);
+    }else if((board[0] === computer && board[1] === computer && board[2] !== player) || (board[5] === computer && board[8] === computer && board[2] !== player) || (board[4] === computer && board[6] === computer && board[2] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[2] = computer;
+      $("#2").css("color", computerColor);
+      $("#2").text(computer);
+      checkMove(computer);
+    }else if((board[0] === computer && board[6] === computer && board[3] !== player) || (board[4] === computer && board[5] === computer && board[3] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[3] = computer;
+      $("#3").css("color", computerColor);
+      $("#3").text(computer);
+      checkMove(computer);
+    }else if((board[0] === computer && board[8] === computer && board[4] !== player) || (board[2] === computer && board[6] === computer && board[4] !== player) || (board[1] === computer && board[7] === computer && board[4] !== player) || (board[3] === computer && board[5] === computer && board[4] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[4] = computer;
+      $("#4").css("color", computerColor);
+      $("#4").text(computer);
+      checkMove(computer);
+    }else if((board[2] === computer && board[8] === computer && board[5] !== player) || (board[3] === computer && board[4] === computer && board[5] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[5] = computer;
+      $("#5").css("color", computerColor);
+      $("#5").text(computer);
+      checkMove(computer);
+    }else if((board[0] === computer && board[3] === computer && board[6] !== player) || (board[7] === computer && board[8] === computer && board[6] !== player) || (board[2] === computer && board[4] === computer && board[6] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[6] = computer;
+      $("#6").css("color", computerColor);
+      $("#6").text(computer);
+      checkMove(computer);
+    }else if((board[1] === computer && board[4] === computer && board[7] !== player) || (board[6] === computer && board[8] === computer && board[7] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[7] = computer;
+      $("#7").css("color", computerColor);
+      $("#7").text(computer);
+      checkMove(computer);
+    }else if((board[2] === computer && board[5] === computer && board[8] !== player) || (board[6] === computer && board[7] === computer && board[8] !== player) || (board[0] === computer && board[4] === computer && board[8] !== player)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[8] = computer;
+      $("#8").css("color", computerColor);
+      $("#8").text(computer);
+      checkMove(computer);
+    }else if((board[1] === player && board[2] === player && board[0] !== computer) || (board[3] === player && board[6] === player && board[0] !== computer) || (board[4] === player && board[8] === player && board[0] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[0] = computer;
+      $("#0").css("color", computerColor);
+      $("#0").text(computer);
+      checkMove(computer);
+    }else if((board[0] === player && board[2] === player && board[1] !== computer) || (board[4] === player && board[7] === player && board[1] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[1] = computer;
+      $("#1").css("color", computerColor);
+      $("#1").text(computer);
+      checkMove(computer);
+    }else if((board[0] === player && board[1] === player && board[2] !== computer) || (board[5] === player && board[8] === player && board[2] !== computer) || (board[4] === player && board[6] === player && board[2] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[2] = computer;
+      $("#2").css("color", computerColor);
+      $("#2").text(computer);
+      checkMove(computer);
+    }else if((board[0] === player && board[6] === player && board[3] !== computer) || (board[4] === player && board[5] === player && board[3] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[3] = computer;
+      $("#3").css("color", computerColor);
+      $("#3").text(computer);
+      checkMove(computer);
+    }else if((board[0] === player && board[8] === player && board[4] !== computer) || (board[2] === player && board[6] === player && board[4] !== computer) || (board[1] === player && board[7] === player && board[4] !== computer) || (board[3] === player && board[5] === player && board[4] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[4] = computer;
+      $("#4").css("color", computerColor);
+      $("#4").text(computer);
+      checkMove(computer);
+    }else if((board[2] === player && board[8] === player && board[5] !== computer) || (board[3] === player && board[4] === player && board[5] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[5] = computer;
+      $("#5").css("color", computerColor);
+      $("#5").text(computer);
+      checkMove(computer);
+    }else if((board[0] === player && board[3] === player && board[6] !== computer) || (board[7] === player && board[8] === player && board[6] !== computer) || (board[2] === player && board[4] === player && board[6] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[6] = computer;
+      $("#6").css("color", computerColor);
+      $("#6").text(computer);
+      checkMove(computer);
+    }else if((board[1] === player && board[4] === player && board[7] !== computer) || (board[6] === player && board[8] === player && board[7] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[7] = computer;
+      $("#7").css("color", computerColor);
+      $("#7").text(computer);
+      checkMove(computer);
+    }else if((board[2] === player && board[5] === player && board[8] !== computer) || (board[6] === player && board[7] === player && board[8] !== computer) || (board[0] === player && board[4] === player && board[8] !== computer)){
+      turn = true;
+      $(".field").css("cursor", "pointer");
+      board[8] = computer;
+      $("#8").css("color", computerColor);
+      $("#8").text(computer);
+      checkMove(computer);
+    }else{
+      while(taken === true){
+        var int = Math.floor(Math.random()* 9);
+        var computerfield = $("#" + int).text();
+        if(computerfield !== "X" && computerfield !== "O"){
+          taken = false;
+          turn = true;
+          $(".field").css("cursor", "pointer");
+          board[int] = computer;
+          $("#" + int).css("color", computerColor);
+          $("#" + int).text(computer);
+          checkMove(computer);
+        }
       }
     }
   }

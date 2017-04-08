@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:500|Roboto:400,500");
+@import url("https://fonts.googleapis.com/css?family=Raleway:600|Roboto:400,500");
 html {
   min-height: 100%;
   position: relative;
@@ -44,8 +44,9 @@ body {
   width: 100px;
   height: 100px;
   display: block;
+  font-family: "Raleway", sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   float: left;
   text-align: center;
   line-height: 100px;
@@ -145,7 +146,7 @@ body {
   top: 0;
   left: 18px;
   background: #ECEFF1;
-  border: 2px solid #424242;
+  border: 2px solid #263238;
   border-radius: 50%;
 }
 .container .controls .radio label:after {
