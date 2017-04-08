@@ -102,6 +102,8 @@ $(document).ready(function(){
         turn = false;
         $(".col").css("cursor", "default");
         flashMessage("!!");
+        $(col + "-audio")[0].pause();
+        $(col + "-audio")[0].currentTime = 0;
         $("#error-audio")[0].play();
         setTimeout(function(){
           startGame();
@@ -110,6 +112,8 @@ $(document).ready(function(){
         turn = false;
         $(".col").css("cursor", "default");
         flashMessage("!!");
+        $(col + "-audio")[0].pause();
+        $(col + "-audio")[0].currentTime = 0;
         $("#error-audio")[0].play();
         setTimeout(function(){
           showGamePattern();
@@ -120,7 +124,6 @@ $(document).ready(function(){
       }
     }else{
       var check = pattern.computer.length === pattern.player.length;
-      $(col + "-audio")[0].play();
       if(check){
         if(pattern.count == 20){
           alert("Congratulations, You Won!");
@@ -137,6 +140,7 @@ $(document).ready(function(){
   $("#green").click(function(){
     if(turn){
       $("#green").css("background-color", "#7FE283");
+      $("#green-audio")[0].play();
       setTimeout(function(){
         $("#green").css("background-color", "#4CAF50");
       }, 500);
@@ -147,6 +151,7 @@ $(document).ready(function(){
   $("#red").click(function(){
     if(turn){
       $("#red").css("background-color", "#FF7669");
+      $("#red-audio")[0].play();
       setTimeout(function(){
         $("#red").css("background-color", "#F44336");
       }, 500);
@@ -157,6 +162,7 @@ $(document).ready(function(){
   $("#yellow").click(function(){
     if(turn){
       $("#yellow").css("background-color", "#FFFF6E");
+      $("#yellow-audio")[0].play();
       setTimeout(function(){
         $("#yellow").css("background-color", "#FFEB3B");
       }, 500);
@@ -167,6 +173,7 @@ $(document).ready(function(){
   $("#blue").click(function(){
     if(turn){
       $("#blue").css("background-color", "#54C9FF");
+      $("#blue-audio")[0].play();
       setTimeout(function(){
         $("#blue").css("background-color", "#2196F3");
       }, 500);
@@ -176,6 +183,26 @@ $(document).ready(function(){
 	});
 
   $("#start").click(function(){
+    $("#green-audio")[0].volume = 0;
+    $("#red-audio")[0].volume = 0;
+    $("#yellow-audio")[0].volume = 0;
+    $("#blue-audio")[0].volume = 0;
+    $("#green-audio")[0].play();
+    $("#red-audio")[0].play();
+    $("#yellow-audio")[0].play();
+    $("#blue-audio")[0].play();
+    $("#green-audio")[0].pause();
+    $("#red-audio")[0].pause();
+    $("#yellow-audio")[0].pause();
+    $("#blue-audio")[0].pause();
+    $("#green-audio")[0].currentTime = 0;
+    $("#red-audio")[0].currentTime = 0;
+    $("#yellow-audio")[0].currentTime = 0;
+    $("#blue-audio")[0].currentTime = 0;
+    $("#green-audio")[0].volume = 1;
+    $("#red-audio")[0].volume = 1;
+    $("#yellow-audio")[0].volume = 1;
+    $("#blue-audio")[0].volume = 1;
     $("#start").hide();
     $("#stop").css("display", "block");
     $("#restart").removeClass("disabled");
