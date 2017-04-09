@@ -2,6 +2,11 @@
 
 This repository contains my solved algorithm challenges and finished exercise projects offered by Free Code Camp.
 
+* [Front End Development Certification](https://github.com/bomholt/freecodecamp#front-end-development-certification)
+* [Data Visualization Certification](https://github.com/bomholt/freecodecamp#data-visualization-certification)
+* [Back End Development Certification](https://github.com/bomholt/freecodecamp#back-end-development-certification)
+
+
 ### Front End Development Certification
 
 * **Basic Front End Development Projects**
