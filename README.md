@@ -2,10 +2,15 @@
 
 This repository contains my finished [Free Code Camp](https://www.freecodecamp.com) projects and will be updated throughout the course. Free Code Camp is an open source community of people who learn to code and help nonprofits. In addition, all of my solved algorithm challenges are available as well.
 
-*Status:*
+*Projects:*
 - [x] [Front End Development Certification](https://github.com/bomholt/freecodecamp#front-end-development-certification) **(10/10)**
 - [ ] [Data Visualization Certification](https://github.com/bomholt/freecodecamp#data-visualization-certification) **(0/10)**
 - [ ] [Back End Development Certification](https://github.com/bomholt/freecodecamp#back-end-development-certification) **(0/10)**
+
+*Challenges:*
+- [x] [Basic Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting) **(16/16)**
+- [x] [Intermediate Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting) **(21/21)**
+- [x] [Advanced Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting) **(9/9)**
 
 If you have any questions or need further information, please feel free to contact me.
 
@@ -19,8 +24,6 @@ If you have any questions or need further information, please feel free to conta
         *HTML5/CSS3, Sass, Bootstrap*
 
     * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/freecodecamp/)
-
-* **[Basic Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/basic_algorithm_scripting)**
 
 * **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/freecodecamp/intermediate_front_end_development_projects/random_quote_machine/)
@@ -47,8 +50,6 @@ If you have any questions or need further information, please feel free to conta
 
         *HTML5/CSS3, Sass, Bootstrap, JavaScript, jQuery, (Twitch API)*
 
-* **[Intermediate Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting)**
-
 * **Advanced Front End Development Projects**
     * [Build a Calculator](https://michaelbomholt.com/freecodecamp/advanced_front_end_development_projects/js_calculator/)
 
@@ -74,18 +75,16 @@ If you have any questions or need further information, please feel free to conta
 
         *HTML5/CSS3, Sass, JavaScript, jQuery*
 
-* **[Advanced Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting)**
-
 ## Data Visualization Certification
 
-* ### React Projects
+* **React Projects**
     * Build a Markdown Previewer
     * Build a Camper Leaderboard
     * Build a Recipe Box
     * Build the Game of Life
     * Build a Roguelike Dungeon Crawler Game
 
-* ### Data Visualization Projects
+* **Data Visualization Projects**
     * Visualize Data with a Bar Chart
     * Visualize Data with a Scatterplot Graph
     * Visualize Data with a Heat Map
@@ -94,14 +93,14 @@ If you have any questions or need further information, please feel free to conta
 
 ## Back End Development Certification
 
-* ### API Projects
+* **API Projects**
     * Timestamp Microservice
     * Request Header Parser Microservice
     * URL Shortener Microservice
     * Image Search Abstraction Layer
     * File Metadata Microservice
 
-* ### Dynamic Web Applications
+* **Dynamic Web Applications**
     * Build a Voting App
     * Build a Nightlife Coordination App
     * Chart the Stock Market
