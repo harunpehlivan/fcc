@@ -13,6 +13,8 @@ h4
   font-size: 16px
   margin: 15px 0 5px
 
+$turquoise: #0ab5a2
+
 .navbar
   border: none
   margin-bottom: 0
@@ -45,6 +47,7 @@ h4
 
     .navbar-brand
       color: #212121
+      cursor: default
       font-size: 24px
       font-weight: 300
       height: auto
@@ -57,14 +60,14 @@ h4
         margin-left: 0
 
       span
-        background-color: #006400
+        background-color: $turquoise
         border-radius: 50%
         color: #fafafa
         display: inline-block
         font-family: "Merriweather", serif
         font-size: 24px
         height: 46px
-        line-height: 46px
+        line-height: 48px
         margin-right: 10px
         text-align: center
         width: 46px
@@ -98,6 +101,8 @@ h4
 
         a
           color: #212121
+          &:hover
+            color: $turquoise
 
 #welcome
   background-color: #212121
@@ -114,7 +119,7 @@ h4
     display: inline-block
     position: relative
     &:hover
-      color: #bdbdbd
+      color: #e0e0e0
     &:after
       content: ""
       position: absolute
@@ -133,7 +138,7 @@ h4
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 
   p
-    color: #006400
+    color: $turquoise
     font-size: 12px
     text-transform: uppercase
 

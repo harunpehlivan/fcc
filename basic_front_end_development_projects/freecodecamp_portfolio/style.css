@@ -56,6 +56,7 @@ h4 {
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #212121;
+  cursor: default;
   font-size: 24px;
   font-weight: 300;
   height: auto;
@@ -74,14 +75,14 @@ h4 {
   }
 }
 .navbar-default .navbar-header .navbar-brand span {
-  background-color: #006400;
+  background-color: #0ab5a2;
   border-radius: 50%;
   color: #fafafa;
   display: inline-block;
   font-family: "Merriweather", serif;
   font-size: 24px;
   height: 46px;
-  line-height: 46px;
+  line-height: 48px;
   margin-right: 10px;
   text-align: center;
   width: 46px;
@@ -126,6 +127,9 @@ h4 {
 .navbar-default .navbar-collapse .navbar-nav li a {
   color: #212121;
 }
+.navbar-default .navbar-collapse .navbar-nav li a:hover {
+  color: #0ab5a2;
+}
 #welcome {
   background-color: #212121;
   color: #fafafa;
@@ -142,7 +146,7 @@ h4 {
   position: relative;
 }
 #welcome a:hover {
-  color: #bdbdbd;
+  color: #e0e0e0;
 }
 #welcome a:after {
   content: "";
@@ -162,7 +166,7 @@ h4 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .grid p {
-  color: #006400;
+  color: #0ab5a2;
   font-size: 12px;
   text-transform: uppercase;
 }
