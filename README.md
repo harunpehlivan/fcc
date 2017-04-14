@@ -12,8 +12,6 @@ This repository contains my finished [Free Code Camp](https://www.freecodecamp.c
 - [x] [Intermediate Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/intermediate_algorithm_scripting) **(21/21)**
 - [x] [Advanced Algorithm Scripting](https://github.com/bomholt/freecodecamp/tree/master/advanced_algorithm_scripting) **(9/9)**
 
-If you have any questions or need further information, please feel free to contact me.
-
 ## Front End Development Certification
 
 * **Basic Front End Development Projects**
