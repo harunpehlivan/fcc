@@ -75,7 +75,7 @@ h4 {
   }
 }
 .navbar-default .navbar-header .navbar-brand span {
-  background-color: #0ab5a2;
+  background-color: #00ae99;
   border-radius: 50%;
   color: #fafafa;
   display: inline-block;
@@ -128,7 +128,7 @@ h4 {
   color: #212121;
 }
 .navbar-default .navbar-collapse .navbar-nav li a:hover {
-  color: #0ab5a2;
+  color: #00ae99;
 }
 #welcome {
   background-color: #212121;
@@ -166,7 +166,7 @@ h4 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .grid p {
-  color: #0ab5a2;
+  color: #00ae99;
   font-size: 12px;
   text-transform: uppercase;
 }
