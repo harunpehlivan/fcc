@@ -130,6 +130,11 @@ h4 {
 .navbar-default .navbar-collapse .navbar-nav li a:hover {
   color: #01ae9a;
 }
+@media (min-width: 992px) {
+  .navbar-default .navbar-collapse .navbar-nav li a {
+    padding: 15px 15px 15px 5px;
+  }
+}
 #welcome {
   background-color: #212121;
   color: #fafafa;
