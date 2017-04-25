@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans)
-@import url(https://fonts.googleapis.com/css?family=Roboto:500)
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500")
 
 html
   min-height: 100%
@@ -8,6 +7,9 @@ html
 body
   background-color: #e77d68
   margin-bottom: 42px
+  @media (min-width: 768px)
+    margin-bottom: 57px
+    margin-top: 15px
 
 a:focus, a:hover, a:visited
   text-decoration: none
@@ -16,12 +18,41 @@ a:focus, a:hover, a:visited
   background-clip: padding-box
   background-color: transparent
   box-sizing: border-box
-  margin: 42px auto
+  margin: 42px auto 0
   max-width: 420px
+  @media (min-width: 768px)
+    margin-top: 110px
 
   img
     background-clip: padding-box
     position: relative
+
+.social-icons
+  text-align: center
+  margin-bottom: 57px
+  @media (min-width: 768px)
+    margin-bottom: 0
+
+  ul
+    font-size: 0
+    list-style: none
+    margin: 0 auto
+    padding: 0
+
+    li
+      display: inline
+      padding: 0 8px
+
+      a
+        color: #fade4b
+        fill: #fade4b
+
+        svg
+          position: relative
+          height: 40px
+          width: 40px
+          &:hover
+            transform: scale(1.2)
 
 .card
   background-clip: padding-box
@@ -75,6 +106,7 @@ footer
   height: 42px
   position: absolute
   width: 100%
+  text-align: center
 
   a
     color: #f2dbd6
@@ -90,12 +122,3 @@ footer
 
     i
       vertical-align: text-top
-
-@media (min-width: 768px)
-
-  .duh
-    margin-top: 130px
-
-  body
-    margin-bottom: 57px
-    margin-top: 15px
