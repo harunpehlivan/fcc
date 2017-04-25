@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500");
 #preload {
   display: none;
 }
@@ -116,6 +115,7 @@ footer {
   font-weight: 500;
   height: 42px;
   width: 100%;
+  text-align: center;
 }
 footer a {
   color: #ccdee8;
