@@ -25,7 +25,7 @@ $(document).ready(function(){
     $("#author").html(quotes[i].author);
     $("#text").html(quotes[i].text);
     $("#episode").html(quotes[i].episode);
-    $("#share").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine/"));
+    $("#share").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine"));
     $("#tweet").attr("href", "https://twitter.com/intent/tweet?text=" + "\"" + quotes[i].text + "\" - " + quotes[i].author);
     MotionUI.animateIn($image, "fade-in");
   }
