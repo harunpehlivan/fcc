@@ -21,7 +21,7 @@ This repository contains my finished [Free Code Camp](https://www.freecodecamp.c
 
         *HTML5/CSS3, Sass, Bootstrap*
 
-    * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio/)
+    * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio)
 
 * **Intermediate Front End Development Projects**
     * [Build a Random Quote Machine](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine)
