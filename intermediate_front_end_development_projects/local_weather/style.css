@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,500);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,500");
 @-webkit-keyframes blink {
   0% {
     opacity: 0.6;
@@ -91,6 +90,12 @@ a:focus, a:hover, a:visited {
   line-height: 56px;
   vertical-align: middle;
 }
+@media (min-width: 375px) {
+  .card-current .temp #temperature {
+    font-size: 72px;
+    line-height: 60px;
+  }
+}
 .card-current .temp #unit1, .card-current .temp #unit2 {
   display: inline-block;
   font-size: 20px;
@@ -113,6 +118,18 @@ a:focus, a:hover, a:visited {
   display: inline-block;
   font-size: 96px;
   padding-left: 8%;
+}
+@media (min-width: 375px) {
+  .card-current #icon {
+    font-size: 112px;
+    padding-left: 16%;
+  }
+}
+@media (min-width: 520px) {
+  .card-current #icon {
+    font-size: 120px;
+    padding-left: 24%;
+  }
 }
 .card-current .precip {
   font-size: 15px;
@@ -189,20 +206,4 @@ a:focus, a:hover, a:visited {
 }
 #footer .bomholt {
   font-weight: 500;
-}
-@media (min-width: 375px) {
-  .card .temp #temperature {
-    font-size: 72px;
-    line-height: 60px;
-  }
-  .card #icon {
-    font-size: 112px;
-    padding-left: 16%;
-  }
-}
-@media (min-width: 520px) {
-  .card #icon {
-    font-size: 120px;
-    padding-left: 24%;
-  }
 }
