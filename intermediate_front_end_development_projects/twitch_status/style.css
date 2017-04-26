@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:500';
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:500");
 @media (min-width: 1200px) {
   .container {
     width: 970px;
@@ -100,7 +100,7 @@ h2 {
 }
 .featured {
   background-color: #17141f;
-  background-image: url("https://rawgit.com/bomholt/freecodecamp/master/intermediate_front_end_development_projects/_assets/img/twitch_backgroundart.jpg");
+  background-image: url("https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/twitch_backgroundart.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ footer a {
   position: relative;
   top: 2px;
 }
-footer a:hover {
+footer a:hover, footer a:focus {
   color: #c5c0cb;
   text-decoration: none;
 }
