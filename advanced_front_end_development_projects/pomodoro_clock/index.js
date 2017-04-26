@@ -14,7 +14,7 @@ $(document).ready(function(){
   });
 
   if(!("Notification" in window)){
-    alert("This browser does not support desktop notification");
+    alert("This browser does not support desktop notifications.");
   }
   if(!mobile){
     Notification.requestPermission().then(function(result){
@@ -205,17 +205,17 @@ $(document).ready(function(){
   function sessionNotification(theBody,theIcon,theTitle){
     var options = {
       body: "Your " + $("#task-input").val().toLowerCase() + " session is over.",
-      icon: "https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/session.png"
+      icon: "https://raw.githubusercontent.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/session.png"
     };
-    var n = new Notification("Pomodoro Notification",options);
+    var n = new Notification("Pomodoro Notification", options);
     setTimeout(n.close.bind(n), 5000);
   }
   function breakNotification(theBody,theIcon,theTitle){
     var options = {
       body: "Your " + $("#task-input").val().toLowerCase() + " break is over.",
-      icon: "https://raw.githubusercontent.com/bomholt/freecodecamp/master/advanced_front_end_development_projects/_assets/img/break.png"
+      icon: "https://raw.githubusercontent.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/break.png"
     };
-    var n = new Notification("Pomodoro Notification",options);
+    var n = new Notification("Pomodoro Notification", options);
     setTimeout(n.close.bind(n), 5000);
   }
 
