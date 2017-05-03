@@ -1,13 +1,13 @@
 # FCC Portfolio
 
-This repository contains my finished [Free Code Camp](https://www.freecodecamp.com) projects and all solved algorithm challenges. Free Code Camp is "an open source community of people who learn to code and help nonprofits."
+This repository contains my finished [Free Code Camp](https://www.freecodecamp.com) projects and all solved algorithm challenges. Free Code Camp is "an open source community of people who learn to code and help nonprofits".
 
-**Note:** I switched to the [Free Code Camp BETA](https://beta.freecodecamp.com) curriculum. Once beta goes into production this repository will be updated accordingly.
+**Note:** I stopped working on the current curriculum and switched to [Free Code Camp BETA](https://beta.freecodecamp.com). Once the expanded curriculum goes into production this repository will be updated accordingly.
 
 *Projects:*
 - [x] [Front End Development](https://github.com/bomholt/fcc-portfolio#front-end-development) **(10/10)**
-- [ ] [Data Visualization](https://github.com/bomholt/fcc-portfolio#data-visualization) **(0/10)**
-- [ ] [Back End Development](https://github.com/bomholt/fcc-portfolio#back-end-development) **(0/10)**
+- [ ] [~~Data Visualization~~](https://github.com/bomholt/fcc-portfolio#data-visualization) **~~(0/10)~~**
+- [ ] [~~Back End Development~~](https://github.com/bomholt/fcc-portfolio#back-end-development) **~~(0/10)~~**
 
 *Challenges:*
 - [x] [Basic Algorithm Scripting](https://github.com/bomholt/fcc-portfolio/tree/master/basic_algorithm_scripting) **(16/16)**
