@@ -28,7 +28,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 * [**Intermediate Front End Development Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/intermediate_front_end_development_projects)
     * [Build a Random Quote Machine](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/random_quote_machine.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine)
+        [![](_assets/README/random_quote_machine.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine)
 
     * [Show the Local Weather](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/local_weather)
 

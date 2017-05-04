@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var quotes = [];
-  $.getJSON("https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/json/quotes.json", function(data){
+  $.getJSON("quotes.json", function(data){
     quotes = data;
     newQuote();
   });
