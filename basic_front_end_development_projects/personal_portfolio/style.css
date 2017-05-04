@@ -4,19 +4,23 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
+
 h3 {
   font-family: "Merriweather", serif;
   font-size: 22px;
   margin: 20px 0;
 }
+
 h4 {
   font-size: 16px;
   margin: 15px 0 5px;
 }
+
 .navbar {
   border: none;
   margin-bottom: 0;
 }
+
 .navbar-default {
   background-color: #fafafa;
   padding: 20px 15px;
@@ -75,7 +79,7 @@ h4 {
   }
 }
 .navbar-default .navbar-header .navbar-brand span {
-  background-color: #01ae9a;
+  background-color: #0fafa1;
   border-radius: 50%;
   color: #fafafa;
   display: inline-block;
@@ -128,13 +132,14 @@ h4 {
   color: #212121;
 }
 .navbar-default .navbar-collapse .navbar-nav li a:hover {
-  color: #01ae9a;
+  color: #0fafa1;
 }
 @media (min-width: 992px) {
   .navbar-default .navbar-collapse .navbar-nav li a {
     padding: 15px 15px 15px 5px;
   }
 }
+
 #welcome {
   background-color: #212121;
   color: #fafafa;
@@ -163,6 +168,7 @@ h4 {
   border-bottom: 1px solid;
   margin-top: 5px;
 }
+
 .grid {
   padding: 5px 15px 10px;
 }
@@ -171,24 +177,29 @@ h4 {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .grid p {
-  color: #01ae9a;
+  color: #0fafa1;
   font-size: 12px;
   text-transform: uppercase;
 }
+
 .na {
   font-weight: 300;
   line-height: 1.5;
   padding-bottom: 90px;
 }
+
 #front-end-development {
   padding-top: 30px;
 }
+
 #data-visualization {
   padding-top: 10px;
 }
+
 #back-end-development {
   padding: 10px 0;
 }
+
 #bomholt {
   background-color: #424242;
   text-align: center;
@@ -207,6 +218,7 @@ h4 {
   color: #fafafa;
   text-decoration: none;
 }
+
 footer {
   background-color: #212121;
   padding: 30px 0 60px;
