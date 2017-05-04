@@ -30,7 +30,10 @@
 
 
 * [**Front End Frameworks Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects)
-    * Build a Random Quote Machine
+    * [Build a Random Quote Machine](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/random_quote_machine)
+
+        [![](_assets/README/random_quote_machine.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/random_quote_machine)
+
     * Build a Markdown Previewer
     * Build a Drum Machine
     * Build a JavaScript Calculator
