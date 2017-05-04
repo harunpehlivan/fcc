@@ -1,1 +1,1 @@
-*no projects available*
+*no challenges available*
