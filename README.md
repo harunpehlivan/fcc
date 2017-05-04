@@ -23,6 +23,8 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio)
 
+        [![](https://rawgit.com/bomholt/fcc-portfolio/master/basic_front_end_development_projects/_assets/img/personal_portfolio.jpg)](https://michaelbomholt.com/fcc-portfolio)
+
 * [**Intermediate Front End Development Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/intermediate_front_end_development_projects)
     * [Build a Random Quote Machine](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/random_quote_machine)
 
