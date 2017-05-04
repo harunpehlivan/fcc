@@ -1,13 +1,13 @@
 # FCC Portfolio (BETA)
 
 *Projects:*
-- [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(0/5)**
+- [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(1/5)**
 - [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(0/5)**
 - [ ] [Data Visualization Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects) **(0/5)**
 - [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(0/11)**
 - [ ] [API and Microservice Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/api_and_microservice_projects) **(0/5)**
 - [ ] [Information Security and Quality Assurance Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/information_security_and_quality_assurance_projects) **(0/5)**
-- [ ] [Coding Interview Take-home Projects 2](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_2) **(0/5)**
+- [ ] [Coding Interview Take-home Projects 2](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_2) **(0/3)**
 
 *Challenges:*
 - [ ] [Basic Algorithm Scripting](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/basic_algorithm_scripting) **(0/16)**
@@ -17,7 +17,10 @@
 ## Front End Development
 
 * [**Applied Responsive Web Design Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects)
-    * Build a Tribute Page
+    * [Build a Tribute Page](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/tribute_page)
+
+        [![](_assets/README/tribute_page.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/tribute_page)
+
     * Build a Survey Form
     * Build a Product Landing Page
     * Build a Technical Documentation Page
