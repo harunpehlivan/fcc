@@ -24,7 +24,10 @@
     * Build a Survey Form
     * Build a Product Landing Page
     * Build a Technical Documentation Page
-    * Build a Personal Portfolio Webpage
+    * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
+
+        [![](_assets/README/personal_portfolio.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
+
 
 * [**Front End Frameworks Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects)
     * Build a Random Quote Machine
