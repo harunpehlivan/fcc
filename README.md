@@ -19,7 +19,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 * [**Basic Front End Development Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/basic_front_end_development_projects)
     * [Build a Tribute Page](https://michaelbomholt.com/fcc-portfolio/basic_front_end_development_projects/tribute_page)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/basic_front_end_development_projects/_assets/img/tribute_page.jpg)](https://michaelbomholt.com/fcc-portfolio/basic_front_end_development_projects/tribute_page)
+        [![](_assets/README/tribute_page.jpg)](https://michaelbomholt.com/fcc-portfolio/basic_front_end_development_projects/tribute_page)
 
     * [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio)
 
