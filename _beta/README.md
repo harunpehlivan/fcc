@@ -24,7 +24,7 @@
     * Build a Survey Form
     * Build a Product Landing Page
     * Build a Technical Documentation Page
-    * [Build a Personal Portfolio Webpage (v. 1.0.)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
+    * [Build a Personal Portfolio Webpage (v. 1.0)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
         [![](_assets/README/personal_portfolio.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
@@ -51,7 +51,10 @@
 
         [![](_assets/README/local_weather.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/local_weather)
 
-    * Build a Wikipedia Viewer
+    * [Build a Wikipedia Viewer](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/wikipedia_viewer)
+
+        [![](_assets/README/wikipedia_viewer.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/wikipedia_viewer)
+
     * Use the Twitch.tv JSON API
     * Build a Tic Tac Toe Game
     * Build a Simon Game
