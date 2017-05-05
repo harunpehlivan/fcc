@@ -47,7 +47,10 @@
     * Visualize Data with a Treemap Diagram
 
 * [**Coding Interview Take-home Projects 1**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1)
-    * Show the Local Weather
+    * [Show the Local Weather](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/local_weather)
+
+        [![](_assets/README/local_weather.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/local_weather)
+
     * Build a Wikipedia Viewer
     * Use the Twitch.tv JSON API
     * Build a Tic Tac Toe Game

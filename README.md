@@ -32,7 +32,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Show the Local Weather](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/local_weather)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/local_weather.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/local_weather)
+        [![](_assets/README/local_weather.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/local_weather)
 
     * [Build a Wikipedia Viewer](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/wikipedia_viewer)
 
