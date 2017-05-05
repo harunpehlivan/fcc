@@ -1,8 +1,8 @@
 # FCC Portfolio (BETA)
 
 *Projects:*
-- [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(1/5)**
-- [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(0/5)**
+- [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(2/5)**
+- [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(1/5)**
 - [ ] [Data Visualization Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects) **(0/5)**
 - [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(0/11)**
 - [ ] [API and Microservice Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/api_and_microservice_projects) **(0/5)**
@@ -24,7 +24,7 @@
     * Build a Survey Form
     * Build a Product Landing Page
     * Build a Technical Documentation Page
-    * [Build a Personal Portfolio Webpage (v. 1.0)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
+    * [Build a Personal Portfolio Webpage (v. 1.0.)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
         [![](_assets/README/personal_portfolio.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
