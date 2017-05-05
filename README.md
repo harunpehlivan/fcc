@@ -36,7 +36,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Build a Wikipedia Viewer](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/wikipedia_viewer)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/wikipedia_viewer.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/wikipedia_viewer)
+        [![](_assets/README/wikipedia_viewer.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/wikipedia_viewer)
 
     * [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/twitch_status)
 
