@@ -68,7 +68,10 @@
 
         [![](_assets/README/tic_tac_toe.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/tic_tac_toe)
 
-    * Build a Simon Game
+    * [Build a Simon Game](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/simon_game)
+
+        [![](_assets/README/simon_game.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/simon_game)
+
     * Build a Camper Leaderboard
     * Build a Recipe Box
     * Build the Game of Life
