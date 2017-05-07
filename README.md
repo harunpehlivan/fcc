@@ -57,7 +57,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Build a Simon Game](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/simon_game)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/simon_game.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/simon_game)
+        [![](_assets/README/simon_game.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/simon_game)
 
 ## Data Visualization
 
