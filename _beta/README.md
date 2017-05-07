@@ -40,7 +40,9 @@
 
         [![](_assets/README/js_calculator.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/js_calculator)
 
-    * Build a Pomodoro Clock
+    * Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/pomodoro_clock)
+
+        [![](_assets/README/pomodoro_clock.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/pomodoro_clock)
 
 * [**Data Visualization Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects)
     * Visualize Data with a Bar Chart
