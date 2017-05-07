@@ -45,7 +45,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 * [**Advanced Front End Development Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/advanced_front_end_development_projects)
     * [Build a JavaScript Calculator](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/js_calculator)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/js_calculator.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/js_calculator)
+        [![](_assets/README/js_calculator.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/js_calculator)
 
     * [Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/pomodoro_clock)
 
