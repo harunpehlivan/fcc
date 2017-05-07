@@ -53,7 +53,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Build a Tic Tac Toe Game](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/tic_tac_toe)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/tic_tac_toe.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/tic_tac_toe)
+        [![](_assets/README/tic_tac_toe.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/tic_tac_toe)
 
     * [Build a Simon Game](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/simon_game)
 
