@@ -4,7 +4,7 @@
 - [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(2/5)**
 - [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(3/5)**
 - [ ] [Data Visualization Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects) **(0/5)**
-- [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(3/11)**
+- [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(5/11)**
 - [ ] [API and Microservice Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/api_and_microservice_projects) **(0/5)**
 - [ ] [Information Security and Quality Assurance Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/information_security_and_quality_assurance_projects) **(0/5)**
 - [ ] [Coding Interview Take-home Projects 2](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_2) **(0/3)**
@@ -24,7 +24,7 @@
     * Build a Survey Form
     * Build a Product Landing Page
     * Build a Technical Documentation Page
-    * [Build a Personal Portfolio Webpage (v. 1.0)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
+    * [Build a Personal Portfolio Webpage (v.1.0)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
         [![](_assets/README/personal_portfolio.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/applied_responsive_web_design_projects/personal_portfolio)
 
@@ -40,7 +40,7 @@
 
         [![](_assets/README/js_calculator.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/js_calculator)
 
-    * Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/pomodoro_clock)
+    * [Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/pomodoro_clock)
 
         [![](_assets/README/pomodoro_clock.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/pomodoro_clock)
 
@@ -64,7 +64,10 @@
 
         [![](_assets/README/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/twitch_status)
 
-    * Build a Tic Tac Toe Game
+    * [Build a Tic Tac Toe Game](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/tic_tac_toe)
+
+        [![](_assets/README/tic_tac_toe.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/tic_tac_toe)
+
     * Build a Simon Game
     * Build a Camper Leaderboard
     * Build a Recipe Box
