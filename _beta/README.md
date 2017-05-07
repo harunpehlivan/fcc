@@ -2,9 +2,9 @@
 
 *Projects:*
 - [ ] [Applied Responsive Web Design Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/applied_responsive_web_design_projects) **(2/5)**
-- [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(1/5)**
+- [ ] [Front End Frameworks Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/front_end_frameworks_projects) **(3/5)**
 - [ ] [Data Visualization Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects) **(0/5)**
-- [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(0/11)**
+- [ ] [Coding Interview Take-home Projects 1](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_1) **(3/11)**
 - [ ] [API and Microservice Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/api_and_microservice_projects) **(0/5)**
 - [ ] [Information Security and Quality Assurance Projects](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/information_security_and_quality_assurance_projects) **(0/5)**
 - [ ] [Coding Interview Take-home Projects 2](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/coding_interview_takehome_projects_2) **(0/3)**
@@ -36,7 +36,10 @@
 
     * Build a Markdown Previewer
     * Build a Drum Machine
-    * Build a JavaScript Calculator
+    * [Build a JavaScript Calculator](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/js_calculator)
+
+        [![](_assets/README/js_calculator.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/front_end_frameworks_projects/js_calculator)
+
     * Build a Pomodoro Clock
 
 * [**Data Visualization Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/_beta/data_visualization_projects)
@@ -55,9 +58,9 @@
 
         [![](_assets/README/wikipedia_viewer.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/wikipedia_viewer)
 
-    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/ttwitch_status)
+    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/twitch_status)
 
-        [![](_assets/README/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/ttwitch_status)
+        [![](_assets/README/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/twitch_status)
 
     * Build a Tic Tac Toe Game
     * Build a Simon Game
