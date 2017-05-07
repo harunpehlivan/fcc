@@ -40,7 +40,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/twitch_status)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/twitch_status)
+        [![](_assets/README/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/intermediate_front_end_development_projects/twitch_status)
 
 * [**Advanced Front End Development Projects**](https://github.com/bomholt/fcc-portfolio/tree/master/advanced_front_end_development_projects)
     * [Build a JavaScript Calculator](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/js_calculator)

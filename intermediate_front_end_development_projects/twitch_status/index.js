@@ -5,12 +5,12 @@ $(document).ready(function(){
       $.getJSON("https://api.twitch.tv/kraken/streams/" + topStreamer[i] + "?client_id=1g6nh2b43v4njh450s73ob3hd23ig1t&callback=?", function(streams){
         if(streams.status === 422){
           $(".offline-channels").show();
-          $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/twitch_closed.jpg'></a><div class='channel-info'><h4><strong><em>CHANNEL CLOSED</em></strong></h4><h5>" + topStreamer[i] + "</h5></div></div>");
+          $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='img/twitch_closed.jpg'></a><div class='channel-info'><h4><strong><em>CHANNEL CLOSED</em></strong></h4><h5>" + topStreamer[i] + "</h5></div></div>");
         }else if(streams.stream == null){
           $.getJSON("https://api.twitch.tv/kraken/channels/" + topStreamer[i] + "?client_id=1g6nh2b43v4njh450s73ob3hd23ig1t&callback=?", function(channels){
             $(".offline-channels").show();
             if(channels.video_banner == null){
-              $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/twitch_null.jpg'></a><div class='channel-info'><h4>" + channels.status.substring(0, 26) + "...</h4><h5>" + topStreamer[i] + "</h5></div></div>");
+              $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='img/twitch_null.jpg'></a><div class='channel-info'><h4>" + channels.status.substring(0, 26) + "...</h4><h5>" + topStreamer[i] + "</h5></div></div>");
             }else{
               $(".offline-channels").append("<div class='col-xs-12 col-sm-6 col-md-4 channel'><a href='https://www.twitch.tv/" + topStreamer[i] + "' target='_blank' rel='noopener noreferrer'><img class='img-responsive' src='" + channels.video_banner + "'></a><div class='channel-info'><h4>" + channels.status.substring(0, 26) + "...</h4><h5>" + topStreamer[i] + "</h5></div></div>");
             }

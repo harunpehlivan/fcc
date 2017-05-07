@@ -100,7 +100,7 @@ h2 {
 }
 .featured {
   background-color: #17141f;
-  background-image: url("https://rawgit.com/bomholt/fcc-portfolio/master/intermediate_front_end_development_projects/_assets/img/twitch_backgroundart.jpg");
+  background-image: url("img/twitch_backgroundart.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
