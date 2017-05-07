@@ -205,7 +205,7 @@ $(document).ready(function(){
   function sessionNotification(theBody,theIcon,theTitle){
     var options = {
       body: "Your " + $("#task-input").val().toLowerCase() + " session is over.",
-      icon: "https://raw.githubusercontent.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/session.png"
+      icon: "img/session.png"
     };
     var n = new Notification("Pomodoro Notification", options);
     setTimeout(n.close.bind(n), 5000);
@@ -213,7 +213,7 @@ $(document).ready(function(){
   function breakNotification(theBody,theIcon,theTitle){
     var options = {
       body: "Your " + $("#task-input").val().toLowerCase() + " break is over.",
-      icon: "https://raw.githubusercontent.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/break.png"
+      icon: "img/break.png"
     };
     var n = new Notification("Pomodoro Notification", options);
     setTimeout(n.close.bind(n), 5000);

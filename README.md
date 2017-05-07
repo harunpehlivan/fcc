@@ -49,7 +49,7 @@ This repository contains all my finished [Free Code Camp](https://www.freecodeca
 
     * [Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/pomodoro_clock)
 
-        [![](https://rawgit.com/bomholt/fcc-portfolio/master/advanced_front_end_development_projects/_assets/img/pomodoro_clock.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/pomodoro_clock)
+        [![](_assets/README/pomodoro_clock.jpg)](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/pomodoro_clock)
 
     * [Build a Tic Tac Toe Game](https://michaelbomholt.com/fcc-portfolio/advanced_front_end_development_projects/tic_tac_toe)
 
