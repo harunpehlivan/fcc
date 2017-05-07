@@ -55,7 +55,10 @@
 
         [![](_assets/README/wikipedia_viewer.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/wikipedia_viewer)
 
-    * Use the Twitch.tv JSON API
+    * [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/ttwitch_status)
+
+        [![](_assets/README/twitch_status.jpg)](https://michaelbomholt.com/fcc-portfolio/_beta/coding_interview_takehome_projects_1/ttwitch_status)
+
     * Build a Tic Tac Toe Game
     * Build a Simon Game
     * Build a Camper Leaderboard
