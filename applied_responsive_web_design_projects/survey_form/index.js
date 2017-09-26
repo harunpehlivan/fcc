@@ -1,6 +1,16 @@
 const project_name = "survey-form";
 
 $(document).ready(function(){
+  var code = {};
+  $.ajax({
+    url: "https://freegeoip.net/json/",
+    async: false,
+    dataType: 'json',
+    success: function(data){
+      code = data.country_code;
+    }
+  });
+  $("#country option[value='" + code + "']").attr("selected",true);
   $("select").material_select();
   $("select[required]").css({position: "absolute", display: "inline", height: 0, padding: 0, width: 0});
   $("#number").focus(function(){
