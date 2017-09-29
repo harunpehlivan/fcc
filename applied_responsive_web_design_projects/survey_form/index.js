@@ -1,11 +1,12 @@
 const project_name = "survey-form";
+localStorage.setItem("example_project", "Survey Form");
 
 $(document).ready(function(){
   var code = {};
   $.ajax({
     url: "https://freegeoip.net/json/",
     async: false,
-    dataType: 'json',
+    dataType: "json",
     success: function(data){
       code = data.country_code;
     }
