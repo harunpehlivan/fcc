@@ -2,7 +2,7 @@
 
 This repository contains all my finished [freeCodeCamp](https://www.freecodecamp.org) projects and solved algorithm challenges.
 
-**Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org).
+**Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org). This repository has been updated accordingly.
 
 ### Projects:
 
