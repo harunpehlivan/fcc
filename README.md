@@ -14,7 +14,7 @@ This repository contains all my finished [freeCodeCamp](https://www.freecodecamp
 
 ###### optional:
 
-- [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc-portfolio#coding-interview-take-home-projects) (5)
+- [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc-portfolio#coding-interview-take-home-projects) (5/14)
 
 ### Challenges:
 
@@ -23,27 +23,27 @@ This repository contains all my finished [freeCodeCamp](https://www.freecodecamp
 
 ###### optional:
 
-- [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc-portfolio#coding-interview-algorithm-questions) (6)
-- [ ] [Project Euler Problems](https://github.com/bomholtm/fcc-portfolio#project-euler-problems) (0)
+- [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc-portfolio#coding-interview-algorithm-questions) (6/11)
+- [ ] [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc-portfolio#coding-interview-data-structure-questions) (0/48)
 
 
 ## Applied Responsive Web Design Projects
 
-* [Build a Tribute Page](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/tribute_page)
+* [Build a Tribute Page](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/tribute_page)
 
-  [![](_assets/README/tribute_page.png)](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/tribute_page)
+  [![](_assets/README/tribute_page.png)](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/tribute_page)
 
-* [Build a Survey Form](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/survey_form)
+* [Build a Survey Form](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/survey_form)
 
-  [![](_assets/README/survey_form.png)](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/survey_form)
+  [![](_assets/README/survey_form.png)](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/survey_form)
 
 * Build a Product Landing Page
 
 * Build a Technical Documentation Page
 
-* [Build a Personal Portfolio Webpage](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/personal_portfolio)
+* [Build a Personal Portfolio Webpage](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/personal_portfolio)
 
-  [![](_assets/README/personal_portfolio.png)](https://michaelbomholt.com/fcc-portfolio/applied_responsive_web_design_projects/personal_portfolio)
+  [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc-portfolio/applied_responsive_web_design_projects/personal_portfolio)
 
 
 ## Basic Algorithm Scripting
@@ -95,21 +95,21 @@ This repository contains all my finished [freeCodeCamp](https://www.freecodecamp
 
 ## Front End Frameworks Projects
 
-* [Build a Random Quote Machine](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/random_quote_machine)
+* [Build a Random Quote Machine](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/random_quote_machine)
 
-  [![](_assets/README/random_quote_machine.png)](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/random_quote_machine)
+  [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/random_quote_machine)
 
 * Build a Markdown Previewer
 
 * Build a Drum Machine
 
-* [Build a JavaScript Calculator](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/js_calculator)
+* [Build a JavaScript Calculator](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/js_calculator)
 
-  [![](_assets/README/js_calculator.png)](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/js_calculator)
+  [![](_assets/README/js_calculator.png)](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/js_calculator)
 
-* [Build a Pomodoro Clock](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/pomodoro_clock)
+* [Build a Pomodoro Clock](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/pomodoro_clock)
 
-  [![](_assets/README/pomodoro_clock.png)](https://michaelbomholt.com/fcc-portfolio/front_end_frameworks_projects/pomodoro_clock)
+  [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc-portfolio/front_end_frameworks_projects/pomodoro_clock)
 
 
 ## Data Visualization Projects
@@ -149,27 +149,27 @@ This repository contains all my finished [freeCodeCamp](https://www.freecodecamp
 * [Pairwise](https://github.com/bomholtm/fcc-portfolio/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
 
 
-## Project Euler
+## Coding Interview Data Structure Questions
 
 
 ## Coding Interview Take-home Projects
 
-* [Show the Local Weather](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/local_weather)
+* [Show the Local Weather](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/local_weather)
 
-  [![](_assets/README/local_weather.png)](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/local_weather)
+  [![](_assets/README/local_weather.png)](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/local_weather)
 
-* [Build a Wikipedia Viewer](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/wikipedia_viewer)
+* [Build a Wikipedia Viewer](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/wikipedia_viewer)
 
-  [![](_assets/README/wikipedia_viewer.png)](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/wikipedia_viewer)
+  [![](_assets/README/wikipedia_viewer.png)](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/wikipedia_viewer)
 
-* [Use the Twitch.tv JSON API](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/twitch_status)
+* [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/twitch_status)
 
-  [![](_assets/README/twitch_status.png)](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/twitch_status)
+  [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/twitch_status)
 
-* [Build a Tic Tac Toe Game](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/tic_tac_toe)
+* [Build a Tic Tac Toe Game](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/tic_tac_toe)
 
-  [![](_assets/README/tic_tac_toe.png)](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/tic_tac_toe)
+  [![](_assets/README/tic_tac_toe.png)](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/tic_tac_toe)
 
-* [Build a Simon Game](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/simon_game)
+* [Build a Simon Game](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/simon_game)
 
-  [![](_assets/README/simon_game.png)](https://michaelbomholt.com/fcc-portfolio/coding_interview_takehome_projects/simon_game)
+  [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc-portfolio/coding_interview_takehome_projects/simon_game)
