@@ -207,3 +207,7 @@ a:focus, a:hover, a:visited {
 #footer .bomholt {
   font-weight: 500;
 }
+.fa-lg {
+  vertical-align: text-top;
+  margin-right: 4px;
+}
