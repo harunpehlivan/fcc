@@ -263,7 +263,7 @@ footer a {
 footer a:focus, footer a:hover, footer a:visited {
   color: #b3b3b3;
 }
-.fa-lg {
+footer a .fa-lg {
   vertical-align: text-top;
   margin-right: 4px;
 }
