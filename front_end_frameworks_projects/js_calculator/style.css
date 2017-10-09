@@ -203,6 +203,7 @@ span {
   color: #a38900;
   text-decoration: none;
 }
-#keys-extended .bomholt a i {
+#keys-extended .bomholt a .fa-lg {
   vertical-align: text-top;
+  margin-right: 4px;
 }
