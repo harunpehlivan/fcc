@@ -204,10 +204,10 @@ a:focus, a:hover, a:visited {
 #footer a:hover {
   text-decoration: none;
 }
-#footer .bomholt {
-  font-weight: 500;
-}
-.fa-lg {
+#footer a .fa-lg {
   vertical-align: text-top;
   margin-right: 4px;
+}
+#footer .bomholt {
+  font-weight: 500;
 }
