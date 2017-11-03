@@ -6,7 +6,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 ### Table of Contents
 
-* #### Projects
+* **Projects**
 
   - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
   - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
@@ -18,7 +18,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   - [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
 
-* #### Challenges
+* **Challenges**
 
   - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
   - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
@@ -28,6 +28,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
   - [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
   - [ ] [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions)
 
+***
 
 ### Applied Responsive Web Design Projects
 
@@ -43,6 +44,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
+***
 
 ### Basic Algorithm Scripting
 
@@ -62,6 +64,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Mutations](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/14_mutations.js)
 * [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/15_chunky_monkey.js)
 
+***
 
 ### Intermediate Algorithm Scripting
 
@@ -90,6 +93,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Make a Person](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/23_make_a_person.js)
 * [Map the Debris](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/24_map_the_debris.js)
 
+***
 
 ### Front End Frameworks Projects
 
@@ -105,21 +109,25 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
 
+***
 
 ### Data Visualization Projects
 
 * :squirrel:
 
+***
 
 ### API and Microservice Projects
 
 * :squirrel:
 
+***
 
 ### Information Security and Quality Assurance Projects
 
 * :squirrel:
 
+***
 
 ### Coding Interview Algorithm Questions
 
@@ -130,11 +138,13 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [No Repeats Please](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/05_no_repeats_please.js)
 * [Pairwise](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
 
+***
 
 ### Coding Interview Data Structure Questions
 
 * :squirrel:
 
+***
 
 ### Coding Interview Take-home Projects
 
@@ -157,3 +167,5 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Build a Simon Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
 
   [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
+
+  ***
