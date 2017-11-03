@@ -4,30 +4,32 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 **Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org). This repository has been updated accordingly.
 
-### Projects:
+### Table of Contents
 
-- [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects) (3/5)**
-- [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects) (3/5)**
-- [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects) (0/5)**
-- [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects) (0/5)**
-- [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects) (0/5)**
+* #### Projects
 
-###### optional:
+  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
+  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
+  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects)**
+  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects)**
+  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects)**
 
-- [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects) (5/14)
+  ###### optional:
 
-### Challenges:
+  - [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
 
-- [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting) (15/15)**
-- [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting) (24/24)**
+* #### Challenges
 
-###### optional:
+  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
+  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
 
-- [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions) (6/11)
-- [ ] [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions) (0/48)
+  ###### optional:
+
+  - [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
+  - [ ] [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions)
 
 
-## Applied Responsive Web Design Projects
+### Applied Responsive Web Design Projects
 
 * [Build a Tribute Page](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/tribute_page)
 
@@ -37,16 +39,12 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/survey_form.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/survey_form)
 
-* Build a Product Landing Page
-
-* Build a Technical Documentation Page
-
 * [Build a Personal Portfolio Webpage](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
 
-## Basic Algorithm Scripting
+### Basic Algorithm Scripting
 
 * [Convert Celsius to Fahrenheit](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/01_convert_celsius_to_fahrenheit.js)
 * [Reverse a String](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/02_reverse_a_string.js)
@@ -65,7 +63,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/15_chunky_monkey.js)
 
 
-## Intermediate Algorithm Scripting
+### Intermediate Algorithm Scripting
 
 * [Sum All Numbers in a Range](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/01_sum_all_numbers_in_a_range.js)
 * [Diff Two Arrays](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/02_diff_two_arrays.js)
@@ -93,15 +91,11 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Map the Debris](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/24_map_the_debris.js)
 
 
-## Front End Frameworks Projects
+### Front End Frameworks Projects
 
 * [Build a Random Quote Machine](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
 
   [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
-
-* Build a Markdown Previewer
-
-* Build a Drum Machine
 
 * [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
 
@@ -112,34 +106,22 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
   [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
 
 
-## Data Visualization Projects
+### Data Visualization Projects
 
-* Visualize Data with a Bar Chart
-* Visualize Data with a Scatterplot Graph
-* Visualize Data with a Heat Map
-* Visualize Data with a Choropleth Map
-* Visualize Data with a Treemap Diagram
+* :squirrel:
 
 
-## API and Microservice Projects
+### API and Microservice Projects
 
-* Timestamp Microservice
-* Request Header Parser Microservice
-* URL Shortener Microservice
-* Exercise Tracker
-* File Metadata Microservice
+* :squirrel:
 
 
-## Information Security and Quality Assurance Projects
+### Information Security and Quality Assurance Projects
 
-* Metric-Imperial Converter
-* Issue Tracker
-* Personal Library
-* Stock Price Checker
-* Anonymous Message Board
+* :squirrel:
 
 
-## Coding Interview Algorithm Questions
+### Coding Interview Algorithm Questions
 
 * [Validate US Telephone Numbers](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/01_validate_us_telephone_numbers.js)
 * [Symmetric Difference](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/02_symmetric_difference.js)
@@ -149,10 +131,12 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Pairwise](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
 
 
-## Coding Interview Data Structure Questions
+### Coding Interview Data Structure Questions
+
+* :squirrel:
 
 
-## Coding Interview Take-home Projects
+### Coding Interview Take-home Projects
 
 * [Show the Local Weather](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
 
