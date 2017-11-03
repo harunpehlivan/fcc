@@ -8,25 +8,25 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 * **Projects**
 
-  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
-  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
-  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects)**
-  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects)**
-  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects)**
+  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects) (3/5)**
+  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects) (3/5)**
+  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects) (0/5)**
+  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects) (0/5)**
+  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects) (0/5)**
 
   ###### optional:
 
-  - [ ] [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
+  - [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects) (5)
 
 * **Challenges**
 
-  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
-  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
+  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting) (15/15)**
+  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting) (24/24)**
 
   ###### optional:
 
-  - [ ] [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
-  - [ ] [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions)
+  - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions) (6)
+  - [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions) (0)
 
 ***
 
