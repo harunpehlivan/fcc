@@ -11,9 +11,9 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
   - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
-  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects)**
-  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects)**
-  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects)**
+  - [ ] **Data Visualization Projects**
+  - [ ] **API and Microservice Projects**
+  - [ ] **Information Security and Quality Assurance Projects**
 
   ###### optional:
 
