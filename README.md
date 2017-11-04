@@ -4,31 +4,31 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 **Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org). This repository has been updated accordingly.
 
+
 ### Table of Contents
 
 * **Projects**
 
-  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects) (3/5)**
-  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects) (3/5)**
-  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects) (0/5)**
-  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects) (0/5)**
-  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects) (0/5)**
+  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
+  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
+  - [ ] **[Data Visualization Projects](https://github.com/bomholtm/fcc#data-visualization-projects)**
+  - [ ] **[API and Microservice Projects](https://github.com/bomholtm/fcc#api-and-microservice-projects)**
+  - [ ] **[Information Security and Quality Assurance Projects](https://github.com/bomholtm/fcc#information-security-and-quality-assurance-projects)**
 
   ###### optional:
 
-  - [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects) (5)
+  - [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
 
 * **Challenges**
 
-  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting) (15/15)**
-  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting) (24/24)**
+  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
+  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
 
   ###### optional:
 
-  - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions) (6)
-  - [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions) (0)
+  - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
+  - [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions)
 
-***
 
 ### Applied Responsive Web Design Projects
 
@@ -44,7 +44,59 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
-***
+
+### Front End Frameworks Projects
+
+* [Build a Random Quote Machine](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
+
+  [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
+
+* [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
+
+  [![](_assets/README/js_calculator.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
+
+* [Build a Pomodoro Clock](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
+
+  [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
+
+
+### Data Visualization Projects
+
+* :squirrel:
+
+
+### API and Microservice Projects
+
+* :squirrel:
+
+
+### Information Security and Quality Assurance Projects
+
+* :squirrel:
+
+
+### Coding Interview Take-home Projects
+
+* [Show the Local Weather](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
+
+  [![](_assets/README/local_weather.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
+
+* [Build a Wikipedia Viewer](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
+
+  [![](_assets/README/wikipedia_viewer.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
+
+* [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
+
+  [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
+
+* [Build a Tic Tac Toe Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
+
+  [![](_assets/README/tic_tac_toe.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
+
+* [Build a Simon Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
+
+  [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
+
 
 ### Basic Algorithm Scripting
 
@@ -64,7 +116,6 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Mutations](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/14_mutations.js)
 * [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/15_chunky_monkey.js)
 
-***
 
 ### Intermediate Algorithm Scripting
 
@@ -93,41 +144,6 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Make a Person](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/23_make_a_person.js)
 * [Map the Debris](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/24_map_the_debris.js)
 
-***
-
-### Front End Frameworks Projects
-
-* [Build a Random Quote Machine](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
-
-  [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
-
-* [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
-
-  [![](_assets/README/js_calculator.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
-
-* [Build a Pomodoro Clock](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
-
-  [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
-
-***
-
-### Data Visualization Projects
-
-* :squirrel:
-
-***
-
-### API and Microservice Projects
-
-* :squirrel:
-
-***
-
-### Information Security and Quality Assurance Projects
-
-* :squirrel:
-
-***
 
 ### Coding Interview Algorithm Questions
 
@@ -138,34 +154,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [No Repeats Please](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/05_no_repeats_please.js)
 * [Pairwise](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
 
-***
 
 ### Coding Interview Data Structure Questions
 
 * :squirrel:
-
-***
-
-### Coding Interview Take-home Projects
-
-* [Show the Local Weather](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
-
-  [![](_assets/README/local_weather.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
-
-* [Build a Wikipedia Viewer](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
-
-  [![](_assets/README/wikipedia_viewer.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
-
-* [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
-
-  [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
-
-* [Build a Tic Tac Toe Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
-
-  [![](_assets/README/tic_tac_toe.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
-
-* [Build a Simon Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
-
-  [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
-
-  ***
