@@ -27,8 +27,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
   ###### optional:
 
   - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
-  - [Coding Interview Data Structure Questions](https://github.com/bomholtm/fcc#coding-interview-data-structure-questions)
 
+***
 
 ### Applied Responsive Web Design Projects
 
@@ -154,7 +154,4 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [No Repeats Please](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/05_no_repeats_please.js)
 * [Pairwise](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
 
-
-### Coding Interview Data Structure Questions
-
-* :squirrel:
+***
