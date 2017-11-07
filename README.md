@@ -1,4 +1,4 @@
-# FCC: Learn to Code and Help Nonprofits
+# freeCodeCamp: Learn to Code and Help Nonprofits
 
 My solutions to exercise projects and algorithm challenges offered by [freeCodeCamp](https://www.freecodecamp.org)
 
@@ -29,6 +29,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
   - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
 
 ***
+
 
 ### Applied Responsive Web Design Projects
 
