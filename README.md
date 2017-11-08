@@ -4,8 +4,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 **Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org). This repository has been updated accordingly.
 
-&nbsp; &nbsp;
-***
+&nbsp;
 
 ### Table of Contents
 
@@ -30,9 +29,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
 
-***
+&nbsp;
 
-&nbsp; &nbsp;
 ### Applied Responsive Web Design Projects
 
 * [Build a Tribute Page](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/tribute_page)
@@ -47,7 +45,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Front End Frameworks Projects
 
 * [Build a Random Quote Machine](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
@@ -62,22 +61,26 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Data Visualization Projects
 
 * :squirrel:
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### API and Microservice Projects
 
 * :squirrel:
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Information Security and Quality Assurance Projects
 
 * :squirrel:
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Coding Interview Take-home Projects
 
 * [Show the Local Weather](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
@@ -100,7 +103,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Basic Algorithm Scripting
 
 * [Convert Celsius to Fahrenheit](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/01_convert_celsius_to_fahrenheit.js)
@@ -119,7 +123,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Mutations](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/14_mutations.js)
 * [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/15_chunky_monkey.js)
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Intermediate Algorithm Scripting
 
 * [Sum All Numbers in a Range](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/01_sum_all_numbers_in_a_range.js)
@@ -147,7 +152,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Make a Person](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/23_make_a_person.js)
 * [Map the Debris](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/24_map_the_debris.js)
 
-&nbsp; &nbsp;
+&nbsp;
+
 ### Coding Interview Algorithm Questions
 
 * [Validate US Telephone Numbers](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/01_validate_us_telephone_numbers.js)
