@@ -41,6 +41,10 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/survey_form.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/survey_form)
 
+* [Build a Technical Documentation Page](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/documentation_page)
+
+  [![](_assets/README/documentation_page.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/documentation_page)
+
 * [Build a Personal Portfolio Webpage](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
