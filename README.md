@@ -31,6 +31,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 &nbsp;
 
+## Projects
+
 ### Applied Responsive Web Design Projects
 
 * [Build a Tribute Page](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/tribute_page)
@@ -108,6 +110,8 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
   [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
 
 &nbsp;
+
+## Challenges
 
 ### Basic Algorithm Scripting
 
