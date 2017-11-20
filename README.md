@@ -8,7 +8,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 ### Table of Contents
 
-* **Exercise Projects**
+* **Projects**
 
   - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
   - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
@@ -20,7 +20,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   - [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
 
-* **Algorithm Challenges**
+* **Challenges**
 
   - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
   - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
@@ -31,7 +31,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 &nbsp;
 
-## Exercise Projects
+# Projects
 
 ### Applied Responsive Web Design Projects
 
@@ -111,7 +111,7 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 &nbsp;
 
-## Algorithm Challenges
+# Challenges
 
 ### Basic Algorithm Scripting
 
