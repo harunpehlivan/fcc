@@ -52,17 +52,11 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Where do I Belong](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/where_do_i_belong.js)
 * [Mutations](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/mutations.js)
 * [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/chunky_monkey.js)
-
-&nbsp;
-
 * [Palindrome Checker](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/palindrome_checker.js)
 * [Roman Numeral Converter](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/roman_numeral_converter.js)
 * [Caesars Cipher](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/caesars_cipher.js)
 * [Telephone Number Validator](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/telephone_number_validator.js)
 * [Cash Register](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/cash_register.js)
-
-&nbsp;
-
 * [Sum All Numbers in a Range](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/sum_all_numbers_in_a_range.js)
 * [Diff Two Arrays](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/diff_two_arrays.js)
 * [Seek and Destroy](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/seek_and_destroy.js)
@@ -97,8 +91,6 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/personal_portfolio)
 
-&nbsp;
-
 * [Build a Random Quote Machine](https://bomholtm.github.io/fcc/legacy_front_end_development/random_quote_machine)
 
   [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/random_quote_machine)
@@ -114,8 +106,6 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 * [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc/legacy_front_end_development/twitch_status)
 
   [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/twitch_status)
-
-&nbsp;
 
 * [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/legacy_front_end_development/js_calculator)
 
