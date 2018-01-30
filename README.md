@@ -2,42 +2,28 @@
 
 My solutions to exercise projects and algorithm challenges offered by [freeCodeCamp](https://www.freecodecamp.org)
 
-**Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org). This repository has been updated accordingly.
-
-&nbsp;
+**Note:** After having successfully completed freeCodeCamp's [Front End Development Program](https://www.freecodecamp.org/bomholtm/front-end-certification), I stopped working on the current curriculum and switched to the [freeCodeCamp beta](https://beta.freecodecamp.org).
 
 ### Table of Contents
 
-* **Projects**
+***New Certificates***
 
-  - [ ] **[Applied Responsive Web Design Projects](https://github.com/bomholtm/fcc#applied-responsive-web-design-projects)**
-  - [ ] **[Front End Frameworks Projects](https://github.com/bomholtm/fcc#front-end-frameworks-projects)**
-  - [ ] **Data Visualization Projects**
-  - [ ] **API and Microservice Projects**
-  - [ ] **Information Security and Quality Assurance Projects**
+- [ ] [Responsive Web Design](https://github.com/bomholtm/fcc#responsive-web-design)
+- [x] [Algorithms and Data Structures](https://github.com/bomholtm/fcc#algorithms-and-data-structures)
+- [ ] Front End Libraries
+- [ ] Data Visualization
+- [ ] API and Microservices
+- [ ] Information Security and Quality Assurance
 
-  ###### optional:
+***Old Certificates***
 
-  - [Coding Interview Take-home Projects](https://github.com/bomholtm/fcc#coding-interview-take-home-projects)
-
-* **Challenges**
-
-  - [x] **[Basic Algorithm Scripting](https://github.com/bomholtm/fcc#basic-algorithm-scripting)**
-  - [x] **[Intermediate Algorithm Scripting](https://github.com/bomholtm/fcc#intermediate-algorithm-scripting)**
-
-  ###### optional:
-
-  - [Coding Interview Algorithm Questions](https://github.com/bomholtm/fcc#coding-interview-algorithm-questions)
+- [x] [Legacy Front End Development](https://github.com/bomholtm/fcc#legacy-front-end-development)
+- [ ] ~~Legacy Data Visualization~~
+- [ ] ~~Legacy Back End Development~~
 
 &nbsp;
 
-# Projects
-
-### Applied Responsive Web Design Projects
-
-* [Build a Tribute Page](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/tribute_page)
-
-  [![](_assets/README/tribute_page.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/tribute_page)
+## Responsive Web Design
 
 * [Build a Survey Form](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/survey_form)
 
@@ -47,126 +33,102 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
   [![](_assets/README/documentation_page.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/documentation_page)
 
-* [Build a Personal Portfolio Webpage](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
+&nbsp;
 
-  [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/applied_responsive_web_design_projects/personal_portfolio)
+## Algorithms and Data Structures
+
+* [Convert Celsius to Fahrenheit](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/convert_celsius_to_fahrenheit.js)
+* [Reverse a String](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/reverse_a_string.js)
+* [Factorialize a Number](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/factorialize_a_number.js)
+* [Find the Longest Word in a String](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/find_the_longest_word_in_a_string.js)
+* [Return Largest Numbers in Arrays](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/return_largest_numbers_in_arrays.js)
+* [Confirm the Ending](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/confirm_the_ending.js)
+* [Repeat a String Repeat a String](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/repeat_a_string_repeat_a_string.js)
+* [Truncate a String](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/truncate_a_string.js)
+* [Finders Keepers](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/finders_keepers.js)
+* [Boo who](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/boo_who.js)
+* [Title Case a Sentence](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/title_case_a_sentence.js)
+* [Falsy Bouncer](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/falsy_bouncer.js)
+* [Where do I Belong](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/where_do_i_belong.js)
+* [Mutations](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/mutations.js)
+* [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/chunky_monkey.js)
 
 &nbsp;
 
-### Front End Frameworks Projects
-
-* [Build a Random Quote Machine](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
-
-  [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/random_quote_machine)
-
-* [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
-
-  [![](_assets/README/js_calculator.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/js_calculator)
-
-* [Build a Pomodoro Clock](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
-
-  [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/front_end_frameworks_projects/pomodoro_clock)
+* [Palindrome Checker](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/palindrome_checker.js)
+* [Roman Numeral Converter](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/roman_numeral_converter.js)
+* [Caesars Cipher](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/caesars_cipher.js)
+* [Telephone Number Validator](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/telephone_number_validator.js)
+* [Cash Register](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/cash_register.js)
 
 &nbsp;
 
-### Data Visualization Projects
-
-* :squirrel:
-
-&nbsp;
-
-### API and Microservice Projects
-
-* :squirrel:
-
-&nbsp;
-
-### Information Security and Quality Assurance Projects
-
-* :squirrel:
-
-&nbsp;
-
-### Coding Interview Take-home Projects
-
-* [Show the Local Weather](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
-
-  [![](_assets/README/local_weather.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/local_weather)
-
-* [Build a Wikipedia Viewer](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
-
-  [![](_assets/README/wikipedia_viewer.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/wikipedia_viewer)
-
-* [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
-
-  [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/twitch_status)
-
-* [Build a Tic Tac Toe Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
-
-  [![](_assets/README/tic_tac_toe.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/tic_tac_toe)
-
-* [Build a Simon Game](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
-
-  [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/coding_interview_takehome_projects/simon_game)
+* [Sum All Numbers in a Range](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/sum_all_numbers_in_a_range.js)
+* [Diff Two Arrays](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/diff_two_arrays.js)
+* [Seek and Destroy](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/seek_and_destroy.js)
+* [Wherefore art thou](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/wherefore_art_thou.js)
+* [Spinal Tap Case](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/spinal_tap_case.js)
+* [Pig Latin](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/pig_latin.js)
+* [Search and Replace](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/search_and_replace.js)
+* [DNA Pairing](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/dna_pairing.js)
+* [Missing letters](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/missing_letters.js)
+* [Sorted Union](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/sorted_union.js)
+* [Convert HTML Entities](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/convert_html_entities.js)
+* [Sum All Odd Fibonacci Numbers](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/sum_all_odd_fibonacci_numbers.js)
+* [Sum All Primes](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/sum_all_primes.js)
+* [Smallest Common Multiple](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/smallest_common_multiple.js)
+* [Drop it](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/drop_it.js)
+* [Steamroller](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/steamroller.js)
+* [Binary Agents](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/binary_agents.js)
+* [Everything Be True](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/everything_be_true.js)
+* [Arguments Optional](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/arguments_optional.js)
+* [Make a Person](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/make_a_person.js)
+* [Map the Debris](https://github.com/bomholtm/fcc/tree/master/algorithms_and_data_structures/map_the_debris.js)
 
 &nbsp;
 
-# Challenges
+## Legacy Front End Development
 
-### Basic Algorithm Scripting
+* [Build a Tribute Page](https://bomholtm.github.io/fcc/legacy_front_end_development/tribute_page)
 
-* [Convert Celsius to Fahrenheit](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/01_convert_celsius_to_fahrenheit.js)
-* [Reverse a String](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/02_reverse_a_string.js)
-* [Factorialize a Number](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/03_factorialize_a_number.js)
-* [Find the Longest Word in a String](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/04_find_the_longest_word_in_a_string.js)
-* [Return Largest Numbers in Arrays](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/05_return_largest_numbers_in_arrays.js)
-* [Confirm the Ending](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/06_confirm_the_ending.js)
-* [Repeat a String Repeat a String](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/07_repeat_a_string_repeat_a_string.js)
-* [Truncate a String](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/08_truncate_a_string.js)
-* [Finders Keepers](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/09_finders_keepers.js)
-* [Boo who](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/10_boo_who.js)
-* [Title Case a Sentence](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/11_title_case_a_sentence.js)
-* [Falsy Bouncer](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/12_falsy_bouncer.js)
-* [Where do I Belong](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/13_where_do_i_belong.js)
-* [Mutations](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/14_mutations.js)
-* [Chunky Monkey](https://github.com/bomholtm/fcc/tree/master/basic_algorithm_scripting/15_chunky_monkey.js)
+  [![](_assets/README/tribute_page.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/tribute_page)
+
+* [Build a Personal Portfolio Webpage](https://bomholtm.github.io/fcc/legacy_front_end_development/personal_portfolio)
+
+  [![](_assets/README/personal_portfolio.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/personal_portfolio)
 
 &nbsp;
 
-### Intermediate Algorithm Scripting
+* [Build a Random Quote Machine](https://bomholtm.github.io/fcc/legacy_front_end_development/random_quote_machine)
 
-* [Sum All Numbers in a Range](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/01_sum_all_numbers_in_a_range.js)
-* [Diff Two Arrays](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/02_diff_two_arrays.js)
-* [Check for Palindromes](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/03_check_for_palindromes.js)
-* [Seek and Destroy](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/04_seek_and_destroy.js)
-* [Wherefore art thou](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/05_wherefore_art_thou.js)
-* [Spinal Tap Case](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/06_spinal_tap_case.js)
-* [Roman Numeral Converter](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/07_roman_numeral_converter.js)
-* [Caesars Cipher](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/08_caesars_cipher.js)
-* [Pig Latin](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/09_pig_latin.js)
-* [Search and Replace](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/10_search_and_replace.js)
-* [DNA Pairing](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/11_dna_pairing.js)
-* [Missing letters](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/12_missing_letters.js)
-* [Sorted Union](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/13_sorted_union.js)
-* [Convert HTML Entities](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/14_convert_html_entities.js)
-* [Sum All Odd Fibonacci Numbers](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/15_sum_all_odd_fibonacci_numbers.js)
-* [Sum All Primes](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/16_sum_all_primes.js)
-* [Smallest Common Multiple](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/17_smallest_common_multiple.js)
-* [Drop it](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/18_drop_it.js)
-* [Steamroller](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/19_steamroller.js)
-* [Binary Agents](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/20_binary_agents.js)
-* [Everything Be True](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/21_everything_be_true.js)
-* [Arguments Optional](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/22_arguments_optional.js)
-* [Make a Person](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/23_make_a_person.js)
-* [Map the Debris](https://github.com/bomholtm/fcc/tree/master/intermediate_algorithm_scripting/24_map_the_debris.js)
+  [![](_assets/README/random_quote_machine.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/random_quote_machine)
+
+* [Show the Local Weather](https://bomholtm.github.io/fcc/legacy_front_end_development/local_weather)
+
+  [![](_assets/README/local_weather.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/local_weather)
+
+* [Build a Wikipedia Viewer](https://bomholtm.github.io/fcc/legacy_front_end_development/wikipedia_viewer)
+
+  [![](_assets/README/wikipedia_viewer.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/wikipedia_viewer)
+
+* [Use the Twitch.tv JSON API](https://bomholtm.github.io/fcc/legacy_front_end_development/twitch_status)
+
+  [![](_assets/README/twitch_status.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/twitch_status)
 
 &nbsp;
 
-### Coding Interview Algorithm Questions
+* [Build a JavaScript Calculator](https://bomholtm.github.io/fcc/legacy_front_end_development/js_calculator)
 
-* [Validate US Telephone Numbers](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/01_validate_us_telephone_numbers.js)
-* [Symmetric Difference](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/02_symmetric_difference.js)
-* [Exact Change](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/03_exact_change.js)
-* [Inventory Update](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/04_inventory_update.js)
-* [No Repeats Please](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/05_no_repeats_please.js)
-* [Pairwise](https://github.com/bomholtm/fcc/tree/master/coding_interview_algorithm_questions/06_pairwise.js)
+  [![](_assets/README/js_calculator.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/js_calculator)
+
+* [Build a Pomodoro Clock](https://bomholtm.github.io/fcc/legacy_front_end_development/pomodoro_clock)
+
+  [![](_assets/README/pomodoro_clock.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/pomodoro_clock)
+
+* [Build a Tic Tac Toe Game](https://bomholtm.github.io/fcc/legacy_front_end_development/tic_tac_toe)
+
+  [![](_assets/README/tic_tac_toe.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/tic_tac_toe)
+
+* [Build a Simon Game](https://bomholtm.github.io/fcc/legacy_front_end_development/simon_game)
+
+  [![](_assets/README/simon_game.png)](https://bomholtm.github.io/fcc/legacy_front_end_development/simon_game)

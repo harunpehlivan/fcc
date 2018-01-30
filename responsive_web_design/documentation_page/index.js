@@ -1,5 +1,6 @@
-const projectName = 'technical-docs-page';
-localStorage.setItem('example_project', 'Technical Docs Page');
+const projectName = "technical-docs-page";
+localStorage.setItem("example_project", "Technical Docs Page");
+
 $(function(){
   $("a[href*='#']:not([href='#'])").click(function(){
     if(location.pathname.replace(/^\//,"") == this.pathname.replace(/^\//,"") && location.hostname == this.hostname){

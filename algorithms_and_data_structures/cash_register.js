@@ -1,9 +1,10 @@
 /*
 Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
 cid is a 2D array listing available currency.
-Return the string "Insufficient Funds" if cash-in-drawer is less than the change due or if you cannot return the exact change.
-Return the string "Closed" if cash-in-drawer is equal to the change due.
-Otherwise, return change in coin and bills, sorted in highest to lowest order.
+The checkCashRegister() function should always return an object with a status key and a change key.
+Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
+Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
 */
 
 var denom = [
@@ -20,18 +21,21 @@ var denom = [
 
 function checkCashRegister(price, cash, cid){
   var change = cash - price;
-  cid = cid.reverse();
   var register = cid.reduce(function(prev, curr){
     prev.total += curr[1];
     prev[curr[0]] = curr[1];
     return prev;
   }, {total: 0});
+  var obj = {status: null, change: []};
   if(register.total === change){
-    return "Closed";
+    obj.status = "CLOSED";
+    obj.change = cid;
+    return obj;
   }else if(register.total < change){
-    return "Insufficient Funds";
+    obj.status = "INSUFFICIENT_FUNDS";
+    return obj;
   }
-  var result = denom.reduce(function(prev, curr){
+  var arr = denom.reduce(function(prev, curr){
     var value = 0;
     while(register[curr.name] > 0 && change >= curr.value){
       value += curr.value;
@@ -44,15 +48,15 @@ function checkCashRegister(price, cash, cid){
     }
     return prev;
   }, []);
-  if(result.length < 1 || change > 0){
-    return "Insufficient Funds";
+  if(arr.length < 1 || change > 0){
+    obj.status = "INSUFFICIENT_FUNDS";
+    return obj;
   }
-  return result;
+  obj.status = "OPEN";
+  obj.change = arr;
+  return obj;
 }
 
-checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
-checkCashRegister(19.5, 20, [["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);
-checkCashRegister(19.5, 20, [["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);
 checkCashRegister(19.5, 20, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
 checkCashRegister(3.26, 100, [["PENNY", 1.01], ["NICKEL", 2.05], ["DIME", 3.1], ["QUARTER", 4.25], ["ONE", 90], ["FIVE", 55], ["TEN", 20], ["TWENTY", 60], ["ONE HUNDRED", 100]]);
 checkCashRegister(19.5, 20, [["PENNY", 0.01], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]);
