@@ -25,6 +25,10 @@ My solutions to exercise projects and algorithm challenges offered by [freeCodeC
 
 ## Responsive Web Design
 
+* [Build a Tribute Page](https://bomholtm.github.io/fcc/responsive_web_design/tribute_page)
+
+  [![](_assets/README/tribute_page_new.png)](https://bomholtm.github.io/fcc/responsive_web_design/tribute_page)
+
 * [Build a Survey Form](https://bomholtm.github.io/fcc/responsive_web_design/survey_form)
 
   [![](_assets/README/survey_form.png)](https://bomholtm.github.io/fcc/responsive_web_design/survey_form)
