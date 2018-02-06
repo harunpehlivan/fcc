@@ -55,31 +55,40 @@ body {
   max-width: 890px;
   width: 100%;
 }
-#tribute-info #card a {
-  color: #486b6b;
-  text-decoration: underline;
-}
 #tribute-info #card #card-content {
   padding: 20px;
 }
-#tribute-info #card ul {
+#tribute-info #card #card-content h1 {
+  color: #212121;
+  margin: 0 0 20px 0;
+}
+#tribute-info #card #card-content ul {
+  color: #424242;
   padding: 0 0 0 30px;
 }
-#tribute-info #card ul li {
+#tribute-info #card #card-content ul li {
   margin: 10px 0;
   line-height: 20px;
+}
+#tribute-info #card #card-content ul a {
+  color: #486b6b;
+  text-decoration: underline;
 }
 #tribute-info #card #card-actions {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   text-align: right;
   padding: 20px;
 }
-#tribute-info #card #card-actions #tribute-link {
+#tribute-info #card #card-actions a {
+  color: #d691d6;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14;
   text-transform: uppercase;
   text-decoration: none;
+}
+#tribute-info #card #card-actions #tribute-link {
+  padding: 0 20px 0 0;
 }
 footer {
   background-color: #82c0c0;

@@ -27,13 +27,13 @@ var Image = function (_React$Component) {
         React.createElement(
           "h1",
           { id: "title" },
-          "Rick"
+          "Rick Sanchez"
         ),
         React.createElement("img", { id: "image", src: "https://rawgit.com/bomholtm/fcc/master/_assets/CODEPEN/tribute_page/rick.jpg" }),
         React.createElement(
           "p",
           { id: "img-caption" },
-          "Rick"
+          "Rick Sanchez"
         )
       );
     }
@@ -66,7 +66,7 @@ var Card = function (_React$Component2) {
             React.createElement(
               "h1",
               null,
-              "Trivia"
+              "Rick Sanchez"
             ),
             React.createElement(
               "ul",
@@ -280,8 +280,13 @@ var Card = function (_React$Component2) {
             { id: "card-actions" },
             React.createElement(
               "a",
-              { id: "tribute-link", href: "http://rickandmorty.wikia.com/wiki/Rickipedia", target: "_blank" },
-              "source"
+              { id: "tribute-link", href: "https://twitter.com/home?status=Wubba%20lubba%20dub%20dub!%0A%0Ahttps%3A//bomholtm.github.io/fcc/responsive_web_design/tribute_page/", target: "_blank" },
+              "share"
+            ),
+            React.createElement(
+              "a",
+              { href: "http://rickandmorty.wikia.com/wiki/Rick_Sanchez", target: "_blank" },
+              "learn more"
             )
           )
         )

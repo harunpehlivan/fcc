@@ -5,9 +5,9 @@ class Image extends React.Component {
   render() {
     return (
       <div id="img-div">
-        <h1 id="title">Rick</h1>
+        <h1 id="title">Rick Sanchez</h1>
         <img id="image" src="https://rawgit.com/bomholtm/fcc/master/_assets/CODEPEN/tribute_page/rick.jpg"></img>
-        <p id="img-caption">Rick</p>
+        <p id="img-caption">Rick Sanchez</p>
       </div>
     );
   }
@@ -19,7 +19,7 @@ class Card extends React.Component {
       <div id="tribute-info">
         <div id="card">
           <div id="card-content">
-            <h1>Trivia</h1>
+            <h1>Rick Sanchez</h1>
             <ul>
               <li>
                 Rick's appearance is meant to parody <a href="http://en.wikipedia.org/wiki/Emmett_Brown" target="_blank" title="wikipedia:Emmett Brown">Doc Brown</a> from <a href="http://en.wikipedia.org/wiki/Back_to_the_Future_(franchise)" target="_blank" title="wikipedia:Back to the Future (franchise)">Back to the Future</a>.
@@ -90,10 +90,9 @@ class Card extends React.Component {
             </ul>
           </div>
           <div id="card-actions">
-            <a id="tribute-link" href="http://rickandmorty.wikia.com/wiki/Rickipedia" target="_blank">source</a>
+            <a id="tribute-link" href="https://twitter.com/home?status=Wubba%20lubba%20dub%20dub!%0A%0Ahttps%3A//bomholtm.github.io/fcc/responsive_web_design/tribute_page/" target="_blank">share</a>
+            <a href="http://rickandmorty.wikia.com/wiki/Rick_Sanchez" target="_blank">learn more</a>
           </div>
-          
-         
         </div>
       </div>
     );
